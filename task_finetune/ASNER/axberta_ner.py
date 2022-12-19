@@ -1,3 +1,5 @@
+#Author: Abhijnan Nath. Extended from https://github.com/AI4Bharat/indic-bert and  huggingface: https://github.com/huggingface/transformers/blob/main/examples/pytorch/token-classification/run_ner.py
+
 import os
 import sys
 import gc
@@ -65,19 +67,9 @@ from tqdm import tqdm
 #from ..data import load_dataset
 #from ..data.examples import *
 
-
 logger = logging.getLogger(__name__)
 
-
-
-
-
 model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
-
-
-
-
-
 
 import csv
 import json
