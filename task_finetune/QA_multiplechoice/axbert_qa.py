@@ -635,33 +635,19 @@ def batching(n, batch_size, min_batch):
     return new_batch_size
 
 
-
-
 if __name__ == '__main__':
-    
-
-    
     
     cloze = WikiCloze(wiki_cloze_dir)
     examples = cloze.get_test_examples('as')
     labels = []
     for i, j in enumerate(examples):
         labels.append(j.label)
-    
-   
-    
-    
     device = torch.device('cuda:0')
     #model_name = 'allenai/longformer-base-4096'
     model_name = "/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
 
     scorer_module =AxBERTa_EmbeddingDisperser(is_training=True, model_name=model_name).to(device)
-    
-    
-    
-   
-
-#     #device_ids = list(range(2))
+    #     #device_ids = list(range(2))
     device_ids = [0]
 
     parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
