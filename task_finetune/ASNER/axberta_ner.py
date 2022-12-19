@@ -12,7 +12,7 @@ import torch.nn as nn
 import torch.nn as F
 from collections import defaultdict
 
-
+from evaluate_metrics_ner import * # import all the custom evaluation metrics for ANSER dataset, works for both ASNER and WIKI NER format
 from datasets import load_dataset, load_metric
 import numpy as np
 from transformers import DataCollatorForTokenClassification, TrainingArguments, Trainer
@@ -67,9 +67,19 @@ from tqdm import tqdm
 #from ..data import load_dataset
 #from ..data.examples import *
 
+
 logger = logging.getLogger(__name__)
 
+
+
+
+
 model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+
+
+
+
+
 
 import csv
 import json
@@ -363,8 +373,7 @@ class ASNER(DataProcessor):
         for i, x in enumerate(examples):
             for j, (z,y) in enumerate(zip(x.words,x.labels)):
                 if y=='' and z=='':
-                    #print(x.labels,x.words)
-
+                  
 
                     trim_tok = x.words 
                     trim_lab = x.labels 
@@ -373,43 +382,24 @@ class ASNER(DataProcessor):
 
                     examples[i].labels = trim_lab
                     examples[i].words =  trim_tok
-                    #print("none,",x.labels)
-                    #print(x)
-
-                    #asner_examples_train[i]
+                 
                     c+=1
 
                     token.append((z,y))
 
-                    #print(i)
-                    #print(c)
+              
                 elif y=='':
                     if j==0:
                         new_label = examples[i].labels[j+1]
                         examples[i].labels[j] = new_label
-
-
-
-
                     elif j>0:
                         new_label = examples[i].labels[j-1]
                         examples[i].labels[j] = new_label
-
-
-                        #print("index", j)
-                        #print("no of labels",len(x.labels))
-                        #print(x.labels,x.words)
-                        #asner_examples_train[i].labels = trim_lab
-
-
-                        #print(x.labels)
-
                         c+=1
-
                         token.append((z,y))
 
-                        #print(i)
-                        #print(c)
+
+
 
         return examples 
         
@@ -553,9 +543,9 @@ def convert_tokens_examples_to_features(
         tokens = []
         label_ids = []
         for i , (word, label) in enumerate(zip(example.words, example.labels)):
-            #print(ex_index,i)
+  
             word_tokens = tokenizer.tokenize(word)
-            #print("tokenized word tokens", word_tokens)
+        
 
 
             # bert-base-multilingual-cased sometimes output "nothing ([]) when calling tokenize with just a space.
@@ -567,28 +557,12 @@ def convert_tokens_examples_to_features(
                 
                 
                 if full_token == True:
-                    
-                   
-                    #print("ex index", ex_index)
-                    #print("len word tokens",len(word_tokens) )
-                    #print("actual tokens",word_tokens) 
-                    
-                    
-                    
-                    label_ids.extend([[label_map[label]]*len(word_tokens) ])  
-                    #print("int obj",label_ids )
-                    
+                    label_ids.extend([[label_map[label]]*len(word_tokens) ])
                     label_ids  = flatten(label_ids)
-                    #label_ids = [item for sublist in label_ids for item in sublist]
-                    
-                    
-                    #print("words",label_ids )
-                    #print("word tokens",word_tokens )
                 else:
                     label_ids.extend([label_map[label]] + [pad_token_label_id] * (len(word_tokens) - 1))
                     
-                #print(label_ids)
-
+                   
         # Account for [CLS] and [SEP] with "- 2" and with "- 3" for RoBERTa.
         special_tokens_count = tokenizer.num_special_tokens_to_add()
         if len(tokens) > max_seq_length - special_tokens_count:
@@ -598,13 +572,10 @@ def convert_tokens_examples_to_features(
 
         #print("initital tokens", tokens)
         tokens.append(tokenizer.sep_token)
-        #tokens = tokens + tokenizer.sep_token
-        #tokens.insert(-1, '[SEP]')
 
-        #print("after sep", tokens)
-        #print("pre sep " , len(label_ids))
+
         label_ids += [pad_token_label_id]
-        #print("after sep " , len(label_ids))
+     
         if sep_token_extra:
             # roberta uses an extra separator b/w pairs of sentences
             tokens += [sep_token]
@@ -619,14 +590,14 @@ def convert_tokens_examples_to_features(
             tokens = [cls_token] + tokens  
             label_ids = [pad_token_label_id] + label_ids
             segment_ids = [cls_token_segment_id] + segment_ids
-        #print("tokens", tokens)
+   
         input_ids = tokenizer.convert_tokens_to_ids(tokens)
-        #print("input ids",input_ids)
+ 
 
         # The mask has 1 for real tokens and 0 for padding tokens. Only real
         # tokens are attended to.
         input_mask = [1 if mask_padding_with_zero else 0] * len(input_ids)
-        #print(len(input_mask))
+
 
         # Zero-pad up to the sequence length.
         padding_length = max_seq_length - len(input_ids)
@@ -640,18 +611,14 @@ def convert_tokens_examples_to_features(
             input_mask += [0 if mask_padding_with_zero else 1] * padding_length
             segment_ids += [pad_token_segment_id] * padding_length
             label_ids += [pad_token_label_id] * padding_length
-            #print("after end pad", len(label_ids))
+          
 
         assert len(input_ids) == max_seq_length
-        #print(input_ids)
-
         assert len(input_mask) == max_seq_length
-        #print(input_mask)
         assert len(segment_ids) == max_seq_length
-        #print(segment_ids)
-        #print(len(label_ids))
         assert len(label_ids) == max_seq_length
-        #print(label_ids)
+   
+
 
         if "token_type_ids" not in tokenizer.model_input_names:
             #print("true")
@@ -670,11 +637,6 @@ def convert_tokens_examples_to_features(
         )
         
     return features, features_dict, label_map
-
-
-
-
-
 
 
 def make_loader(features, batch_size):
@@ -709,38 +671,59 @@ def train_dataloader(self):
     )
     self.lr_scheduler = scheduler
     return dataloader
-
-def compute_metrics(eval_preds):
-	logits, labels = eval_preds
-	predictions = np.argmax(logits, axis=-1)
+def compute_metrics(predictions, labels, id2label):
+ 
+    predictions = predictions.detach().cpu().clone().numpy()
+    labels = labels.detach().cpu().clone().numpy()
 
 	# Remove ignored index (special tokens) and convert to labels
-	true_labels = [[id2label[l] for l in label if l != -100] for label in labels]
-	true_predictions = [
-		[id2label[p] for (p, l) in zip(prediction, label) if l != -100]
-		for prediction, label in zip(predictions, labels)
-	]
-	all_metrics = metric.compute(predictions=true_predictions, references=true_labels)
-	return {
-		"precision": all_metrics["overall_precision"],
-		"recall": all_metrics["overall_recall"],
-		"f1": all_metrics["overall_f1"],
-		"accuracy": all_metrics["overall_accuracy"],
-	}
-
+    true_labels = [[id2label[l] for l in label if l != -100] for label in labels]
+ 
+    true_predictions = [
+        [id2label[p] for (p, l) in zip(prediction, label) if l != -100]
+        for prediction, label in zip(predictions, labels)
+    ]
+ 
+    scores = precision_recall_fscore_support_asner(true_labels, true_predictions, average='macro')
+    accuracy = accuracy_score(true_labels,true_predictions)
+    
+    return scores,  accuracy
+ 
 metric = load_metric("seqeval")
 
-def postprocess(predictions, labels, label2id):
+def postprocess(predictions, labels, label_names):
     predictions = predictions.detach().cpu().clone().numpy()
     labels = labels.detach().cpu().clone().numpy()
 
     # Remove ignored index (special tokens) and convert to labels
-    true_labels = [[label2id[l] for l in label if l != -100] for label in labels]
+    true_labels = [[label_names[l] for l in label if l != -100] for label in labels]
     true_predictions = [
-        [label2id[p] for (p, l) in zip(prediction, label) if l != -100]
+        [label_names[p] for (p, l) in zip(prediction, label) if l != -100]
         for prediction, label in zip(predictions, labels)
     ]
     return true_labels, true_predictions
+
+def predict_ner(test_dataloader, albert_model)
+    
+    
+    test_results = []
+    albert_model.eval()
+    for batch in test_dataloader:
+
+        with torch.no_grad():
+            inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
+            outputs = albert_model(**inputs)
+
+            predictions = outputs.logits.argmax(dim=-1)
+            validation_loss.append(outputs.loss)
+
+            labels = inputs['labels']
+
+            batch_results, accuracy = compute_metrics(predictions, labels,id2label)
+
+            test_results.append([flatten(batch_results), accuracy])
+
+            #print("TEST RESULTS",batch_results )
 
 if __name__ == '__main__':
     
@@ -764,7 +747,7 @@ if __name__ == '__main__':
     flat_list = [item for sublist in label_list for item in sublist]
 
     label_list = set(flat_list)
-    #label_list = list(label_list)
+     
           
           
     # Wiki NER datasets, just in case!       
@@ -774,43 +757,38 @@ if __name__ == '__main__':
     device = torch.device('cuda:0')   
        #load models and tokenizers
     model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
-    #albert_model = AutoModelForTokenClassification.from_pretrained(model_name) 
-    #albert_model = AutoModelForTokenClassification.from_pretrained(model_name).to(device)
+    
     
     device_ids = [0]
 
-    #parallel_model = torch.nn.DataParallel(albert_model, device_ids=device_ids)
-    #parallel_model.module.to(device)
-    #albert_model.to(device)
-#albert_model = AlbertForMaskedLM.from_pretrained(model_name)
-
+ 
     tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
     tokenizer.model_max_length = 514
     #convert dataset into tokenized features and trim 
     
     features_train, features_dict_train, label_map_train = convert_tokens_examples_to_features(
-        asner_examples_train,
-        list(label_list),
-        512,
-        tokenizer,
-        cls_token_at_end=False,
-        cls_token='[CLS]',
-        cls_token_segment_id=0,
-        sep_token='[SEP]',
-        sep_token_extra=False,
-        pad_on_left=False,
-        pad_token=32000,
-        pad_token_segment_id=0,
-        pad_token_label_id=-100,
-        sequence_a_segment_id=0,
-        mask_padding_with_zero=True,
-        full_token=False,
-    )
+    asner_examples_train,
+    list(label_list),
+    128,
+    tokenizer,
+    cls_token_at_end=False,
+    cls_token='[CLS]',
+    cls_token_segment_id=0,
+    sep_token='[SEP]',
+    sep_token_extra=False,
+    pad_on_left=False,
+    pad_token=32000,
+    pad_token_segment_id=0,
+    pad_token_label_id=-100,
+    sequence_a_segment_id=0,
+    mask_padding_with_zero=True,
+    full_token=False,
+)
 
     features_dev, features_dict_dev, label_map_dev = convert_tokens_examples_to_features(
         asner_examples_dev,
         list(label_list),
-        512,
+        128,
         tokenizer,
         cls_token_at_end=False,
         cls_token='[CLS]',
@@ -829,7 +807,7 @@ if __name__ == '__main__':
     features_test, features_dict_test, label_map_test = convert_tokens_examples_to_features(
         asner_examples_test,
         list(label_list),
-        512,
+        128,
         tokenizer,
         cls_token_at_end=False,
         cls_token='[CLS]',
@@ -844,6 +822,8 @@ if __name__ == '__main__':
         mask_padding_with_zero=True,
         full_token=False,
     )
+
+
           
     print("ASNER tokens converted to features! ")
     #create label to ID and ID to label maps 
@@ -864,9 +844,9 @@ if __name__ == '__main__':
  
     #initiate dataloader and trainer 
     
-    train_dataloader = make_loader(features_train, 32)
-    eval_dataloader = make_loader(features_dev,16)
-    test_dataloader = make_loader(features_test, 16)
+    train_dataloader = make_loader(features_train, 20)
+    eval_dataloader = make_loader(features_dev,2)
+    test_dataloader = make_loader(features_test, 2)
           
     optimizer = AdamW(albert_model.parameters(), lr=2e-5)
     num_train_epochs = 10
@@ -885,15 +865,28 @@ if __name__ == '__main__':
           
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
+    working_folder = '/s/chopin/d/proj/ramfis-aida/axbert/'   
+
+
+ 
     device = torch.device('cuda:0')
+    total_predictions = []
+    total_true  = []
+    results = []
+    training_loss = []
+    validation_loss = []
+    results = []
+    eval_results = []
     for epoch in range(num_train_epochs):
+
         # Training
         albert_model.train()
         for batch in train_dataloader:
-            inputs =  {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
-   
+            inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
             outputs = albert_model(**inputs)
             loss = outputs.loss
+            print("batch training loss", loss)
+            training_loss.append(loss)
             loss.backward(loss)
 
             optimizer.step()
@@ -901,95 +894,51 @@ if __name__ == '__main__':
             optimizer.zero_grad()
             progress_bar.update(1)
 
+            print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
+
         # Evaluation
+
+
         albert_model.eval()
         for batch in eval_dataloader:
             with torch.no_grad():
-                inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
+                inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
                 outputs = albert_model(**inputs)
 
             predictions = outputs.logits.argmax(dim=-1)
-            #labels = batch["labels"]
-            labels = inputs['labels']
-
-            # Necessary to pad predictions and labels for being gathered
-            #predictions = accelerator.pad_across_processes(predictions, dim=1, pad_index=-100)
-            #labels = accelerator.pad_across_processes(labels, dim=1, pad_index=-100)
-
-            #predictions_gathered = accelerator.gather(predictions)
-            #labels_gathered = accelerator.gather(labels)
-
-            true_predictions, true_labels = postprocess(predictions, labels, label2id)
-            metric.add_batch(predictions=true_predictions, references=true_labels)
-
-        results = metric.compute()
-        print(
-            f"epoch {epoch}:",
-            {
-                key: results[f"overall_{key}"]
-                for key in ["precision", "recall", "f1", "accuracy"]
-            },
-        )
-#     progress_bar = tqdm.tqdm(range(num_training_steps),  desc='Training Assamese NER using Axberta')
-    
-#     for epoch in range(num_train_epochs):
-#         # Training
-#         albert_model.train()
-#         for batch in train_dataloader:
-# #             batch[0] = batch[0].to(device)
-# #             batch[1] = batch[1].to(device)
-# #             batch[2] = batch[2].to(device)
-# #             batch[3] = batch[3].to(device)
-            
-#             inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
-#             outputs = albert_model(**inputs)
-#             loss = outputs.loss
-#             loss.backward(loss)
-
-#             optimizer.step()
-#             lr_scheduler.step()
-#             optimizer.zero_grad()
-#             progress_bar.update(1)
-
-#         # Evaluation
-#         albert_model.eval()
-#         for batch in eval_dataloader:
-#             with torch.no_grad():
-#                 #inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
-#                 inputs = {'input_ids': batch[0], 'attention_mask': batch[1], 'token_type_ids': batch[2], 'labels': batch[3]}
-#                 outputs = albert_model(**inputs)
-
-#             predictions = outputs.logits.argmax(dim=-1)
-#             #labels = batch["labels"]
-#             labels = inputs['labels']
-
-#             # Necessary to pad predictions and labels for being gathered
-#             #predictions = accelerator.pad_across_processes(predictions, dim=1, pad_index=-100)
-#             #labels = accelerator.pad_across_processes(labels, dim=1, pad_index=-100)
-
-#             #predictions_gathered = accelerator.gather(predictions)
-#             #labels_gathered = accelerator.gather(labels)
-
-#             true_predictions, true_labels = postprocess(predictions, labels)
-#             metric.add_batch(predictions=true_predictions, references=true_labels)
-
-#         results = metric.compute()
-#         print(
-#             f"epoch {epoch}:",
-#             {
-#                 key: results[f"overall_{key}"]
-#                 for key in ["precision", "recall", "f1", "accuracy"]
-#             },
-#         )
-
-    
-    
+            validation_loss.append(outputs.loss)
  
-          
+            labels = inputs['labels']
+       
+            batch_results, accuracy = compute_metrics(predictions, labels,id2label)
+
+            eval_results.append([flatten(batch_results), accuracy])
+           
+            print("TEST RESULTS",batch_results )
+
+
+        scorer_folder = working_folder + f'/asner_tagger/chk_{epoch}'
+        if not os.path.exists(scorer_folder):
+            os.makedirs(scorer_folder)
+        #model_path = scorer_folder + '/linear.chkpt'
+        #torch.save(parallel_model.module.linear.state_dict(), model_path)
+        albert_model.save_pretrained(scorer_folder + '/axbert_ner')
+        tokenizer.save_pretrained(scorer_folder + '/axbert_ner')
+
+    scorer_folder = working_folder + f'/asner_tagger/chk_{epoch}'
+    if not os.path.exists(scorer_folder):
+        os.makedirs(scorer_folder)
+    #model_path = scorer_folder + '/linear.chkpt'
+    #torch.save(parallel_model.module.linear.state_dict(), model_path)
+    albert_model.save_pretrained(scorer_folder + '/axbert_ner')
+    tokenizer.save_pretrained(scorer_folder + '/axbert_ner')
+
+ 
+ 
     
     
     
-    #save model 
+    
     
     
     
