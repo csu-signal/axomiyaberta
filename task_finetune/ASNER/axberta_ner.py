@@ -67,19 +67,9 @@ from tqdm import tqdm
 #from ..data import load_dataset
 #from ..data.examples import *
 
-
 logger = logging.getLogger(__name__)
 
-
-
-
-
 model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
-
-
-
-
-
 
 import csv
 import json
