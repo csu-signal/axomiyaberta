@@ -1,3 +1,5 @@
+#Author: Abhijnan Nath. Extended from https://github.com/AI4Bharat/indic-bert and  huggingface: https://github.com/huggingface/transformers/blob/main/examples/pytorch/token-classification/run_ner.py
+
 import os
 import sys
 import gc
