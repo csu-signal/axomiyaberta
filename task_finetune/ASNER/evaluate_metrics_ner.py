@@ -1,3 +1,6 @@
+#Author: Abhijnan Nath, CSU Signal Lab. Extended from the seqeval source code (https://huggingface.co/spaces/evaluate-metric/seqeval) to 
+#suit Assamese NER dataset framework that in non- (IOB1 IOB2 IOE1 IOE2 IOBES ).
+
 import warnings
 from typing import Callable, List, Optional, Tuple, Type, Union
 
