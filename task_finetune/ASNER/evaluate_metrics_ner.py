@@ -10,6 +10,8 @@ from sklearn.exceptions import UndefinedMetricWarning
 from seqeval.reporters import DictReporter, StringReporter
 from seqeval.scheme import Entities, Token, auto_detect
 
+from collections import defaultdict
+
 PER_CLASS_SCORES = Tuple[List[float], List[float], List[float], List[int]]
 AVERAGE_SCORES = Tuple[float, float, float, int]
 SCORES = Union[PER_CLASS_SCORES, AVERAGE_SCORES]
