@@ -811,6 +811,7 @@ if __name__ == '__main__':
     validation_loss = []
     results = []
     eval_results = []
+    epoch_loss = 0.0
     for epoch in range(num_train_epochs):
 
         # Training
@@ -832,12 +833,14 @@ if __name__ == '__main__':
 
             running_loss += loss.item()
         
-        progress_bar.set_description(f'Iteration {epoch} Loss: {running_loss / len(train_dataloader)}')
-            # progress_bar.update(1)
+            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss}, batch_loss: {running_loss}')
+            progress_bar.update(1)
 
             # print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
 
         # Evaluation
+        epoch_loss = running_loss / len(train_dataloader)
+        progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss}')
 
 
         albert_model.eval()
@@ -853,9 +856,10 @@ if __name__ == '__main__':
        
             batch_results, accuracy = compute_metrics(predictions, labels,id2label)
 
-            eval_results.append([flatten(batch_results), accuracy])
+            res = list(flatten(batch_results)).append(accuracy)
+            eval_results.append()
            
-            print("TEST RESULTS",batch_results, accuracy )
+            print("TEST RESULTS", res )
 
 
         scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
