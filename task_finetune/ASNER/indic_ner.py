@@ -857,7 +857,7 @@ if __name__ == '__main__':
             batch_results, accuracy = compute_metrics(predictions, labels,id2label)
 
             res = list(flatten(batch_results)).append(accuracy)
-            eval_results.append()
+            eval_results.append(res)
            
             print("TEST RESULTS", res )
 
