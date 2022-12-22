@@ -127,7 +127,7 @@ def precision_recall_fscore_support_asner(y_true: List[List[str]],
             entities_pred_list= list(entities_pred_type)
            
             if overlap =='full':
-                print(overlap)
+                # print(overlap)
                 
                 tp_sum = np.append(tp_sum, len(entities_true_type & entities_pred_type))
               

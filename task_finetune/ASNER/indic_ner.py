@@ -783,7 +783,7 @@ if __name__ == '__main__':
     test_dataloader = make_loader(features_test, 2)
           
     optimizer = AdamW(albert_model.parameters(), lr=2e-5)
-    num_train_epochs = 2
+    num_train_epochs = 10000
     num_update_steps_per_epoch = len(train_dataloader)
     num_training_steps = num_train_epochs * num_update_steps_per_epoch
 
@@ -812,6 +812,8 @@ if __name__ == '__main__':
     results = []
     eval_results = []
     epoch_loss = 0.0
+    epoch_accuracy = 0.0
+    epoch_f1 = 0.0 
     for epoch in range(num_train_epochs):
 
         # Training
@@ -833,16 +835,17 @@ if __name__ == '__main__':
 
             running_loss += loss.item()
         
-            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss}, batch_loss: {running_loss}')
+            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, batch_loss: {loss.item()}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
             progress_bar.update(1)
 
             # print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
 
         # Evaluation
         epoch_loss = running_loss / len(train_dataloader)
-        progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss}')
+        progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
 
-
+        running_accuracy = 0.0
+        running_f1 = 0.0 
         albert_model.eval()
         for batch in eval_dataloader:
             with torch.no_grad():
@@ -859,7 +862,14 @@ if __name__ == '__main__':
             # res = list(flatten(batch_results)).append(accuracy)
             eval_results.append((batch_results, accuracy))
            
-            print("TEST RESULTS", batch_results, accuracy )
+            # print("TEST RESULTS", batch_results, accuracy )
+            running_accuracy += accuracy
+            running_f1 += batch_results[2]
+        
+        epoch_accuracy = running_accuracy / len(eval_dataloader)
+        epoch_f1 = running_f1 / len(eval_dataloader)
+
+        
 
 
         scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
@@ -869,6 +879,8 @@ if __name__ == '__main__':
         #torch.save(parallel_model.module.linear.state_dict(), model_path)
         albert_model.save_pretrained(scorer_folder + '/indic_ner')
         tokenizer.save_pretrained(scorer_folder + '/indic_ner')
+
+        progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
 
     scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
     if not os.path.exists(scorer_folder):
