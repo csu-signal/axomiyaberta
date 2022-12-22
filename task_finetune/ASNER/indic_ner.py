@@ -814,21 +814,28 @@ if __name__ == '__main__':
     for epoch in range(num_train_epochs):
 
         # Training
+
+        running_loss = 0.0
+
         albert_model.train()
         for batch in train_dataloader:
             inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
             outputs = albert_model(**inputs)
             loss = outputs.loss
-            print("batch training loss", loss)
+            # print("batch training loss", loss)
             training_loss.append(loss)
             loss.backward(loss)
 
             optimizer.step()
             lr_scheduler.step()
             optimizer.zero_grad()
-            progress_bar.update(1)
 
-            print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
+            running_loss += loss.item()
+        
+        progress_bar.set_description(f'Iteration {epoch} Loss: {running_loss / len(train_dataloader)}')
+            # progress_bar.update(1)
+
+            # print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
 
         # Evaluation
 
@@ -848,7 +855,7 @@ if __name__ == '__main__':
 
             eval_results.append([flatten(batch_results), accuracy])
            
-            print("TEST RESULTS",batch_results )
+            print("TEST RESULTS",batch_results, accuracy )
 
 
         scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
