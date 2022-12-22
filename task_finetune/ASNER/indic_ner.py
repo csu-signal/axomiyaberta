@@ -833,7 +833,7 @@ if __name__ == '__main__':
 
             running_loss += loss.item()
         
-            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss}, batch_loss: {running_loss}')
+            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss}, batch_loss: {loss.item()}')
             progress_bar.update(1)
 
             # print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
