@@ -1,5 +1,5 @@
 
-
+#Author: Abhijnan Nath, CSU Signal Lab. Extended from https://github.com/AI4Bharat/indic-bert
 
 import torch.nn as nn
 import torch
@@ -407,262 +407,6 @@ def split_data(all_examples, dev_ratio=0.2):
     return train_test_split(pairs, labels, test_size=dev_ratio)
 
 
-def tokenize(tokenizer, mention_pairs, mention_map,m_start, m_end, max_sentence_len=512, context = "bert_doc"):
- 
-    if max_sentence_len is None:
-        
-        max_sentence_len = tokenizer.model_max_length #try 512 here, 
-        
-    #max_sentence_len=2048 #trying out a greater context since Longformer! 
-
-    pairwise_bert_instances_ab = []
-    pairwise_bert_instances_ba = []
-
-    doc_start = '<doc-s>'
-    doc_end = '</doc-s>'
-
-    for (m1, m2) in mention_pairs:
-        
- 
-        if context =="bert_doc":
-
-            sentence_a = mention_map[m1]['bert_doc_assamese'].replace("[", "").replace("]","")
-            #print("Dev set sentence A", sentence_a)
-            sentence_b = mention_map[m2]['bert_doc_assamese'].replace("[", "").replace("]","")
-            
-            #print("Dev set sentence B", sentence_b)
-        else:
-            sentence_a = mention_map[m1]['bert_sentence'] 
-            sentence_b = mention_map[m2]['bert_sentence'] 
-
-        def make_instance(sent_a, sent_b):
-            return ' '.join(['<g>', doc_start, sent_a, doc_end]),                    ' '.join([doc_start, sent_b, doc_end])
-
-        instance_ab = make_instance(sentence_a, sentence_b)
-        pairwise_bert_instances_ab.append(instance_ab)
-
-        instance_ba = make_instance(sentence_b, sentence_a)
-        pairwise_bert_instances_ba.append(instance_ba)
-
-    def truncate_with_mentions(input_ids):
-        input_ids_truncated = []
-        
-        if context == "bert_sentence":
-            
-            for input_id in input_ids:
-                m_start_index = input_id.index(m_start)
-                m_end_index = input_id.index(m_end)
-                in_truncated = input_id[m_end_index-(max_sentence_len//4): m_end_index] +                                input_id[m_end_index: m_end_index + (max_sentence_len//4)]
-
-
-                in_truncated = in_truncated + [tokenizer.pad_token_id]*(max_sentence_len//2 - len(in_truncated))
-                input_ids_truncated.append(in_truncated)
-        else:
-            
-
-            for input_id in input_ids:
-          
-                global_input_id = [1]
-                m_start_index = input_id.index(m_start)
-                m_end_index = input_id.index(m_end)
-                
-                
-
-#                 doc_start_token = torch.full((1, 1), 50267)
-#                 doc_end_token = torch.full((1, 1), 50268)
-        
-                doc_start_token = [32001]
-                doc_end_token =  [32002]
-
-     
-                #print(input_id[m_start_index-(max_sentence_len//4-2): m_start_index] )
-                in_truncated = input_id[m_start_index-(max_sentence_len//4): m_start_index] +                 input_id[m_start_index:m_end_index+1] + input_id[ m_end_index+1: m_end_index + (max_sentence_len//4)]
-                
-#                 in_truncated = input_id[0: m_start_index] + \
-#                 input_id[m_start_index:m_end_index+1] + input_id[ m_end_index+1: m_end_index + (max_sentence_len//4-2)]
-
-        
-                in_truncated =   global_input_id + doc_start_token + in_truncated + doc_end_token
-
-                in_truncated = in_truncated + [tokenizer.pad_token_id]*((max_sentence_len//2) - len(in_truncated))
-        
-                #input_ids_truncated.append(in_truncated[0:1024])  
-                input_ids_truncated.append(in_truncated[0:256])   
-
-        return torch.LongTensor(input_ids_truncated)
-
-    def ab_tokenized(pair_wise_instances):
-        instances_a, instances_b = zip(*pair_wise_instances)
-
-        tokenized_a = tokenizer(list(instances_a), add_special_tokens=False)
-        tokenized_b = tokenizer(list(instances_b), add_special_tokens=False)
-
-        tokenized_a = truncate_with_mentions(tokenized_a['input_ids'])
-        positions_a = torch.arange(tokenized_a.shape[-1]).expand(tokenized_a.shape)
-        tokenized_b = truncate_with_mentions(tokenized_b['input_ids'])
-        positions_b = torch.arange(tokenized_b.shape[-1]).expand(tokenized_b.shape)
-
-        tokenized_ab_ = torch.hstack((tokenized_a, tokenized_b))
-        positions_ab = torch.hstack((positions_a, positions_b))
-
-        tokenized_ab_dict = {'input_ids': tokenized_ab_,
-                             'attention_mask': (tokenized_ab_ != tokenizer.pad_token_id),
-                             'position_ids': positions_ab
-                             }
-
-        return tokenized_ab_dict
-
-    tokenized_ab = ab_tokenized(pairwise_bert_instances_ab)
-    tokenized_ba = ab_tokenized(pairwise_bert_instances_ba)
-
-    return tokenized_ab, tokenized_ba
-
-def tokenize_triplets(tokenizer, mention_triplets, mention_map,m_start, m_end, max_sentence_len=512, context = "bert_doc"):
- 
-    if max_sentence_len is None:
-        
-        max_sentence_len = tokenizer.model_max_length #try 512 here, 
-        
-    #max_sentence_len=2048 #trying out a greater context since Longformer! 
-
-    pairwise_bert_instances_aa = []
-    pairwise_bert_instances_ab = []
-    pairwise_bert_instances_ac = []
-
-    doc_start = '<doc-s>'
-    doc_end = '</doc-s>'
-
-    for (m1, m2, m3) in mention_triplets:
-        
- 
-        if context =="bert_doc":
-
-            sentence_a = mention_map[m1]['bert_doc_assamese'].replace("[", "").replace("]","")
-            #print("Train set sentence A", sentence_a )
-            sentence_b = mention_map[m2]['bert_doc_assamese'].replace("[", "").replace("]","")
-            #print("Train set sentence B", sentence_b )
-            sentence_c = mention_map[m3]['bert_doc_assamese'].replace("[", "").replace("]","")
-            #print("Tran set sentence C", sentence_c )
-        else:
-            #print(m1, m2, m3)
-            sentence_a = mention_map[m1]['bert_sentence'] 
-            #print("sentence A", sentence_a )
-            sentence_b = mention_map[m2]['bert_sentence'] 
-            #print("sentence B", sentence_b )
-            sentence_c = mention_map[m3]['bert_sentence'] 
-            #print("sentence C", sentence_c )
-            
-
-        def make_instance(sent_a, sent_b):
-            return ' '.join(['<g>', doc_start, sent_a, doc_end]),                    ' '.join([doc_start, sent_b, doc_end])
-
-        
-        instance_aa = make_instance(sentence_a, sentence_a)
-        #print("sentence aa", instance_aa)
-        pairwise_bert_instances_aa.append(instance_aa)
-        
-        instance_ab = make_instance(sentence_a, sentence_b)
-        #print("sentence ab",instance_ab)
-        pairwise_bert_instances_ab.append(instance_ab)
-        
-        instance_ac = make_instance(sentence_a, sentence_c)
-        #print("sentence ac", instance_ac)
-        pairwise_bert_instances_ac.append(instance_ac)
-
-#         instance_ba = make_instance(sentence_b, sentence_a)
-#         pairwise_bert_instances_ba.append(instance_ba)
-
-    def truncate_with_mentions(input_ids):
-        input_ids_truncated = []
-        
-        if context == "bert_sentence":
-            
-            for input_id in input_ids:
-                m_start_index = input_id.index(m_start)
-                m_end_index = input_id.index(m_end)
-                in_truncated = input_id[m_end_index-(max_sentence_len//4): m_end_index] +                                input_id[m_end_index: m_end_index + (max_sentence_len//4)]
-
-
-                in_truncated = in_truncated + [tokenizer.pad_token_id]*(max_sentence_len//2 - len(in_truncated))
-                input_ids_truncated.append(in_truncated)
-        else:
-            
-            #print(context)
-            for input_id in input_ids:
-                #print(input_id)
-                #global_input_id = torch.ones([1,1])
-                global_input_id = [1]
-                m_start_index = input_id.index(m_start)
-                m_end_index = input_id.index(m_end)
-                
-                
-                
-                #global_input_id = torch.ones([12, 1])
- 
-#                 doc_start_token = torch.full((1, 1), 50267)
-#                 doc_end_token = torch.full((1, 1), 50268)
-        
-                doc_start_token = [32001]
-                doc_end_token =  [32002]
-
-               
-                #print(m_start_index, m_end_index)
-                #print(input_id[m_start_index-(max_sentence_len//4-2): m_start_index] )
-                in_truncated = input_id[m_start_index-(max_sentence_len//4): m_start_index] +                 input_id[m_start_index:m_end_index+1] + input_id[ m_end_index+1: m_end_index + (max_sentence_len//4)]
-                
-#                 in_truncated = input_id[0: m_start_index] + \
-#                 input_id[m_start_index:m_end_index+1] + input_id[ m_end_index+1: m_end_index + (max_sentence_len//4-2)]
-
-                in_truncated = global_input_id + doc_start_token + in_truncated + doc_end_token
-#                 new_ids = torch.cat((doc_start_token , in_truncated), dim=1)
-#                 new_ids = torch.cat((global_input_id, new_ids), dim=1)
-#                 new_ids = torch.cat((new_ids, doc_end_token), dim=1)
-                #in_truncated = new_ids 
-# #                  
-# #                               
-
-                in_truncated = in_truncated + [tokenizer.pad_token_id]*((max_sentence_len//2) - len(in_truncated))
-                #print(len(in_truncated[0:256]))
-                #input_ids_truncated.append(in_truncated[0:1024])  
-                input_ids_truncated.append(in_truncated[0:256])   
-
-        return torch.LongTensor(input_ids_truncated)
-
-    def ab_tokenized(pair_wise_instances):
-        instances_a, instances_b,  = zip(*pair_wise_instances)
-
-        tokenized_a = tokenizer(list(instances_a), add_special_tokens=False)
-        
-        #tokenized_a = tokenizer(instances_a, add_special_tokens=False,padding='max_length', return_tensors="pt")
-        
-        #tokenized_b = tokenizer(instances_b, add_special_tokens=False,padding='max_length', return_tensors="pt")
-        
-        tokenized_b = tokenizer(list(instances_b), add_special_tokens=False)
-
-        tokenized_a = truncate_with_mentions(tokenized_a['input_ids'])
-        positions_a = torch.arange(tokenized_a.shape[-1]).expand(tokenized_a.shape)
-        tokenized_b = truncate_with_mentions(tokenized_b['input_ids'])
-        positions_b = torch.arange(tokenized_b.shape[-1]).expand(tokenized_b.shape)
-
-        tokenized_ab_ = torch.hstack((tokenized_a, tokenized_b))
-        positions_ab = torch.hstack((positions_a, positions_b))
-
-        tokenized_ab_dict = {'input_ids': tokenized_ab_,
-                             'attention_mask': (tokenized_ab_ != tokenizer.pad_token_id),
-                             'position_ids': positions_ab
-                             }
-
-        return tokenized_ab_dict
-
-    tokenized_aa = ab_tokenized(pairwise_bert_instances_aa)
-    tokenized_ab = ab_tokenized(pairwise_bert_instances_ab)
-    tokenized_ac = ab_tokenized(pairwise_bert_instances_ac)
-    #tokenized_ba = ab_tokenized(pairwise_bert_instances_ba)
-
-    #return tokenized_ab, tokenized_ba
-    return tokenized_aa, tokenized_ab, tokenized_ac
-
-
 def get_arg_attention_mask(input_ids, parallel_model):
     """
     Get the global attention mask and the indices corresponding to the tokens between
@@ -960,87 +704,7 @@ def predict_cross_scores(parallel_model, device, dev_ab, dev_ba, batch_size):
             predictions_ba.append(batch_predictions_ba)
     return torch.cat(predictions_ab), torch.cat(predictions_ba)
     #return predictions
-def train_frozen(train_pairs,
-          train_labels,
-          dev_pairs,
-          dev_labels,
-          parallel_model,
-          mention_map,
-          working_folder,
-          device,
-          force_lm_output=False,
-          batch_size=30,
-          n_iters=10,
-          lr_class=0.001):
-    bce_loss = torch.nn.BCELoss()
-    mse_loss = torch.nn.MSELoss()
-    optimizer = torch.optim.AdamW([
-        {'params': parallel_model.module.linear.parameters(), 'lr': lr_class}
-    ])
-    tokenizer = parallel_model.module.tokenizer
-    # prepare data
-    train_ab, train_ba = tokenize(tokenizer, train_pairs, mention_map, parallel_model.module.end_id)
-    dev_ab, dev_ba = tokenize(tokenizer, dev_pairs, mention_map, parallel_model.module.end_id)
 
-    # labels
-    train_labels = torch.FloatTensor(train_labels)
-    dev_labels = torch.LongTensor(dev_labels)
-
-    lm_output_file_path_train = working_folder + '/lm_output_train.pkl'
-    lm_output_file_path_dev = working_folder + '/lm_output_dev.pkl'
-
-    if not os.path.exists(lm_output_file_path_train) or force_lm_output:
-        lm_out_dict = generate_lm_out(parallel_model, device, train_ab, train_ba, batch_size)
-        pickle.dump(lm_out_dict, open(lm_output_file_path_train, 'wb'))
-    else:
-        lm_out_dict = pickle.load(open(lm_output_file_path_train, 'rb'))
-
-    for n in range(n_iters):
-        train_indices = list(range(len(train_pairs)))
-        random.shuffle(train_indices)
-        iteration_loss = 0.
-        new_batch_size = batching(len(train_indices), batch_size, len(device_ids))
-        for i in tqdm(range(0, len(train_indices), new_batch_size), desc='Training'):
-            optimizer.zero_grad()
-            batch_indices = train_indices[i: i + new_batch_size]
-            ab_out = lm_out_dict['ab'][batch_indices, :]
-            ba_out = lm_out_dict['ba'][batch_indices, :]
-            scores_ab = parallel_model(ab_out.to(device), pre_lm_out=True)
-            scores_ba = parallel_model(ba_out.to(device), pre_lm_out=True)
-            scores_mean = (scores_ab + scores_ba) / 2
-            batch_labels = train_labels[batch_indices].to(device)
-            loss = bce_loss(torch.squeeze(scores_mean), batch_labels) + mse_loss(scores_ab, scores_ba)
-            loss.backward()
-            optimizer.step()
-            iteration_loss += loss.item()
-
-        print(f'Iteration {n} Loss:', iteration_loss / len(train_pairs))
-
-        if n % 10 == 0:
-            # iteration accuracy
-            dev_predictions = frozen_predict(parallel_model, device, dev_ab, dev_ba,
-                                             batch_size, lm_output_file_path_dev, force_lm_output)
-            dev_predictions = torch.squeeze(dev_predictions)
-
-            print("dev accuracy:", accuracy(dev_predictions, dev_labels))
-            print("dev precision:", precision(dev_predictions, dev_labels))
-            print("dev f1:", f1_score(dev_predictions, dev_labels))
-            scorer_folder = working_folder + f'/scorer_frozen/chk_{n}'
-            if not os.path.exists(scorer_folder):
-                os.makedirs(scorer_folder)
-            model_path = scorer_folder + '/linear.chkpt'
-            torch.save(parallel_model.module.linear.state_dict(), model_path)
-            parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-            parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-
-    scorer_folder = working_folder + '/scorer_frozen/'
-    if not os.path.exists(scorer_folder):
-        os.makedirs(scorer_folder)
-    model_path = scorer_folder + '/linear.chkpt'
-    torch.save(parallel_model.module.linear.state_dict(), model_path)
-    parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-    parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-    
 def weighted_binary_cross_entropy(output, target, weights=None):
         
     if weights is not None:
@@ -1052,7 +716,6 @@ def weighted_binary_cross_entropy(output, target, weights=None):
         loss = target * torch.log(output) + (1 - target) * torch.log(1 - output)
 
     return torch.neg(torch.mean(loss))    
-
 
 
 def train_wiki(features,
@@ -1368,57 +1031,7 @@ def train_qa_frozen(features,
                 
                 
                 loss = bce_loss(torch.squeeze(scores_ab), batch_labels)
-                print("bce loss", loss)
-                
-                #print("batch indices", batch_indices)
-
-                #train_pairs = list((train_pairs[i] for i in batch_indices))
-                #print(train_pairs)
-                #train_pairs = train_pairs[batch_indices]
-
-                
-                #print(train_ab)
-                
-#                 scores, all_embed = forward_ab(parallel_model, tokenized_feature_dict, device, mini_batch_indices)
-#                 token_embed = forward_ab(parallel_model, tokenized_feature_dict, device, mini_batch_indices, lm_only=True)
-#                 #print("scores", scores)
-#                 #print("logits", logits)
-                
-#                 #scores_ba = forward_ab(parallel_model, train_ba, device, mini_batch_indices)
-
-#                 #batch_labels = train_labels[batch_indices].to(device)
-#                 batch_labels = torch.FloatTensor(chunk_train_labels[i: i + new_batch_size]).to(device)
-                #print("batch_labels", batch_labels)
-                
-                
-
-
-
-
-
-                #batch_predictions = (cos_sim > 0.7).detach().cpu()
-                #scores_mean = (scores_ab + scores_ba) / 2
-                #scores_mean = scores_mean.unsqueeze(1)
-    #             print("tensor score mean size",scores_mean.size())
-    #             print("tensor scores_ba size",scores_ba.size())
-    #             print("tensor batch_labels size",batch_labels.size())
-
-    #             print("tensor score mean squeezed size",torch.squeeze(scores_mean).size())
-
-                #put weight on the loss function, or for the encoder model just have the bce for labels as well as commutative scores 
-
-                #loss = bce_loss(torch.squeeze(scores_mean), batch_labels) + mse_loss(scores_ab, scores_ba)
-                #loss = bce_loss(torch.squeeze(scores), batch_labels) + cos_loss ( all_embed,token_embed, batch_labels)
-#                 
-
-
-                    #loss = 0.01*(bce_loss(torch.squeeze(scores), batch_labels)) +(cos_loss ( all_embed,token_embed, batch_labels))
-#                 #loss = cos_loss ( all_embed,token_embed, batch_labels)
-                
-#                 print("bce loss", bce_loss(torch.squeeze(scores), batch_labels))
-#                 print("cosine loss", cos_loss ( all_embed,token_embed, batch_labels))
-#                 print("training sample loss", loss)
-                
+         
 
                 loss.backward()
 
@@ -1482,18 +1095,7 @@ def train_qa(features,
     print("startID", parallel_model.module.start_id)
     print("DOC endID", parallel_model.module.docend_id)
     print("DOC startID", parallel_model.module.docstart_id)
-    
-     
-    
-    
-    
-    # labels
-    #train_labels = torch.FloatTensor(train_labels)
-    #dev_labels = torch.LongTensor(dev_labels)
-    #train_indices = list(range(len(train_pairs)))
-    
-    #dev_ab, dev_ba = tokenize(tokenizer, dev_pairs, mention_map, parallel_model.module.start_id, parallel_model.module.end_id, context = "bert_doc")
-        
+  
 
     new_batch_size = batch_size
      
@@ -1618,26 +1220,7 @@ def train_qa(features,
                 #scores_ba = forward_ab(parallel_model, train_ba, device, mini_batch_indices)
 
                 #batch_labels = train_labels[batch_indices].to(device)
-                batch_labels = torch.FloatTensor(chunk_train_labels[i: i + new_batch_size]).to(device)
-                #print("batch_labels", batch_labels)
-                
-                
-
-
-
-
-
-                #batch_predictions = (cos_sim > 0.7).detach().cpu()
-                #scores_mean = (scores_ab + scores_ba) / 2
-                #scores_mean = scores_mean.unsqueeze(1)
-    #             print("tensor score mean size",scores_mean.size())
-    #             print("tensor scores_ba size",scores_ba.size())
-    #             print("tensor batch_labels size",batch_labels.size())
-
-    #             print("tensor score mean squeezed size",torch.squeeze(scores_mean).size())
-
-                #put weight on the loss function, or for the encoder model just have the bce for labels as well as commutative scores 
-
+      
                 #loss = bce_loss(torch.squeeze(scores_mean), batch_labels) + mse_loss(scores_ab, scores_ba)
                 #loss = bce_loss(torch.squeeze(scores), batch_labels) + cos_loss ( all_embed,token_embed, batch_labels)
                 loss = 0.01*(bce_loss(torch.squeeze(scores), batch_labels)) +(cos_loss ( all_embed,token_embed, batch_labels))
@@ -1654,11 +1237,7 @@ def train_qa(features,
 
                 iteration_loss += loss.item()
                 
-#                 train_predictions = predict_qa(parallel_model, device, tokenized_feature_dict, new_batch_size)
-#                 train_predictions = torch.squeeze(train_predictions)
-#                 print("train accuracy:", accuracy(train_predictions, train_labels))
-#                 print("train  precision:", precision(train_predictions, train_labels))
-#                 print("train  f1:", f1_score(train_predictions, train_labels))
+
 
 
             print(f'Iteration {n} Loss:', iteration_loss / len(train_pairs))
