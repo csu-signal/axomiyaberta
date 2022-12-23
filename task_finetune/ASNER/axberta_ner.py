@@ -33,7 +33,6 @@ from inspect import getfullargspec
 from transformers import (AutoModelWithLMHead, 
                           AutoTokenizer, 
                           BertConfig)
-
 import argparse
 import logging
 import os
@@ -44,7 +43,6 @@ import numpy as np
 import pytorch_lightning as pl
 import torch
 import torch.nn as nn
-
 from torch.nn import CrossEntropyLoss, MSELoss
 from torch.utils.data import DataLoader, TensorDataset
 from transformers import (
@@ -66,21 +64,8 @@ from tqdm import tqdm
 
 #from ..data import load_dataset
 #from ..data.examples import *
-
-
 logger = logging.getLogger(__name__)
-
-
-
-
-
 model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
-
-
-
-
-
-
 import csv
 import json
 import os
@@ -403,51 +388,7 @@ class ASNER(DataProcessor):
 
         return examples 
         
-        
-        
-class WikiSectionTitles(DataProcessor):
-    """Processor for the Wikipedia Section Title Prediction dataset"""
-
-    def __init__(self, data_dir):
-        self.data_dir = data_dir
-
-    def get_train_examples(self, lang):
-        """See base class."""
-        fname = '{}/{}-train.json'.format(lang, lang)
-        fpath = os.path.join(self.data_dir, fname)
-        return self._create_examples(self.read_json(fpath), 'train')
-
-    def get_dev_examples(self, lang):
-        """See base class."""
-        fname = '{}/{}-valid.json'.format(lang, lang)
-        fpath = os.path.join(self.data_dir, fname)
-        return self._create_examples(self.read_json(fpath), 'dev')
-
-    def get_test_examples(self, lang):
-        """See base class."""
-        fname = '{}/{}-test.json'.format(lang, lang)
-        fpath = os.path.join(self.data_dir, fname)
-        return self._create_examples(self.read_json(fpath), 'test')
-
-    def get_labels(self, lang):
-        """See base class."""
-        return ['titleA', 'titleB', 'titleC', 'titleD']
-
-    def _create_examples(self, items, set_type):
-        """Creates examples for the training and dev sets."""
-        examples = [
-            MultipleChoiceExample(
-                example_id=idx,
-                question='',
-                contexts=[item['sectionText'], item['sectionText'],
-                          item['sectionText'], item['sectionText']],
-                endings=[item['titleA'], item['titleB'], item['titleC'],
-                         item['titleD']],
-                label=item['correctTitle'],
-            )
-            for idx, item in enumerate(items)
-        ]
-        return examples
+      
 
 # tensor dataset loader
 
@@ -704,8 +645,6 @@ def postprocess(predictions, labels, label_names):
     return true_labels, true_predictions
 
 def predict_ner(test_dataloader, albert_model)
-    
-    
     test_results = []
     albert_model.eval()
     for batch in test_dataloader:
@@ -757,11 +696,7 @@ if __name__ == '__main__':
     device = torch.device('cuda:0')   
        #load models and tokenizers
     model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
-    
-    
     device_ids = [0]
-
- 
     tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
     tokenizer.model_max_length = 514
     #convert dataset into tokenized features and trim 
@@ -824,7 +759,6 @@ if __name__ == '__main__':
     )
 
 
-          
     print("ASNER tokens converted to features! ")
     #create label to ID and ID to label maps 
 
