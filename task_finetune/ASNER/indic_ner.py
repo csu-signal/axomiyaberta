@@ -4,6 +4,7 @@ import os
 import sys
 import gc
 import numpy as np
+import pandas as pd
  # for reproducibility 
 import csv
 gc.collect()
@@ -693,7 +694,7 @@ if __name__ == '__main__':
     #ner = WikiNER(wiki_ner_dir)
     #wikiexamples_dev = ner.get_examples('as', 'as-valid')
     #wikiexamples_train = ner.get_examples('as', 'as-train')     
-    device = torch.device('cuda:0')   
+    device = torch.device('cuda:1')   
        #load models and tokenizers
     model_name="indicbert"
     device_ids = [0]
@@ -783,7 +784,7 @@ if __name__ == '__main__':
     test_dataloader = make_loader(features_test, 2)
           
     optimizer = AdamW(albert_model.parameters(), lr=2e-5)
-    num_train_epochs = 10000
+    num_train_epochs = 50
     num_update_steps_per_epoch = len(train_dataloader)
     num_training_steps = num_train_epochs * num_update_steps_per_epoch
 
@@ -799,21 +800,31 @@ if __name__ == '__main__':
           
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
-    working_folder = './results/'   
+    working_folder = '/s/carnap/b/nobackup/signal/m3x/axberta/task_finetune/indic'   
 
 
  
-    device = torch.device('cuda:0')
+    device = torch.device('cuda:1')
     total_predictions = []
     total_true  = []
     results = []
     training_loss = []
-    validation_loss = []
-    results = []
-    eval_results = []
+    val_results = []
+    test_results = []
+    # precision, recall, f_score, true_sum, accuracy
     epoch_loss = 0.0
     epoch_accuracy = 0.0
     epoch_f1 = 0.0 
+
+    eval_loaders = {
+        'val': [eval_dataloader, val_results],
+        'test': [test_dataloader, test_results]
+    }
+
+    '''
+    need to properly save all metrics with epochs
+    need to add loop for test loader
+    '''
     for epoch in range(num_train_epochs):
 
         # Training
@@ -835,7 +846,7 @@ if __name__ == '__main__':
 
             running_loss += loss.item()
         
-            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, batch_loss: {loss.item()}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
+            progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, batch_loss: {loss.item():.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
             progress_bar.update(1)
 
             # print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
@@ -847,27 +858,45 @@ if __name__ == '__main__':
         running_accuracy = 0.0
         running_f1 = 0.0 
         albert_model.eval()
-        for batch in eval_dataloader:
-            with torch.no_grad():
-                inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
-                outputs = albert_model(**inputs)
+        for set in eval_loaders:
+            [loader, res_table] = eval_loaders[set]
 
-            predictions = outputs.logits.argmax(dim=-1)
-            validation_loss.append(outputs.loss)
- 
-            labels = inputs['labels']
-       
-            batch_results, accuracy = compute_metrics(predictions, labels,id2label)
+            curr_res = [epoch, 0, 0, 0, 0, 0]
+            progress_bar.set_description(f'Evaluating {set} set...')
+            for batch in loader:
+                with torch.no_grad():
+                    inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
+                    outputs = albert_model(**inputs)
 
-            # res = list(flatten(batch_results)).append(accuracy)
-            eval_results.append((batch_results, accuracy))
-           
-            # print("TEST RESULTS", batch_results, accuracy )
-            running_accuracy += accuracy
-            running_f1 += batch_results[2]
+                predictions = outputs.logits.argmax(dim=-1)
+                # validation_loss.append(outputs.loss)
+    
+                labels = inputs['labels']
         
-        epoch_accuracy = running_accuracy / len(eval_dataloader)
-        epoch_f1 = running_f1 / len(eval_dataloader)
+                batch_results, accuracy = compute_metrics(predictions, labels,id2label)
+
+                # res = list(flatten(batch_results)).append(accuracy)
+                # eval_results.append((batch_results, accuracy))
+            
+                # print("TEST RESULTS", batch_results, accuracy )
+                curr_res[1] += batch_results[0]
+                curr_res[2] += batch_results[1]
+                curr_res[3] += batch_results[2]
+                curr_res[4] += accuracy
+                curr_res[5] += outputs.loss.item()
+
+                running_accuracy += accuracy
+                running_f1 += batch_results[2]
+
+
+            for i in range(1, 6):
+                curr_res[i] = curr_res[i] / len(loader) 
+            
+            res_table.append(curr_res)
+            
+            if set == 'val':
+                epoch_accuracy = running_accuracy / len(loader)
+                epoch_f1 = running_f1 / len(loader)
 
         
 
@@ -889,6 +918,12 @@ if __name__ == '__main__':
     #torch.save(parallel_model.module.linear.state_dict(), model_path)
     albert_model.save_pretrained(scorer_folder + '/indic_ner')
     tokenizer.save_pretrained(scorer_folder + '/indic_ner')
+
+    val_df = pd.DataFrame(val_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy', 'loss'])
+    val_df.to_csv(working_folder + '/val_results.csv', index=False)
+
+    test_df = pd.DataFrame(test_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy', 'loss'])
+    test_df.to_csv(working_folder + '/test_results.csv', index=False)
 
  
  
