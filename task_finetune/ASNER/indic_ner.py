@@ -645,25 +645,25 @@ def postprocess(predictions, labels, label_names):
     ]
     return true_labels, true_predictions
 
-def predict_ner(test_dataloader, albert_model):
-    test_results = []
-    albert_model.eval()
-    for batch in test_dataloader:
+# def predict_ner(test_dataloader, albert_model):
+#     test_results = []
+#     albert_model.eval()
+#     for batch in test_dataloader:
 
-        with torch.no_grad():
-            inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
-            outputs = albert_model(**inputs)
+#         with torch.no_grad():
+#             inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
+#             outputs = albert_model(**inputs)
 
-            predictions = outputs.logits.argmax(dim=-1)
-            validation_loss.append(outputs.loss)
+#             predictions = outputs.logits.argmax(dim=-1)
+#             validation_loss.append(outputs.loss)
 
-            labels = inputs['labels']
+#             labels = inputs['labels']
 
-            batch_results, accuracy = compute_metrics(predictions, labels,id2label)
+#             batch_results, accuracy = compute_metrics(predictions, labels,id2label)
 
-            test_results.append([flatten(batch_results), accuracy])
+#             test_results.append([flatten(batch_results), accuracy])
 
-            #print("TEST RESULTS",batch_results )
+#             #print("TEST RESULTS",batch_results )
 
 if __name__ == '__main__':
     
