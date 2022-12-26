@@ -1,4 +1,4 @@
-
+#Author: Abhijnan Nath, CSU Signal Lab.  
 
 import torch.nn as nn
 import torch
