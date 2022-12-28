@@ -62,6 +62,7 @@ from transformers import (
 #from tqdm.autonotebook import tqdm
 #from tqdm.auto import tqdm
 from tqdm import tqdm
+import csv
 
 #from ..data import load_dataset
 #from ..data.examples import *
@@ -581,7 +582,7 @@ def convert_tokens_examples_to_features(
     return features, features_dict, label_map
 
 
-def make_loader(features, batch_size):
+def make_loader(features, batch_size, shuffle=True):
     all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
     all_attention_mask = torch.tensor([f.attention_mask for f in features], dtype=torch.long)
     all_token_type_ids = torch.tensor([f.token_type_ids or 0 for f in features], dtype=torch.long)
@@ -595,7 +596,7 @@ def make_loader(features, batch_size):
     return DataLoader(
         TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_labels),
         # TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_labels, all_candidates),
-        batch_size=batch_size,shuffle=True,
+        batch_size=batch_size,shuffle=shuffle,
     )
 
 def train_dataloader(self):
@@ -626,7 +627,7 @@ def compute_metrics(predictions, labels, id2label):
         for prediction, label in zip(predictions, labels)
     ]
  
-    scores = precision_recall_fscore_support_asner(true_labels, true_predictions, average='macro')
+    scores = precision_recall_fscore_support_asner(true_labels, true_predictions, average='macro', zero_division=0)
     accuracy = accuracy_score(true_labels,true_predictions)
     
     return scores,  accuracy
@@ -645,25 +646,7 @@ def postprocess(predictions, labels, label_names):
     ]
     return true_labels, true_predictions
 
-# def predict_ner(test_dataloader, albert_model):
-#     test_results = []
-#     albert_model.eval()
-#     for batch in test_dataloader:
 
-#         with torch.no_grad():
-#             inputs = inputs = {'input_ids': batch[0].to(device), 'attention_mask': batch[1].to(device), 'token_type_ids': batch[2].to(device), 'labels': batch[3].to(device)}
-#             outputs = albert_model(**inputs)
-
-#             predictions = outputs.logits.argmax(dim=-1)
-#             validation_loss.append(outputs.loss)
-
-#             labels = inputs['labels']
-
-#             batch_results, accuracy = compute_metrics(predictions, labels,id2label)
-
-#             test_results.append([flatten(batch_results), accuracy])
-
-#             #print("TEST RESULTS",batch_results )
 
 if __name__ == '__main__':
     
@@ -781,7 +764,7 @@ if __name__ == '__main__':
     
     train_dataloader = make_loader(features_train, 20)
     eval_dataloader = make_loader(features_dev,2)
-    test_dataloader = make_loader(features_test, 2)
+    test_dataloader = make_loader(features_test, 2, False)
           
     optimizer = AdamW(albert_model.parameters(), lr=2e-5)
     num_train_epochs = 50
@@ -849,18 +832,24 @@ if __name__ == '__main__':
             progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, batch_loss: {loss.item():.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
             progress_bar.update(1)
 
-            # print(f'Iteration {epoch} Loss:', loss / len(train_dataloader))
+            
 
         # Evaluation
         epoch_loss = running_loss / len(train_dataloader)
         progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
+
+
+        scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
+        if not os.path.exists(scorer_folder):
+            os.makedirs(scorer_folder)
+        
 
         running_accuracy = 0.0
         running_f1 = 0.0 
         albert_model.eval()
         for set in eval_loaders:
             [loader, res_table] = eval_loaders[set]
-
+            all_predictions, all_labels = [], []
             curr_res = [epoch, 0, 0, 0, 0, 0]
             progress_bar.set_description(f'Evaluating {set} set...')
             for batch in loader:
@@ -874,11 +863,12 @@ if __name__ == '__main__':
                 labels = inputs['labels']
         
                 batch_results, accuracy = compute_metrics(predictions, labels,id2label)
+                if set  =='test':
+                    true_labels, true_predictions = postprocess(predictions, labels, id2label)
+                    
+                    all_predictions.extend(true_predictions)
+                    all_labels.extend(true_labels)
 
-                # res = list(flatten(batch_results)).append(accuracy)
-                # eval_results.append((batch_results, accuracy))
-            
-                # print("TEST RESULTS", batch_results, accuracy )
                 curr_res[1] += batch_results[0]
                 curr_res[2] += batch_results[1]
                 curr_res[3] += batch_results[2]
@@ -898,26 +888,23 @@ if __name__ == '__main__':
                 epoch_accuracy = running_accuracy / len(loader)
                 epoch_f1 = running_f1 / len(loader)
 
-        
+
+            if set =='test':
+
+                with open(working_folder + f'/asner_indic_tagger/chk_{epoch}/{set}_predictions.csv', "w") as f:
+                    wr = csv.writer(f)
+                    wr.writerows(all_predictions)
+
+                with open(working_folder + f'/asner_indic_tagger/chk_{epoch}/{set}_labels.csv', "w") as f:
+                    wr = csv.writer(f)
+                    wr.writerows(all_labels)
 
 
-        scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
-        if not os.path.exists(scorer_folder):
-            os.makedirs(scorer_folder)
-        #model_path = scorer_folder + '/linear.chkpt'
-        #torch.save(parallel_model.module.linear.state_dict(), model_path)
         albert_model.save_pretrained(scorer_folder + '/indic_ner')
         tokenizer.save_pretrained(scorer_folder + '/indic_ner')
 
         progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
 
-    scorer_folder = working_folder + f'/asner_indic_tagger/chk_{epoch}'
-    if not os.path.exists(scorer_folder):
-        os.makedirs(scorer_folder)
-    #model_path = scorer_folder + '/linear.chkpt'
-    #torch.save(parallel_model.module.linear.state_dict(), model_path)
-    albert_model.save_pretrained(scorer_folder + '/indic_ner')
-    tokenizer.save_pretrained(scorer_folder + '/indic_ner')
 
     val_df = pd.DataFrame(val_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy', 'loss'])
     val_df.to_csv(working_folder + '/val_results.csv', index=False)
