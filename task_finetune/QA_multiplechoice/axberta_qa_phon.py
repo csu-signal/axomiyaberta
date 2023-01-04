@@ -1,6 +1,3 @@
-
- 
-
 import os
 import sys
 import gc
@@ -27,7 +24,7 @@ import pickle
 
 from sklearn.model_selection import train_test_split
 import pyhocon
-from qa_models import AxBERTa_EmbeddingDisperser
+from models import AxBERTa_EmbeddingDisperser
  
 import random
 from tqdm.autonotebook import tqdm
@@ -532,8 +529,8 @@ def predict_qa(parallel_model, device, tokenized_feature_dict_dev, batch_size, d
             
             
             batch_predictions = (scores_ba - scores_ab).pow(2).sum(1).sqrt()
-            print("batch dev prediction tensor", batch_predictions) if test is False else print("batch test prediction tensor", batch_predictions)
-            print("batch dev label tensor", batch_dev_labels) if test is False else  print("batch test label tensor", batch_dev_labels)
+            #print("batch dev prediction tensor", batch_predictions) if test is False else print("batch test prediction tensor", batch_predictions)
+            #print("batch dev label tensor", batch_dev_labels) if test is False else  print("batch test label tensor", batch_dev_labels)
             batch_predictions = (batch_predictions > 4.45).detach().cpu()
 
             #scores_mean = (scores_ab + scores_ba) / 2
@@ -565,19 +562,7 @@ def train(features,
     cos_loss = torch.nn.CosineEmbeddingLoss()
     cos = torch.nn.CosineSimilarity(dim=1, eps=1e-6)
     weights = torch.FloatTensor([1.0, 3.2])
-    
-    
-   
 
-   
-
-          
-    #try SGD with weight decay, l-2 penalty, momentum 0.9, 0.09, 0.05, 
-    
-#     optimizer = torch.optim.SGD([
-#         {'params': parallel_model.module.model.parameters(), 'lr': lr_lm},
-#         {'params': parallel_model.module.linear.parameters(), 'lr': lr_class, 'momentum':0.9}
-#     ])
     optimizer = torch.optim.AdamW([
         {'params': parallel_model.module.model.parameters(), 'lr': lr_lm},
         {'params': parallel_model.module.linear.parameters(), 'lr': lr_class}
@@ -617,10 +602,6 @@ def train(features,
     position_ids = torch.stack(position_ids, dim =0).squeeze()
     #panphon_features = torch.stack(panphon_features, dim =0).squeeze()
 
-    print("input ids chunk shape ", input_ids.size())
-    print("attention mask chunk shape ", attention_mask.size())
-    print(" position_ids chunk shape ",  position_ids.size())
-    print("panphon features chunk shape ",  panphon_features.size())
 
     tokenized_feature_dict_dev = {'input_ids': input_ids,
                      'attention_mask': attention_mask,
@@ -641,12 +622,7 @@ def train(features,
     input_ids = torch.stack(input_ids, dim =0).squeeze()
     attention_mask = torch.stack(attention_mask, dim =0).squeeze()
     position_ids = torch.stack(position_ids, dim =0).squeeze()
-    
-    
-    print("input ids TEST chunk shape ", input_ids.size())
-    print("attention TEST mask chunk shape ", attention_mask.size())
-    print(" position_ids TEST chunk shape ",  position_ids.size())
-    print("panphon features TEST chunk shape ",  panphon_features.size())
+
 
     tokenized_feature_dict_test = {'input_ids': input_ids,
                      'attention_mask': attention_mask,
@@ -687,10 +663,6 @@ def train(features,
             position_ids = [train_pairs[i]['position_ids'] for i in chunk_train_indices]
             train_panphon_features = torch.tensor([train_pairs[i]['pan_features'] for i in chunk_train_indices],  dtype=torch.long)
  
-           
-            print("pan trainfeaturs size",train_panphon_features.size())
-            
-             
             input_ids = torch.stack(input_ids, dim =0).squeeze()
             attention_mask = torch.stack(attention_mask, dim =0).squeeze()
             position_ids = torch.stack(position_ids, dim =0).squeeze()
@@ -721,14 +693,6 @@ def train(features,
                 #loss = 0.01*(bce_loss(torch.squeeze(scores), batch_labels)) +(cos_loss ( all_embed,token_embed, batch_labels))
                 loss = 0.01*(custom_bceloss(torch.squeeze(scores), batch_labels,weights )) +(cos_loss ( all_embed,token_embed, batch_labels))
             
-            
-                
-                #loss = cos_loss ( all_embed,token_embed, batch_labels)
-                
-                print("bce loss", custom_bceloss(torch.squeeze(scores), batch_labels,weights ))
-                print("cosine loss", cos_loss ( all_embed,token_embed, batch_labels))
-                print("training sample loss", loss)
-                
 
                 loss.backward()
 
@@ -788,32 +752,7 @@ def train(features,
     plt.plot(loss_values)
     plt.plot(val_loss_values)
     plt.plot(test_loss_values)
-    
-#     with open("train_loss", "wb") as fp:
-#         pickle.dump(loss_values, fp)
-        
-#     with open("val_loss", "wb") as fp:
-#         pickle.dump(val_loss_values, fp)
-        
 
-#     plt.savefig('train_loss.png')
-
-
-#         scorer_folder = working_folder + f'/scorer_asqa/chk_{n}'
-#         if not os.path.exists(scorer_folder):
-#             os.makedirs(scorer_folder)
-#         #model_path = scorer_folder + '/linear.chkpt'
-#         #torch.save(parallel_model.module.linear.state_dict(), model_path)
-#         parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-#         parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-
-#     scorer_folder = working_folder + '/scorer_asqa/'
-#     if not os.path.exists(scorer_folder):
-#         os.makedirs(scorer_folder)
-#     #model_path = scorer_folder + '/linear.chkpt'
-#     #torch.save(parallel_model.module.linear.state_dict(), model_path)
-#     parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-#     parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
  
 def batching(n, batch_size, min_batch):
     new_batch_size = batch_size
