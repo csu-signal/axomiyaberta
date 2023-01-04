@@ -27,7 +27,7 @@ import pickle
 
 from sklearn.model_selection import train_test_split
 import pyhocon
-from qa_models import AxBERTa_EmbeddingDisperser
+from models import AxBERTa_EmbeddingDisperser
  
 import random
 from tqdm.autonotebook import tqdm
