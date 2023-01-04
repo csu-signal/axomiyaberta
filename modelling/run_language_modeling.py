@@ -338,8 +338,8 @@ def main():
         )
 	
         #trainer.train(resume_from_checkpoint=True)
-        trainer.train("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-152500")
-        #trainer.train(model_path=model_path)
+       
+        trainer.train(model_path=model_path)
 	
         trainer.save_model()
         # For convenience, we also re-save the tokenizer to the same directory,
