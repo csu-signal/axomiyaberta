@@ -1,0 +1,763 @@
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাৰ্বতী পাৰ্বতী_প্ৰসাদ_বৰুৱা পাৰ্বতী_প্ৰসাদ_বৰুৱা PER 0.904055266507 Parvati_Prasad_Baruva B-PER
+প্ৰসাদ None I-PER
+বৰুৱা None I-PER
+
+পাৰ্বতী পাৰ্বতী_প্ৰসাদ_বৰুৱা পাৰ্বতী_প্ৰসাদ_বৰুৱা PER 0.904055266507 Parvati_Prasad_Baruva B-PER
+প্ৰসাদ None I-PER
+বৰুৱা None I-PER
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+দীৰ্ঘসময় None O
+শাৰিৰীক None O
+অসুস্থতাত None O
+ভূগাৰ None O
+পাছত None O
+অসম অসম_চিকিৎসা_মহাবিদ্যালয় অসম_চিকিৎসা_মহাবিদ্যালয়ত ORG 0.90993920207 Assam_Medical_College B-ORG
+চিকিৎসা None I-ORG
+মহাবিদ্যালয়ত None I-ORG
+চিকিৎসাধীন None O
+অৱস্থাত None O
+১৯৬৬ None O
+চনৰ None O
+১১ None O
+নৱেম্বৰত None O
+তেখেতৰ None O
+মৃত্যু None O
+হয়। None O
+
+*১৯৮৭ None O
+চনত None O
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভাৰ ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভাৰ None I-ORG
+পাঠশালা পাঠশালা পাঠশালা GPE 1.0 Pathsala B-LOC
+অধিৱেশনৰ None O
+সভাপতি। None O
+
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+'' None O
+( None O
+`` None O
+পুৱাৰ None O
+হাঁহিত None O
+'' None O
+) None O
+'' None O
+
+জৱাহৰলাল জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ ORG 0.999999930513 Jawaharlal_Nehru_Centre_for_Advanced_Scientific_Research B-ORG
+নেহৰু None I-ORG
+উন্নত None I-ORG
+বৈজ্ঞানিক None I-ORG
+গৱেষণা None I-ORG
+কেন্দ্ৰ None I-ORG
+
+জৱাহৰলাল জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ ORG 0.999999930513 Jawaharlal_Nehru_Centre_for_Advanced_Scientific_Research B-ORG
+নেহৰু None I-ORG
+উন্নত None I-ORG
+বৈজ্ঞানিক None I-ORG
+গৱেষণা None I-ORG
+কেন্দ্ৰ None I-ORG
+
+==চৰকাৰ None O
+আৰু None O
+টীম None O
+আন্নাৰ None O
+( None O
+আন্না আন্না_হাজাৰে আন্না_হাজাৰে PER 0.999999882118 Anna_Hazare B-PER
+হাজাৰে None I-PER
+) None O
+দাবীসমূহ== None O
+
+জৱাহৰলাল জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ ORG 0.999999930513 Jawaharlal_Nehru_Centre_for_Advanced_Scientific_Research B-ORG
+নেহৰু None I-ORG
+উন্নত None I-ORG
+বৈজ্ঞানিক None I-ORG
+গৱেষণা None I-ORG
+কেন্দ্ৰ None I-ORG
+
+টি টি_ভি_ৰামকৃষ্ণন টি_ভি_ৰামকৃষ্ণন PER 0.999998400158 T._V._Ramakrishnan B-PER
+ভি None I-PER
+ৰামকৃষ্ণন None I-PER
+
+টি টি_ভি_ৰামকৃষ্ণন টি_ভি_ৰামকৃষ্ণন PER 0.999998400158 T._V._Ramakrishnan B-PER
+ভি None I-PER
+ৰামকৃষ্ণন None I-PER
+
+জৱাহৰলাল জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ ORG 0.999999930513 Jawaharlal_Nehru_Centre_for_Advanced_Scientific_Research B-ORG
+নেহৰু None I-ORG
+উন্নত None I-ORG
+বৈজ্ঞানিক None I-ORG
+গৱেষণা None I-ORG
+কেন্দ্ৰ None I-ORG
+
+টু টু_ব্ৰোক_গাৰ্লচ্ টু_ব্ৰোক_গাৰ্লচ্ ORG 0.987449165566 2_Broke_Girls B-ORG
+ব্ৰোক None I-ORG
+গাৰ্লচ্ None I-ORG
+
+জৱাহৰলাল জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ ORG 0.999999930513 Jawaharlal_Nehru_Centre_for_Advanced_Scientific_Research B-ORG
+নেহৰু None I-ORG
+উন্নত None I-ORG
+বৈজ্ঞানিক None I-ORG
+গৱেষণা None I-ORG
+কেন্দ্ৰ None I-ORG
+
+টু টু_ব্ৰোক_গাৰ্লচ্ টু_ব্ৰোক_গাৰ্লচ্ ORG 0.987449165566 2_Broke_Girls B-ORG
+ব্ৰোক None I-ORG
+গাৰ্লচ্ None I-ORG
+
+দৌল দৌল_গোবিন্দ_মন্দিৰ দৌল_গোবিন্দ_মন্দিৰ ORG 0.906098028497 Doul_Govinda_Temple B-ORG
+গোবিন্দ None I-ORG
+মন্দিৰ None I-ORG
+
+পৰাগ পৰাগ_কুমাৰ_দাস পৰাগ_কুমাৰ_দাস PER 0.999999830076 Parag_Kumar_Das B-PER
+কুমাৰ None I-PER
+দাস None I-PER
+
+বিভূতি বিভূতি_নাৰায়ণ_ৰায় বিভূতি_নাৰায়ণ_ৰায় PER 0.999999376863 Vibhuti_Narain_Rai B-PER
+নাৰায়ণ None I-PER
+ৰায় None I-PER
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+বীৰেন্দ্ৰ বীৰেন্দ্ৰ_কুমাৰ_ভট্টাচাৰ্য বীৰেন্দ্ৰ_কুমাৰ_ভট্টাচাৰ্য PER 0.998388459089 Birendra_Kumar_Bhattacharya B-PER
+কুমাৰ None I-PER
+ভট্টাচাৰ্য None I-PER
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ভাৰতীয়_বিজ্ঞান_প্ৰতিষ্ঠান ORG 0.999999999908 Indian_Institute_of_Science B-ORG
+বিজ্ঞান None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+প্ৰকৃত প্ৰকৃত_যীশু_গীৰ্জা প্ৰকৃত_যীশু_গীৰ্জা ORG 0.990337212361 True_Jesus_Church B-ORG
+যীশু None I-ORG
+গীৰ্জা None I-ORG
+
+প্ৰকৃত প্ৰকৃত_যীশু_গীৰ্জা প্ৰকৃত_যীশু_গীৰ্জা ORG 0.990337212361 True_Jesus_Church B-ORG
+যীশু None I-ORG
+গীৰ্জা None I-ORG
+
+প্ৰকৃত প্ৰকৃত_যীশু_গীৰ্জা প্ৰকৃত_যীশু_গীৰ্জা ORG 0.990337212361 True_Jesus_Church B-ORG
+যীশু None I-ORG
+গীৰ্জা None I-ORG
+
+প্ৰতিমা প্ৰতিমা_বৰুৱা_পাণ্ডে প্ৰতিমা_বৰুৱা_পাণ্ডে PER 0.999944071008 Pratima_Barua_Pandey B-PER
+বৰুৱা None I-PER
+পাণ্ডে None I-PER
+
+প্ৰকৃত প্ৰকৃত_যীশু_গীৰ্জা প্ৰকৃত_যীশু_গীৰ্জা ORG 0.990337212361 True_Jesus_Church B-ORG
+যীশু None I-ORG
+গীৰ্জা None I-ORG
+
+প্ৰফুল্ল প্ৰফুল্ল_কুমাৰ_মহন্ত প্ৰফুল্ল_কুমাৰ_মহন্ত PER 0.999999870256 Prafulla_Kumar_Mahanta B-PER
+কুমাৰ None I-PER
+মহন্ত None I-PER
+
+প্ৰমথেশ প্ৰমথেশ_চন্দ্ৰ_বৰুৱা প্ৰমথেশ_চন্দ্ৰ_বৰুৱা PER 0.999998906652 Pramathesh_Barua B-PER
+চন্দ্ৰ None I-PER
+বৰুৱা None I-PER
+
+প্ৰমথেশ প্ৰমথেশ_চন্দ্ৰ_বৰুৱা প্ৰমথেশ_চন্দ্ৰ_বৰুৱা PER 0.999998906652 Pramathesh_Barua B-PER
+চন্দ্ৰ None I-PER
+বৰুৱা None I-PER
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+প্ৰমথেশ প্ৰমথেশ_চন্দ্ৰ_বৰুৱা প্ৰমথেশ_চন্দ্ৰ_বৰুৱা PER 0.999998906652 Pramathesh_Barua B-PER
+চন্দ্ৰ None I-PER
+বৰুৱা None I-PER
+
+প্ৰফুল্ল প্ৰফুল্ল_কুমাৰ_মহন্ত প্ৰফুল্ল_কুমাৰ_মহন্ত PER 0.999999870256 Prafulla_Kumar_Mahanta B-PER
+কুমাৰ None I-PER
+মহন্ত None I-PER
+
+প্ৰমথেশ প্ৰমথেশ_চন্দ্ৰ_বৰুৱা প্ৰমথেশ_চন্দ্ৰ_বৰুৱা PER 0.999998906652 Pramathesh_Barua B-PER
+চন্দ্ৰ None I-PER
+বৰুৱা None I-PER
+
+মামণি মামণি_ৰয়ছম_গোস্বামী মামণি_ৰয়ছম_গোস্বামী PER 0.973086020495 Mamoni_Raisom_Goswami B-PER
+ৰয়ছম None I-PER
+গোস্বামী None I-PER
+
+মামণি মামণি_ৰয়ছম_গোস্বামী মামণি_ৰয়ছম_গোস্বামী PER 0.973086020495 Mamoni_Raisom_Goswami B-PER
+ৰয়ছম None I-PER
+গোস্বামী None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER

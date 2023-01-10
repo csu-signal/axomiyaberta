@@ -1,0 +1,6106 @@
+ৰাজা ৰাজা_ৰামমোহন_ৰায় ৰাজা_ৰামমোহন_ৰায় PER 0.999927473751 Ram_Mohan_Roy B-PER
+ৰামমোহন None I-PER
+ৰায় None I-PER
+
+ৰাজা ৰাজা_ৰামমোহন_ৰায় ৰাজা_ৰামমোহন_ৰায় PER 0.999927473751 Ram_Mohan_Roy B-PER
+ৰামমোহন None I-PER
+ৰায় None I-PER
+
+বৰ্ষাৰণ্য বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট ORG 0.999104174481 Rain_Forest_Research_Institute B-ORG
+গৱেষণা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+যোৰহাট None I-ORG
+
+অসমীয়া অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা ORG 0.998023430813 Oxomiya_Bhaxa_Unnati_Xadhini_Xobha B-ORG
+ভাষা None I-ORG
+উন্নতি None I-ORG
+সাধিনী None I-ORG
+সভা None I-ORG
+
+অসমীয়া অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা ORG 0.998023430813 Oxomiya_Bhaxa_Unnati_Xadhini_Xobha B-ORG
+ভাষা None I-ORG
+উন্নতি None I-ORG
+সাধিনী None I-ORG
+সভা None I-ORG
+
+বৰ্ষাৰণ্য বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট ORG 0.999104174481 Rain_Forest_Research_Institute B-ORG
+গৱেষণা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+যোৰহাট None I-ORG
+
+বৰ্ষাৰণ্য বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট ORG 0.999104174481 Rain_Forest_Research_Institute B-ORG
+গৱেষণা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+যোৰহাট None I-ORG
+
+সংযুক্ত সংযুক্ত_মুক্তি_বাহিনী,_অসম সংযুক্ত_মুক্তি_বাহিনী,_অসম ORG 0.999772625296 United_Liberation_Front_of_Assam B-ORG
+মুক্তি None I-ORG
+বাহিনী None I-ORG
+, None I-ORG
+অসম None I-ORG
+
+দেউৰী দেউৰী_জনগোষ্ঠী দেউৰী_জনগোষ্ঠী ORG 0.990511186883 Deori_people B-ORG
+জনগোষ্ঠী None I-ORG
+-- None O
+-- None O
+-পহন None O
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+মানবেন্দ্ৰ মানবেন্দ্ৰ_নাথ_ৰয় মানবেন্দ্ৰ_নাথ_ৰয় PER 0.999999985729 M._N._Roy B-PER
+নাথ None I-PER
+ৰয় None I-PER
+
+ଟଙ୍କା None O
+( None O
+টংকা None O
+) None O
+ওড়িয়াত ওড়িয়া_ভাষা ওড়িয়াত ORG 0.734924935788 Odia_language B-ORG
+
+रुपया None O
+( None O
+ৰুপয়া None O
+) None O
+হিন্দীত হিন্দী_ভাষা হিন্দীত GPE 0.982273304022 Hindi B-LOC
+
+रुपियाँ None O
+( None O
+ৰুপীয়াঁ None O
+) None O
+নেপালীত নেপালী_ভাষা নেপালীত ORG 0.575854866823 Newar_language B-ORG
+
+হিতেশ্বৰ হিতেশ্বৰ_শইকীয়া হিতেশ্বৰ_শইকীয়া PER 0.999974208373 Hiteswar_Saikia B-PER
+শইকীয়া None I-PER
+( None O
+প্ৰথমবাৰ None O
+) None O
+
+প্ৰফুল্ল প্ৰফুল্ল_কুমাৰ_মহন্ত প্ৰফুল্ল_কুমাৰ_মহন্ত PER 0.999999870256 Prafulla_Kumar_Mahanta B-PER
+কুমাৰ None I-PER
+মহন্ত None I-PER
+( None O
+প্ৰথমবাৰ None O
+) None O
+
+হিতেশ্বৰ হিতেশ্বৰ_শইকীয়া হিতেশ্বৰ_শইকীয়া PER 0.999974208373 Hiteswar_Saikia B-PER
+শইকীয়া None I-PER
+( None O
+দ্বিতীয়বাৰ None O
+) None O
+
+প্ৰফুল্ল প্ৰফুল্ল_কুমাৰ_মহন্ত প্ৰফুল্ল_কুমাৰ_মহন্ত PER 0.999999870256 Prafulla_Kumar_Mahanta B-PER
+কুমাৰ None I-PER
+মহন্ত None I-PER
+( None O
+দ্বিতীয়বাৰ None O
+) None O
+
+তৰুণ তৰুণ_গগৈ তৰুণ_গগৈ PER 0.999999413054 Tarun_Gogoi B-PER
+গগৈ None I-PER
+( None O
+প্ৰথমবাৰ None O
+) None O
+
+তৰুণ তৰুণ_গগৈ তৰুণ_গগৈ PER 0.999999413054 Tarun_Gogoi B-PER
+গগৈ None I-PER
+( None O
+দ্বিতীয়বাৰ None O
+) None O
+
+তৰুণ তৰুণ_গগৈ তৰুণ_গগৈ PER 0.999999413054 Tarun_Gogoi B-PER
+গগৈ None I-PER
+( None O
+তৃতীয়বাৰ None O
+) None O
+
+অসম অসম_কৃষি_বিশ্ববিদ্যালয় অসম_কৃষি_বিশ্ববিদ্যালয় ORG 0.999973013433 Assam_Agricultural_University B-ORG
+কৃষি None I-ORG
+বিশ্ববিদ্যালয় None I-ORG
+( None O
+১৯৬৯ None O
+চনত None O
+স্থাপিত None O
+) None O
+
+যোৰহাট যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান ORG 0.998567910284 Jorhat_Institute_of_Science_&_Technology B-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+যোৰহাট যোৰহাট_(লোকসভা_সমষ্টি) যোৰহাট_(লোকসভা_সমষ্টি) ORG 0.90993920207 Jorhat_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+অসমীয়া অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা ORG 0.998023430813 Oxomiya_Bhaxa_Unnati_Xadhini_Xobha B-ORG
+ভাষা None I-ORG
+উন্নতি None I-ORG
+সাধিনী None I-ORG
+সভা None I-ORG
+
+ৰজাৰ None O
+আলিবাট None O
+মেলিব None O
+পাৰি None O
+জপাব None O
+নোঁৱাৰি None O
+( None O
+চোতাল চোতাল চোতাল ORG 0.527790921131 Yard_(land) B-ORG
+) None O
+
+কমল কমল_কুমাৰী_বৰুৱা কমল_কুমাৰী_বৰুৱা PER 0.999561698628 Kamal_Kumari_Barooah B-PER
+কুমাৰী None I-PER
+বৰুৱা None I-PER
+
+বৰ্ষাৰণ্য বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট ORG 0.999104174481 Rain_Forest_Research_Institute B-ORG
+গৱেষণা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+যোৰহাট None I-ORG
+
+যোৰহাট যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান ORG 0.998567910284 Jorhat_Institute_of_Science_&_Technology B-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ৰাষ্ট্ৰীয় ৰাষ্ট্ৰীয়_জীৱবিজ্ঞান_কেন্দ্ৰ ৰাষ্ট্ৰীয়_জীৱবিজ্ঞান_কেন্দ্ৰ ORG 0.999993149138 National_Centre_for_Biological_Sciences B-ORG
+জীৱবিজ্ঞান None I-ORG
+কেন্দ্ৰ None I-ORG
+
+যোৰহাট যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান ORG 0.998567910284 Jorhat_Institute_of_Science_&_Technology B-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+ছুটী None O
+, None O
+মূল None O
+ৰবীন্দ্ৰনাথ ৰবীন্দ্ৰনাথ_ঠাকুৰ ৰবীন্দ্ৰনাথ_ঠাকুৰ PER 0.998970348928 Rabindranath_Tagore B-PER
+ঠাকুৰ None I-PER
+( None O
+চিত্ৰনাট্য None O
+২০০৫ None O
+) None O
+
+ৰং ৰং_(দূৰদৰ্শন_কেন্দ্ৰ) ৰং_(দূৰদৰ্শন_কেন্দ্ৰ) ORG 0.926279338129 Rang_(TV_Channel) B-ORG
+( None I-ORG
+দূৰদৰ্শন None I-ORG
+কেন্দ্ৰ None I-ORG
+) None I-ORG
+
+মোহন মোহন_বাগান_এথলেটিক_ক্লাব মোহন_বাগান_এথলেটিক_ক্লাব ORG 0.999990533901 Mohun_Bagan_A.C. B-ORG
+বাগান None I-ORG
+এথলেটিক None I-ORG
+ক্লাব None I-ORG
+
+ৰাউটাৰ ৰাউটাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) ৰাউটাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) PER 0.673083957385 Router_(computing) B-PER
+( None I-PER
+কম্পিউটাৰ None I-PER
+সম্বন্ধীয় None I-PER
+) None I-PER
+
+' None O
+'' None O
+উত্তৰে None O
+'' None O
+'- None O
+অৰুণাচল অৰুণাচল_প্ৰদেশ অৰুণাচল_প্ৰদেশ GPE 0.945027858328 Arunachal_Pradesh B-LOC
+প্ৰদেশ None I-LOC
+
+গ্ৰেগৰী গ্ৰেগৰী_ক'ৰ্ছ' গ্ৰেগৰী_ক'ৰ্ছ' PER 0.999049655287 Gregory_Corso B-PER
+ক'ৰ্ছ None I-PER
+' None I-PER
+
+পীতাম্বৰ পীতাম্বৰ_দেৱগোস্বামী_(সত্ৰাধিকাৰ) পীতাম্বৰ_দেৱগোস্বামী_(সত্ৰাধিকাৰ) PER 0.996774667288 Pitambar_Deva_Goswami B-PER
+দেৱগোস্বামী None I-PER
+( None I-PER
+সত্ৰাধিকাৰ None I-PER
+) None I-PER
+
+মাটিকালি মাটিকালি_অনুসৰি_দেশসমূহৰ_তালিকা_(ভৌগোলিক) মাটিকালি_অনুসৰি_দেশসমূহৰ_তালিকা_(ভৌগোলিক) ORG 0.734924935788 List_of_countries_by_total_area_(graphical) B-ORG
+অনুসৰি None I-ORG
+দেশসমূহৰ None I-ORG
+তালিকা None I-ORG
+( None I-ORG
+ভৌগোলিক None I-ORG
+) None I-ORG
+
+টি টি_এছ_ইলিয়ট টি_এছ_ইলিয়ট PER 0.999990699793 T._S._Eliot B-PER
+এছ None I-PER
+ইলিয়ট None I-PER
+
+টি টি_এছ_ইলিয়ট টি_এছ_ইলিয়ট PER 0.999990699793 T._S._Eliot B-PER
+এছ None I-PER
+ইলিয়ট None I-PER
+
+মানস মানস_ৰাষ্ট্ৰীয়_উদ্যান মানস_ৰাষ্ট্ৰীয়_উদ্যান ORG 0.784313716815 Manas_National_Park B-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+উদ্যান None I-ORG
+
+যতীন্দ্ৰ যতীন্দ্ৰ_নাথ_দুৱৰা যতীন্দ্ৰ_নাথ_দুৱৰা PER 0.904055266507 Jatindra_Nath_Duwara B-PER
+নাথ None I-PER
+দুৱৰা None I-PER
+
+মানস মানস_ৰাষ্ট্ৰীয়_উদ্যান মানস_ৰাষ্ট্ৰীয়_উদ্যান ORG 0.784313716815 Manas_National_Park B-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+উদ্যান None I-ORG
+
+আনন্দ আনন্দ_চন্দ্ৰ_আগৰৱালা আনন্দ_চন্দ্ৰ_আগৰৱালা PER 0.904055266507 Ananda_Chandra_Agarwala B-PER
+চন্দ্ৰ None I-PER
+আগৰৱালা None I-PER
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ডিম্বেশ্বৰ ডিম্বেশ্বৰ_নেওগ ডিম্বেশ্বৰ_নেওগ PER 0.999855820983 Dimbeswar_Neog B-PER
+নেওগ None I-PER
+( None O
+শিক্ষক None O
+) None O
+
+বৰ্ষাৰণ্য বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট বৰ্ষাৰণ্য_গৱেষণা_প্ৰতিষ্ঠান,_যোৰহাট ORG 0.999104174481 Rain_Forest_Research_Institute B-ORG
+গৱেষণা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+যোৰহাট None I-ORG
+
+*কোনাল None O
+পাণ্ডিত None O
+( None O
+মুম্বাই মুম্বাই মুম্বাই GPE 1.0 Mumbai B-LOC
+) None O
+
+*বিশ্বজীত None O
+বৰৱানকাৰ None O
+( None O
+মুম্বাই মুম্বাই মুম্বাই GPE 1.0 Mumbai B-LOC
+) None O
+
+*আৰ্চ None O
+মাহমোদ None O
+( None O
+মুম্বাই মুম্বাই মুম্বাই GPE 1.0 Mumbai B-LOC
+) None O
+
+*সুভৰিমা None O
+ভাদুৰি None O
+( None O
+মুম্বাই মুম্বাই মুম্বাই GPE 1.0 Mumbai B-LOC
+) None O
+
+*মহমদ None O
+অসমন None O
+( None O
+ৰাজস্থান ৰাজস্থান ৰাজস্থান GPE 0.946350775741 Rajasthan B-LOC
+) None O
+
+যোৰহাট যোৰহাট_অভিযান্ত্ৰিক_মহাবিদ্যালয় যোৰহাট_অভিযান্ত্ৰিক_মহাবিদ্যালয় ORG 0.999999783248 Jorhat_Engineering_College B-ORG
+অভিযান্ত্ৰিক None I-ORG
+মহাবিদ্যালয় None I-ORG
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+ভাৰতৰ ভাৰতৰ_ৰাজ্যিক_গছসমূহৰ_তালিকা ভাৰতৰ_ৰাজ্যিক_গছসমূহৰ_তালিকা GPE 0.517210589207 List_of_Indian_state_trees B-LOC
+ৰাজ্যিক None I-LOC
+গছসমূহৰ None I-LOC
+তালিকা None I-LOC
+
+নতুন None O
+লেখকক None O
+উৎসাহিত None O
+কৰাৰ None O
+উদ্দেশ্যে None O
+আলোচনীখনত None O
+প্ৰকাশিত None O
+কিছুমান None O
+বিশেষ None O
+লিখনি None O
+অসমৰ অসম অসমৰ GPE 0.946214686529 Assam B-LOC
+কেইবাখনো None O
+কাকত-আলোচনীত None O
+প্ৰকাশৰ None O
+ব্যৱস্থা None O
+আছে। None O
+
+ভাৰতৰ ভাৰতৰ_ৰাজ্যিক_ফুলসমূহৰ_তালিকা ভাৰতৰ_ৰাজ্যিক_ফুলসমূহৰ_তালিকা GPE 0.517210589207 List_of_Indian_state_flowers B-LOC
+ৰাজ্যিক None I-LOC
+ফুলসমূহৰ None I-LOC
+তালিকা None I-LOC
+
+ভাৰতৰ ভাৰতৰ_ৰাজ্য_আৰু_কেন্দ্ৰীয়শাসিত_অঞ্চলসমূহৰ_সংক্ষিপ্ত_সংকেতৰ_তালিকা ভাৰতৰ_ৰাজ্য_আৰু_কেন্দ্ৰীয়শাসিত_অঞ্চলসমূহৰ_সংক্ষিপ্ত_সংকেতৰ_তালিকা ORG 0.734924935788 List_of_Indian_States_and_Union_Territories_by_two-letter_codes B-ORG
+ৰাজ্য None I-ORG
+আৰু None I-ORG
+কেন্দ্ৰীয়শাসিত None I-ORG
+অঞ্চলসমূহৰ None I-ORG
+সংক্ষিপ্ত None I-ORG
+সংকেতৰ None I-ORG
+তালিকা None I-ORG
+
+উত্তৰাখণ্ড উত্তৰাখণ্ড উত্তৰাখণ্ড GPE 0.991032644408 Uttarakhand B-LOC
+( None O
+সাধাৰণভাৱে None O
+উত্তৰাঞ্চল None O
+) None O
+
+নগেন্দ্ৰ নগেন্দ্ৰ_নাৰায়ণ_চৌধুৰী নগেন্দ্ৰ_নাৰায়ণ_চৌধুৰী PER 0.904055266507 Nagendra_Narayan_Choudhury B-PER
+নাৰায়ণ None I-PER
+চৌধুৰী None I-PER
+
+ডিব্ৰু-ছৈখোৱা ডিব্ৰু-ছৈখোৱা_ৰাষ্ট্ৰীয়_উদ্যান ডিব্ৰু-ছৈখোৱা_ৰাষ্ট্ৰীয়_উদ্যান ORG 0.726353433404 Dibru-Saikhowa_National_Park B-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+উদ্যান None I-ORG
+
+মামণি মামণি_ৰয়ছম_গোস্বামী মামণি_ৰয়ছম_গোস্বামী PER 0.973086020495 Mamoni_Raisom_Goswami B-PER
+ৰয়ছম None I-PER
+গোস্বামী None I-PER
+
+বীৰেন্দ্ৰ বীৰেন্দ্ৰ_কুমাৰ_ভট্টাচাৰ্য বীৰেন্দ্ৰ_কুমাৰ_ভট্টাচাৰ্য PER 0.998388459089 Birendra_Kumar_Bhattacharya B-PER
+কুমাৰ None I-PER
+ভট্টাচাৰ্য None I-PER
+
+বিশ্ব বিশ্ব_পৰ্যটন_মূল্যাংকণ বিশ্ব_পৰ্যটন_মূল্যাংকণ ORG 0.682608524192 World_Tourism_rankings B-ORG
+পৰ্যটন None I-ORG
+মূল্যাংকণ None I-ORG
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+ইষ্ট ইষ্ট_বেংগল_ফুটবল_ক্লাব ইষ্ট_বেংগল_ফুটবল_ক্লাব ORG 0.989349884593 East_Bengal_F.C. B-ORG
+বেংগল None I-ORG
+ফুটবল None I-ORG
+ক্লাব None I-ORG
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+দৰং দৰং_জিলা দৰং_জিলা GPE 0.999999999886 Darrang_district B-LOC
+জিলা None I-LOC
+, None O
+শোণিতপুৰ শোণিতপুৰ_জিলা শোণিতপুৰ_জিলা GPE 0.999999999886 Sonitpur_district B-LOC
+জিলা None I-LOC
+
+গোলাঘাট গোলাঘাট_জিলা গোলাঘাট_জিলা GPE 0.99999999999 Golaghat_district B-LOC
+জিলা None I-LOC
+, None O
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+গোলাঘাট গোলাঘাট_জিলা গোলাঘাট_জিলা GPE 0.99999999999 Golaghat_district B-LOC
+জিলা None I-LOC
+, None O
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+বাক্সা বাক্সা_জিলা বাক্সা_জিলা GPE 0.999999999886 Baksa_district B-LOC
+জিলা None I-LOC
+, None O
+ওদালগুৰি ওদালগুৰি_জিলা ওদালগুৰি_জিলা GPE 0.999999999443 Udalguri_district B-LOC
+জিলা None I-LOC
+
+জে. জে._কে._ৰাউলিং জে._কে._ৰাউলিং PER 1.0 J._K._Rowling B-PER
+কে. None I-PER
+ৰাউলিং None I-PER
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+স্ন স্ন'_হোৱাইট স্ন'_হোৱাইট PER 0.925533817809 Snow_White B-PER
+' None I-PER
+হোৱাইট None I-PER
+
+পুৰুষোত্তম পুৰুষোত্তম_দাস_টেণ্ডন পুৰুষোত্তম_দাস_টেণ্ডন PER 0.999999652109 Purushottam_Das_Tandon B-PER
+দাস None I-PER
+টেণ্ডন None I-PER
+
+বেইজিং বেইজিং বেইজিং GPE 1.0 Beijing B-LOC
+( None O
+' None O
+'' None O
+' None O
+) None O
+
+বাগদাদ বাগদাদ বাগদাদ GPE 1.0 Baghdad B-LOC
+( None O
+' None O
+'' None O
+' None O
+) None O
+
+কাঠমাণ্ডু কাঠমাণ্ডু কাঠমাণ্ডু GPE 0.999999999938 Kathmandu B-LOC
+( None O
+' None O
+'' None O
+' None O
+) None O
+
+ছিংগাপুৰ ছিংগাপুৰ ছিংগাপুৰ GPE 0.999999866437 Singapore B-LOC
+' None O
+'' None O
+' None O
+( None O
+' None O
+'' None O
+' None O
+) None O
+
+বেংকক বেংকক বেংকক GPE 1.0 Bangkok B-LOC
+( None O
+' None O
+'' None O
+' None O
+) None O
+
+৭ None O
+যতীন যতীন_বৰা যতীন_বৰা PER 0.999994962196 Jatin_Bora B-PER
+বৰা None I-PER
+... None O
+. None O
+
+জয়পুৰ জয়পুৰ জয়পুৰ GPE 1.0 Jaipur B-LOC
+, None O
+ৰাজস্থান ৰাজস্থান ৰাজস্থান GPE 0.946350775741 Rajasthan B-LOC
+, None O
+ভাৰত ভাৰত ভাৰত GPE 0.999991154923 India B-LOC
+
+৬ None O
+চেতনা চেতনা_দাস চেতনা_দাস PER 0.999994962196 Chetana_Das B-PER
+দাস None I-PER
+... None O
+. None O
+
+২০১২ None O
+চনৰ None O
+২ None O
+জানুৱাৰীৰপৰা None O
+অসম অসম অসম GPE 0.946214686529 Assam B-LOC
+আৰু None O
+মুম্বাইৰ মুম্বাই মুম্বাইৰ GPE 1.0 Mumbai B-LOC
+বিভিন্ন None O
+স্থানত None O
+চলচ্চিত্ৰখনৰ None O
+চিত্ৰগ্ৰহণ None O
+আৰম্ভ None O
+হৈছিল। None O
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+ৰাউটাৰ ৰাউটাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) ৰাউটাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) PER 0.673083957385 Router_(computing) B-PER
+( None I-PER
+কম্পিউটাৰ None I-PER
+সম্বন্ধীয় None I-PER
+) None I-PER
+
+ন'বেল ন'বেল_বঁটা_বিজয়ী_(অৰ্থনীতি) ন'বেল_বঁটা_বিজয়ী_(অৰ্থনীতি) PER 0.988698232337 List_of_Nobel_Memorial_Prize_laureates_in_Economics B-PER
+বঁটা None I-PER
+বিজয়ী None I-PER
+( None I-PER
+অৰ্থনীতি None I-PER
+) None I-PER
+
+এ এ_পি_জে_আব্দুল_কালাম এ_পি_জে_আব্দুল_কালাম PER 0.999999974909 A._P._J._Abdul_Kalam B-PER
+পি None I-PER
+জে None I-PER
+আব্দুল None I-PER
+কালাম None I-PER
+
+এ এ_পি_জে_আব্দুল_কালাম এ_পি_জে_আব্দুল_কালাম PER 0.999999974909 A._P._J._Abdul_Kalam B-PER
+পি None I-PER
+জে None I-PER
+আব্দুল None I-PER
+কালাম None I-PER
+
+এ এ_পি_জে_আব্দুল_কালাম এ_পি_জে_আব্দুল_কালাম PER 0.999999974909 A._P._J._Abdul_Kalam B-PER
+পি None I-PER
+জে None I-PER
+আব্দুল None I-PER
+কালাম None I-PER
+
+*১৯৮২ None O
+চনত None O
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভাৰ ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভাৰ None I-ORG
+দ্বাৰা None O
+“সাহিত্যাচাৰ্য” None O
+সন্মানেৰে None O
+বিভূষিত None O
+৷ None O
+
+শৰৎ শৰৎ_চন্দ্ৰ_সিংহ শৰৎ_চন্দ্ৰ_সিংহ PER 0.999994987852 Sarat_Chandra_Sinha B-PER
+চন্দ্ৰ None I-PER
+সিংহ None I-PER
+
+শৰৎ শৰৎ_চন্দ্ৰ_সিংহ শৰৎ_চন্দ্ৰ_সিংহ PER 0.999994987852 Sarat_Chandra_Sinha B-PER
+চন্দ্ৰ None I-PER
+সিংহ None I-PER
+
+ফখৰুদ্দিন ফখৰুদ্দিন_আলি_আহমেদ ফখৰুদ্দিন_আলি_আহমেদ PER 0.999999963633 Fakhruddin_Ali_Ahmed B-PER
+আলি None I-PER
+আহমেদ None I-PER
+
+শৰৎ শৰৎ_চন্দ্ৰ_সিংহ শৰৎ_চন্দ্ৰ_সিংহ PER 0.999994987852 Sarat_Chandra_Sinha B-PER
+চন্দ্ৰ None I-PER
+সিংহ None I-PER
+
+সংযুক্ত সংযুক্ত_মুক্তি_বাহিনী,_অসম সংযুক্ত_মুক্তি_বাহিনী,_অসম ORG 0.999772625296 United_Liberation_Front_of_Assam B-ORG
+মুক্তি None I-ORG
+বাহিনী None I-ORG
+, None I-ORG
+অসম None I-ORG
+
+গুৱাহাটী গুৱাহাটী_উচ্চ_ন্যায়ালয় গুৱাহাটী_উচ্চ_ন্যায়ালয় ORG 0.999785279916 Gauhati_High_Court B-ORG
+উচ্চ None I-ORG
+ন্যায়ালয় None I-ORG
+
+শৰৎ শৰৎ_চন্দ্ৰ_সিংহ শৰৎ_চন্দ্ৰ_সিংহ PER 0.999994987852 Sarat_Chandra_Sinha B-PER
+চন্দ্ৰ None I-PER
+সিংহ None I-PER
+
+ইয়াৰ None O
+উপৰিও None O
+ৰাজ্যখনৰ None O
+ব্বহুতো None O
+ঠাইত None O
+নেপালীভাষা নেপালী_ভাষা নেপালীভাষা ORG 0.575854866823 Newar_language B-ORG
+ব্যৱহাৰ None O
+কৰা None O
+হয়। None O
+
+জ্যোতি জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান ORG 0.73743568408 Jyoti_Chitraban_Film_and_Television_Institute B-ORG
+চিত্ৰবন None I-ORG
+চলচ্চিত্ৰ None I-ORG
+আৰু None I-ORG
+টেলিভিশ্যন None I-ORG
+প্ৰশিক্ষণ None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+বিমলা বিমলা_প্ৰসাদ_চলিহা বিমলা_প্ৰসাদ_চলিহা PER 0.99999511946 Bimala_Prasad_Chaliha B-PER
+প্ৰসাদ None I-PER
+চলিহা None I-PER
+/ None O
+মহেন্দ্ৰ মহেন্দ্ৰ_মোহন_চৌধুৰী মহেন্দ্ৰ_মোহন_চৌধুৰী PER 0.994295226107 Mahendra_Mohan_Choudhry B-PER
+মোহন None I-PER
+চৌধুৰী None I-PER
+
+গোলাপ গোলাপ_বৰবৰা গোলাপ_বৰবৰা PER 0.999935490375 Golap_Borbora B-PER
+বৰবৰা None I-PER
+/ None O
+যোগেন্দ্ৰ যোগেন্দ্ৰ_নাথ_হাজৰিকা যোগেন্দ্ৰ_নাথ_হাজৰিকা PER 0.972106432513 Jogendra_Nath_Hazarika B-PER
+নাথ None I-PER
+হাজৰিকা None I-PER
+
+লক্ষ্মীনাথ লক্ষ্মীনাথ_বেজবৰুৱা লক্ষ্মীনাথ_বেজবৰুৱা PER 0.972106432513 Lakshminath_Bezbaroa B-PER
+বেজবৰুৱা None I-PER
+( None O
+১৮৬৪-১৯৩৮ None O
+) None O
+
+চন্দ্ৰকুমাৰ চন্দ্ৰকুমাৰ_আগৰৱালা চন্দ্ৰকুমাৰ_আগৰৱালা PER 0.904055266507 Chandra_Kumar_Agarwala B-PER
+আগৰৱালা None I-PER
+( None O
+১৮৬৭-১৯৩৭ None O
+) None O
+
+হেমচন্দ্ৰ হেমচন্দ্ৰ_গোস্বামী হেমচন্দ্ৰ_গোস্বামী PER 0.904055266507 Hemchandra_Goswami B-PER
+গোস্বামী None I-PER
+( None O
+১৮৭২-১৯২৮ None O
+) None O
+
+পদ্মনাথ পদ্মনাথ_গোহাঞিবৰুৱা পদ্মনাথ_গোহাঞিবৰুৱা PER 0.997575111061 Padmanath_Gohain_Baruah B-PER
+গোহাঞিবৰুৱা None I-PER
+( None O
+১৮৭১-১৯৪৬ None O
+) None O
+
+সত্যনাথ সত্যনাথ_বৰা সত্যনাথ_বৰা PER 0.904055266507 Satyanath_Bora B-PER
+বৰা None I-PER
+( None O
+১৮৬০-১৯২৫ None O
+) None O
+
+কনকলাল কনকলাল_বৰুৱা কনকলাল_বৰুৱা PER 0.904055266507 Kanaklal_Barua B-PER
+বৰুৱা None I-PER
+( None O
+১৮৭২-১৯৪০ None O
+) None O
+
+আনন্দ আনন্দ_চন্দ্ৰ_আগৰৱালা আনন্দ_চন্দ্ৰ_আগৰৱালা PER 0.904055266507 Ananda_Chandra_Agarwala B-PER
+চন্দ্ৰ None I-PER
+আগৰৱালা None I-PER
+( None O
+১৮৭৪-১৯৪০ None O
+) None O
+
+নলিনীবালা নলিনীবালা_দেৱী নলিনীবালা_দেৱী PER 0.904055266507 Nalini_Bala_Devi B-PER
+দেৱী None I-PER
+( None O
+১৮৯৮-১৯৭৭ None O
+) None O
+
+ৰঘুনাথ ৰঘুনাথ_চৌধাৰী ৰঘুনাথ_চৌধাৰী PER 0.904055266507 Raghunath_Choudhary B-PER
+চৌধাৰী None I-PER
+( None O
+১৮৭৯-১৯৬৮ None O
+) None O
+
+অম্বিকাগিৰি অম্বিকাগিৰি_ৰায়চৌধুৰী অম্বিকাগিৰি_ৰায়চৌধুৰী PER 0.999484079917 Ambikagiri_Raichoudhury B-PER
+ৰায়চৌধুৰী None I-PER
+( None O
+১৮৮৫-১৯৬৭ None O
+) None O
+
+যতীন্দ্ৰ যতীন্দ্ৰ_নাথ_দুৱৰা যতীন্দ্ৰ_নাথ_দুৱৰা PER 0.904055266507 Jatindra_Nath_Duwara B-PER
+নাথ None I-PER
+দুৱৰা None I-PER
+( None O
+১৮৯২-১৯৬৪ None O
+) None O
+
+জয়মতী জয়মতী_(১৯৩৫_চলচ্চিত্ৰ) জয়মতী ORG 0.588470915693 Joymoti_(1935_film) B-ORG
+( None O
+১৯৩৫ None O
+) None O
+
+জ্যোতি জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান ORG 0.73743568408 Jyoti_Chitraban_Film_and_Television_Institute B-ORG
+চিত্ৰবন None I-ORG
+চলচ্চিত্ৰ None I-ORG
+আৰু None I-ORG
+টেলিভিশ্যন None I-ORG
+প্ৰশিক্ষণ None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+পি পি_ভি_নৰসিংহ_ৰাও পি_ভি_নৰসিংহ_ৰাও PER 0.999999387592 P._V._Narasimha_Rao B-PER
+ভি None I-PER
+নৰসিংহ None I-PER
+ৰাও None I-PER
+
+অতুল অতুল_চন্দ্ৰ_হাজৰিকা অতুল_চন্দ্ৰ_হাজৰিকা PER 0.997833129292 Atul_Chandra_Hazarika B-PER
+চন্দ্ৰ None I-PER
+হাজৰিকা None I-PER
+
+স্কাউ None O
+ভেলি None O
+, None O
+আমেৰিকা আমেৰিকা_যুক্তৰাষ্ট্ৰ আমেৰিকা_যুক্তৰাষ্ট্ৰ GPE 0.99999348198 United_States B-LOC
+যুক্তৰাষ্ট্ৰ None I-LOC
+
+অৰুণাচল অৰুণাচল_পশ্চিম_(লোকসভা_সমষ্টি) অৰুণাচল_পশ্চিম_(লোকসভা_সমষ্টি) ORG 0.90993920207 Arunachal_West_(Lok_Sabha_constituency) B-ORG
+পশ্চিম None I-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+নাগালেণ্ড নাগালেণ্ড_(লোকসভা_সমষ্টি) নাগালেণ্ড_(লোকসভা_সমষ্টি) ORG 0.90993920207 Nagaland_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+যোৰহাট যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় ORG 0.994526670519 Jorhat_Govt._Boys'_H.S_and_M.P._School B-ORG
+চৰকাৰী None I-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+আৰু None I-ORG
+বহুমুখী None I-ORG
+বালক None I-ORG
+বিদ্যালয় None I-ORG
+
+মিজোৰাম মিজোৰাম_(লোকসভা_সমষ্টি) মিজোৰাম_(লোকসভা_সমষ্টি) ORG 0.90993920207 Mizoram_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+যোৰহাট যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় ORG 0.994526670519 Jorhat_Govt._Boys'_H.S_and_M.P._School B-ORG
+চৰকাৰী None I-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+আৰু None I-ORG
+বহুমুখী None I-ORG
+বালক None I-ORG
+বিদ্যালয় None I-ORG
+
+অৰুণাচল অৰুণাচল_পূব_(লোকসভা_সমষ্টি) অৰুণাচল_পূব_(লোকসভা_সমষ্টি) ORG 0.90993920207 Arunachal_East_(Lok_Sabha_constituency) B-ORG
+পূব None I-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+অৰুণাচল অৰুণাচল_পশ্চিম_(লোকসভা_সমষ্টি) অৰুণাচল_পশ্চিম_(লোকসভা_সমষ্টি) ORG 0.90993920207 Arunachal_West_(Lok_Sabha_constituency) B-ORG
+পশ্চিম None I-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+৩৯ ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_39_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২ ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_52_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২ ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_52_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২এ ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_52A_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২এ ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_52A_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২এ ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_52A_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৩ ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_153_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৩ ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_153_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৩ ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_153_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৩ ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_153_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২ ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_52_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৭ ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+২২৯ ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_229_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+২২৯ ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_229_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+২২৯ ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_229_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৬ ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_36_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৬ ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_36_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৬ ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_36_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৯ ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_39_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৬ ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৬_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_36_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৮ ৩৮_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৮_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_38_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৯ ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_39_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৮ ৩৮_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৮_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_38_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৪৪ ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_44_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৪৪ ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_44_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৪৪ ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_44_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৮ ৩৮_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৮_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_38_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২ ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_52_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+২২৯ ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ২২৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_229_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৭ ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৭এ ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37A_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৪৪ ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৪৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_44_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২বি ৫২বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_52B_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫১ ৫১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_51_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৭এ ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37A_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+অসম অসম_ৰাজ্যিক_পৰিবহণ_নিগম অসম_ৰাজ্যিক_পৰিবহণ_নিগম ORG 0.999999736839 Assam_State_Transport_Corporation B-ORG
+ৰাজ্যিক None I-ORG
+পৰিবহণ None I-ORG
+নিগম None I-ORG
+
+৩৯ ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৯_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_39_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৭এ ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37A_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+চৈয়দা চৈয়দা_আনোৱাৰা_টাইমূৰ চৈয়দা_আনোৱাৰা_টাইমূৰ PER 0.999999999448 Anwara_Taimur B-PER
+আনোৱাৰা None I-PER
+টাইমূৰ None I-PER
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+বিমলা বিমলা_প্ৰসাদ_চলিহা বিমলা_প্ৰসাদ_চলিহা PER 0.99999511946 Bimala_Prasad_Chaliha B-PER
+প্ৰসাদ None I-PER
+চলিহা None I-PER
+
+যোগেন্দ্ৰ যোগেন্দ্ৰ_নাথ_হাজৰিকা যোগেন্দ্ৰ_নাথ_হাজৰিকা PER 0.972106432513 Jogendra_Nath_Hazarika B-PER
+নাথ None I-PER
+হাজৰিকা None I-PER
+
+ডিব্ৰুগড় ডিব্ৰুগড়_(লোকসভা_সমষ্টি) ডিব্ৰুগড়_(লোকসভা_সমষ্টি) ORG 0.90993920207 Dibrugarh_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+শিলচৰ শিলচৰ_(লোকসভা_সমষ্টি) শিলচৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Silchar_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+কোকৰাঝাৰ কোকৰাঝাৰ_(লোকসভা_সমষ্টি) কোকৰাঝাৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Kokrajhar_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+কৰিমগঞ্জ কৰিমগঞ্জ_(লোকসভা_সমষ্টি) কৰিমগঞ্জ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Karimganj_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+গুৱাহাটী গুৱাহাটী_(লোকসভা_সমষ্টি) গুৱাহাটী_(লোকসভা_সমষ্টি) ORG 0.90993920207 Gauhati_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+কলিয়াবৰ কলিয়াবৰ_(লোকসভা_সমষ্টি) কলিয়াবৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Kaliabor_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+মঙ্গলদৈ মঙ্গলদৈ_(লোকসভা_সমষ্টি) মঙ্গলদৈ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Mangaldoi_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+বৰপেটা বৰপেটা_(লোকসভা_সমষ্টি) বৰপেটা_(লোকসভা_সমষ্টি) ORG 0.90993920207 Barpeta_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+স্বায়ত্ব স্বায়ত্ব_শাসিত_জিলা_(লোকসভা_সমষ্টি) স্বায়ত্ব_শাসিত_জিলা_(লোকসভা_সমষ্টি) ORG 0.90993920207 Autonomous_District_(Lok_Sabha_constituency) B-ORG
+শাসিত None I-ORG
+জিলা None I-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+নগাঁও নগাঁও_(লোকসভা_সমষ্টি) নগাঁও_(লোকসভা_সমষ্টি) ORG 0.90993920207 Nowgong_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+লক্ষীমপুৰ লক্ষীমপুৰ_(লোকসভা_সমষ্টি) লক্ষীমপুৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Lakhimpur_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+অৰুণাচল অৰুণাচল_পূব_(লোকসভা_সমষ্টি) অৰুণাচল_পূব_(লোকসভা_সমষ্টি) ORG 0.90993920207 Arunachal_East_(Lok_Sabha_constituency) B-ORG
+পূব None I-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+তেজপুৰ তেজপুৰ_(লোকসভা_সমষ্টি) তেজপুৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Tezpur_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+নগাঁও নগাঁও_(লোকসভা_সমষ্টি) নগাঁও_(লোকসভা_সমষ্টি) ORG 0.90993920207 Nowgong_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+ধুবুৰী ধুবুৰী_(লোকসভা_সমষ্টি) ধুবুৰী_(লোকসভা_সমষ্টি) ORG 0.90993920207 Dhubri_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+এডৱাৰ্ড এডৱাৰ্ড_এলবাৰ্ট_গেইট এডৱাৰ্ড_এলবাৰ্ট_গেইট PER 0.999991076176 Edward_Albert_Gait B-PER
+এলবাৰ্ট None I-PER
+গেইট None I-PER
+
+ব্লু ব্লু_ৰে_ডিস্ক ব্লু_ৰে_ডিস্ক ORG 0.734924935788 Blu-ray B-ORG
+ৰে None I-ORG
+ডিস্ক None I-ORG
+
+অমৃতভূষণ অমৃতভূষণ_দেৱ_অধিকাৰী অমৃতভূষণ_দেৱ_অধিকাৰী PER 0.904055266507 Amrit_Bhushan_Dev_Adhikari B-PER
+দেৱ None I-PER
+অধিকাৰী None I-PER
+
+দূৰদৰ্শনত None O
+সম্প্ৰচাৰিত None O
+লুইত ৰুদ্ৰ_বৰুৱা লুইত_কোঁৱৰ__ৰুদ্ৰ_বৰুৱা PER 0.999206444276 Rudra_Baruah B-PER
+কোঁৱৰ None I-PER
+ৰুদ্ৰ None I-PER
+বৰুৱা None I-PER
+পৰিচালিত None O
+এখন None O
+নৃত্য-নাটিকাত None O
+অংশ None O
+লৈছিল। None O
+
+১৯৯৫ None O
+চনত None O
+জাহ্নু জাহ্নু_বৰুৱা জাহ্নু_বৰুৱাৰ PER 0.999994136643 Jahnu_Barua B-PER
+বৰুৱাৰ None I-PER
+নিৰ্দেশনাত None O
+সফলতাৰে None O
+`` None O
+Film None O
+Appreciation None O
+course None O
+'' None O
+ৰ None O
+প্ৰশিক্ষণ None O
+গ্ৰহণ None O
+কৰিছিল। None O
+
+' None O
+'' None O
+এছিয়া এছিয়া এছিয়া GPE 0.999999991553 Asia B-LOC
+'' None O
+' None O
+
+বড়ো বড়ো_সাহিত্য_সভা বড়ো_সাহিত্য_সভা ORG 0.578559409907 Bodo_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+লাচিত লাচিত_বৰফুকন লাচিত_বৰফুকন PER 0.994295226107 Lachit_Borphukan B-PER
+বৰফুকন None I-PER
+( None O
+লাখুৰাখুন None O
+ফৈদ None O
+) None O
+
+যোগেন্দ্ৰ যোগেন্দ্ৰ_নাথ_হাজৰিকা যোগেন্দ্ৰ_নাথ_হাজৰিকা PER 0.972106432513 Jogendra_Nath_Hazarika B-PER
+নাথ None I-PER
+হাজৰিকা None I-PER
+
+মফিজুদ্দিন মফিজুদ্দিন_আহমদ_হাজৰিকা মফিজুদ্দিন_আহমদ_হাজৰিকা PER 0.904055266507 Mafizuddin_Ahmed_Hazarika B-PER
+আহমদ None I-PER
+হাজৰিকা None I-PER
+
+কুমাৰ কুমাৰ_ভাস্কৰ_বৰ্মা কুমাৰ_ভাস্কৰ_বৰ্মা PER 0.972106432513 Bhaskar_Varman B-PER
+ভাস্কৰ None I-PER
+বৰ্মা None I-PER
+
+কুমাৰ কুমাৰ_ভাস্কৰ_বৰ্মা কুমাৰ_ভাস্কৰ_বৰ্মা PER 0.972106432513 Bhaskar_Varman B-PER
+ভাস্কৰ None I-PER
+বৰ্মা None I-PER
+
+কুমাৰ কুমাৰ_ভাস্কৰ_বৰ্মা কুমাৰ_ভাস্কৰ_বৰ্মা PER 0.972106432513 Bhaskar_Varman B-PER
+ভাস্কৰ None I-PER
+বৰ্মা None I-PER
+
+চৈয়দ চৈয়দ_আব্দুল_মালিক চৈয়দ_আব্দুল_মালিক PER 0.904055266507 Syed_Abdul_Malik B-PER
+আব্দুল None I-PER
+মালিক None I-PER
+
+( None O
+নেডাৰলেণ্ডছ None O
+/ None O
+বৰ্তমানৰ None O
+ইণ্ডোনেছিয়া ইণ্ডোনেছিয়া ইণ্ডোনেছিয়া GPE 0.999992948029 Indonesia B-LOC
+) None O
+
+নীলমণি নীলমণি_ফুকন_(জ্যেষ্ঠ) নীলমণি_ফুকন_(জ্যেষ্ঠ) PER 0.904055266507 Nilmoni_Phukan_(Senior) B-PER
+ফুকন None I-PER
+( None I-PER
+জ্যেষ্ঠ None I-PER
+) None I-PER
+
+অসমীয়া অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা ORG 0.998023430813 Oxomiya_Bhaxa_Unnati_Xadhini_Xobha B-ORG
+ভাষা None I-ORG
+উন্নতি None I-ORG
+সাধিনী None I-ORG
+সভা None I-ORG
+
+আনন্দ আনন্দ_চন্দ্ৰ_আগৰৱালা আনন্দ_চন্দ্ৰ_আগৰৱালা PER 0.904055266507 Ananda_Chandra_Agarwala B-PER
+চন্দ্ৰ None I-PER
+আগৰৱালা None I-PER
+
+বৰষা বৰষা_ৰাণী_বিষয়া বৰষা_ৰাণী_বিষয়া PER 0.972106432513 Barsha_Rani_Bishaya B-PER
+ৰাণী None I-PER
+বিষয়া None I-PER
+
+জে. জে._এম._কয়েৎজে জে._এম._কয়েৎজে PER 0.999999763121 J._M._Coetzee B-PER
+এম. None I-PER
+কয়েৎজে None I-PER
+
+সুভাষ সুভাষ_চন্দ্ৰ_বসু সুভাষ_চন্দ্ৰ_বসু PER 0.999999999998 Subhas_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+আন্দামান আন্দামান_আৰু_নিকোবৰ_দ্বীপপুঞ্জ আন্দামান_আৰু_নিকোবৰ_দ্বীপপুঞ্জ GPE 0.999999983398 Andaman_and_Nicobar_Islands B-LOC
+আৰু None I-LOC
+নিকোবৰ None I-LOC
+দ্বীপপুঞ্জ None I-LOC
+
+২০০৬ None O
+চনৰ None O
+শেষলৈকে None O
+ড'ৰে None O
+ভাৰতত ভাৰত ভাৰতত GPE 0.999991154923 India B-LOC
+৩৮ None O
+মিলিয়ন None O
+সংগ্ৰহ None O
+কৰে। None O
+
+জ্যোতি জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান ORG 0.73743568408 Jyoti_Chitraban_Film_and_Television_Institute B-ORG
+চিত্ৰবন None I-ORG
+চলচ্চিত্ৰ None I-ORG
+আৰু None I-ORG
+টেলিভিশ্যন None I-ORG
+প্ৰশিক্ষণ None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+সৌৰভ সৌৰভ_কুমাৰ_চলিহা সৌৰভ_কুমাৰ_চলিহা PER 0.904055266507 Saurabh_Kumar_Chaliha B-PER
+কুমাৰ None I-PER
+চলিহা None I-PER
+
+এম এম_জি_ৰামচন্দ্ৰন এম_জি_ৰামচন্দ্ৰন PER 0.999992931384 M._G._Ramachandran B-PER
+জি None I-PER
+ৰামচন্দ্ৰন None I-PER
+
+এম এম_জি_ৰামচন্দ্ৰন এম_জি_ৰামচন্দ্ৰন PER 0.999992931384 M._G._Ramachandran B-PER
+জি None I-PER
+ৰামচন্দ্ৰন None I-PER
+
+ৰঘূদেৱ None O
+( None O
+চিলাৰায়ৰ চিলাৰায় চিলাৰায়ৰ PER 0.999914726257 Chilarai B-PER
+পুত্ৰ None O
+) None O
+
+ছত্ৰপতি ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ORG 0.999998949541 Chhatrapati_Shivaji_Terminus B-ORG
+শিৱাজী None I-ORG
+টাৰ্মিনাছ None I-ORG
+
+ছত্ৰপতি ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ORG 0.999998949541 Chhatrapati_Shivaji_Terminus B-ORG
+শিৱাজী None I-ORG
+টাৰ্মিনাছ None I-ORG
+
+ছত্ৰপতি ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ORG 0.999998949541 Chhatrapati_Shivaji_Terminus B-ORG
+শিৱাজী None I-ORG
+টাৰ্মিনাছ None I-ORG
+
+ছত্ৰপতি ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ছত্ৰপতি_শিৱাজী_টাৰ্মিনাছ ORG 0.999998949541 Chhatrapati_Shivaji_Terminus B-ORG
+শিৱাজী None I-ORG
+টাৰ্মিনাছ None I-ORG
+
+৫৪ ৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_54_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫৪ ৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_54_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+ভীমৰাও ভীমৰাও_ৰামজী_আম্বেদকাৰ ভীমৰাও_ৰামজী_আম্বেদকাৰ PER 0.999999971149 B._R._Ambedkar B-PER
+ৰামজী None I-PER
+আম্বেদকাৰ None I-PER
+
+ভীমৰাও ভীমৰাও_ৰামজী_আম্বেদকাৰ ভীমৰাও_ৰামজী_আম্বেদকাৰ PER 0.999999971149 B._R._Ambedkar B-PER
+ৰামজী None I-PER
+আম্বেদকাৰ None I-PER
+
+৫৪ ৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_54_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১২৭ ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_152_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২এ ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_52A_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫২বি ৫২বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫২বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_52B_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫১ ৫১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_51_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+ভীমৰাও ভীমৰাও_ৰামজী_আম্বেদকাৰ ভীমৰাও_ৰামজী_আম্বেদকাৰ PER 0.999999971149 B._R._Ambedkar B-PER
+ৰামজী None I-PER
+আম্বেদকাৰ None I-PER
+
+৩১বি ৩১বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩১বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_31B_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩১চি ৩১চি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩১চি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_31C_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১২৭ ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_152_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩১বি ৩১বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩১বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_31B_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩১চি ৩১চি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩১চি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_31C_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩৭এ ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭এ_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37A_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৬১ ৬১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৬১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_61_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫১ ১৫১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫১_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_151_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+যোৰহাট যোৰহাট_মহাবিদ্যালয়_(একত্ৰিত) যোৰহাট_মহাবিদ্যালয়_(একত্ৰিত) ORG 0.999999994295 Jorhat_College_(Amalgamated) B-ORG
+মহাবিদ্যালয় None I-ORG
+( None I-ORG
+একত্ৰিত None I-ORG
+) None I-ORG
+
+৩১বি ৩১বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩১বি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_31B_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৩১চি ৩১চি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩১চি_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_31C_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+হেম হেম_বৰুৱা_(ত্যাগবীৰ) হেম_বৰুৱা_(ত্যাগবীৰ) PER 0.972106432513 Hem_Barua_(Tyagbir) B-PER
+বৰুৱা None I-PER
+( None I-PER
+ত্যাগবীৰ None I-PER
+) None I-PER
+
+হেম হেম_বৰুৱা_(ত্যাগবীৰ) হেম_বৰুৱা_(ত্যাগবীৰ) PER 0.972106432513 Hem_Barua_(Tyagbir) B-PER
+বৰুৱা None I-PER
+( None I-PER
+ত্যাগবীৰ None I-PER
+) None I-PER
+
+হেম হেম_বৰুৱা_(ত্যাগবীৰ) হেম_বৰুৱা_(ত্যাগবীৰ) PER 0.972106432513 Hem_Barua_(Tyagbir) B-PER
+বৰুৱা None I-PER
+( None I-PER
+ত্যাগবীৰ None I-PER
+) None I-PER
+
+হেম হেম_বৰুৱা_(ত্যাগবীৰ) হেম_বৰুৱা_(ত্যাগবীৰ) PER 0.972106432513 Hem_Barua_(Tyagbir) B-PER
+বৰুৱা None I-PER
+( None I-PER
+ত্যাগবীৰ None I-PER
+) None I-PER
+
+মফিজুদ্দিন মফিজুদ্দিন_আহমদ_হাজৰিকা মফিজুদ্দিন_আহমদ_হাজৰিকা PER 0.904055266507 Mafizuddin_Ahmed_Hazarika B-PER
+আহমদ None I-PER
+হাজৰিকা None I-PER
+
+বাৰেচহৰীয়া বাৰেচহৰীয়া_ভাওনা_মহোৎসৱ বাৰেচহৰীয়া_ভাওনা_মহোৎসৱ ORG 0.98939952047 Baresahariya_Bhaona B-ORG
+ভাওনা None I-ORG
+মহোৎসৱ None I-ORG
+
+বিধান বিধান_চন্দ্ৰ_ৰয় বিধান_চন্দ্ৰ_ৰয় PER 0.999999982548 Bidhan_Chandra_Roy B-PER
+চন্দ্ৰ None I-PER
+ৰয় None I-PER
+
+অৰুণা অৰুণা_আছফ_আলি অৰুণা_আছফ_আলি PER 0.999999987153 Aruna_Asaf_Ali B-PER
+আছফ None I-PER
+আলি None I-PER
+
+কুমাৰ কুমাৰ_স্বামী_কামৰাজ_নাদাৰ কুমাৰ_স্বামী_কামৰাজ_নাদাৰ PER 0.999999133517 K._Kamaraj B-PER
+স্বামী None I-PER
+কামৰাজ None I-PER
+নাদাৰ None I-PER
+
+পুৰুষোত্তম পুৰুষোত্তম_দাস_টেণ্ডন পুৰুষোত্তম_দাস_টেণ্ডন PER 0.999999652109 Purushottam_Das_Tandon B-PER
+দাস None I-PER
+টেণ্ডন None I-PER
+
+বৰাহগিৰি বৰাহগিৰি_ভেংকট_গিৰি বৰাহগিৰি_ভেংকট_গিৰি PER 0.999983689363 V._V._Giri B-PER
+ভেংকট None I-PER
+গিৰি None I-PER
+
+বৰাহগিৰি বৰাহগিৰি_ভেংকট_গিৰি বৰাহগিৰি_ভেংকট_গিৰি PER 0.999983689363 V._V._Giri B-PER
+ভেংকট None I-PER
+গিৰি None I-PER
+
+বৰাহগিৰি বৰাহগিৰি_ভেংকট_গিৰি বৰাহগিৰি_ভেংকট_গিৰি PER 0.999983689363 V._V._Giri B-PER
+ভেংকট None I-PER
+গিৰি None I-PER
+
+কুমাৰ কুমাৰ_স্বামী_কামৰাজ_নাদাৰ কুমাৰ_স্বামী_কামৰাজ_নাদাৰ PER 0.999999133517 K._Kamaraj B-PER
+স্বামী None I-PER
+কামৰাজ None I-PER
+নাদাৰ None I-PER
+
+এ এ_পি_জে_আব্দুল_কালাম এ_পি_জে_আব্দুল_কালাম PER 0.999999974909 A._P._J._Abdul_Kalam B-PER
+পি None I-PER
+জে None I-PER
+আব্দুল None I-PER
+কালাম None I-PER
+
+বৰাহগিৰি বৰাহগিৰি_ভেংকট_গিৰি বৰাহগিৰি_ভেংকট_গিৰি PER 0.999983689363 V._V._Giri B-PER
+ভেংকট None I-PER
+গিৰি None I-PER
+
+বৰাহগিৰি বৰাহগিৰি_ভেংকট_গিৰি বৰাহগিৰি_ভেংকট_গিৰি PER 0.999983689363 V._V._Giri B-PER
+ভেংকট None I-PER
+গিৰি None I-PER
+
+খান খান_আব্দুল_গফ্ফৰ_খান খান_আব্দুল_গফ্ফৰ_খান PER 0.999959411778 Khan_Abdul_Ghaffar_Khan B-PER
+আব্দুল None I-PER
+গফ্ফৰ None I-PER
+খান খান_আব্দুল_গফ্ফৰ_খান খান_আব্দুল_গফ্ফৰ_খান PER 0.999959411778 Khan_Abdul_Ghaffar_Khan B-PER
+
+শ্ৰীমন্ত শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ ORG 0.698201668704 Srimanta_Sankardev_Kalakshetra B-ORG
+শংকৰদেৱ None I-ORG
+কলাক্ষেত্ৰ None I-ORG
+
+শ্ৰীমন্ত শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ ORG 0.698201668704 Srimanta_Sankardev_Kalakshetra B-ORG
+শংকৰদেৱ None I-ORG
+কলাক্ষেত্ৰ None I-ORG
+
+শ্ৰীমন্ত শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ ORG 0.698201668704 Srimanta_Sankardev_Kalakshetra B-ORG
+শংকৰদেৱ None I-ORG
+কলাক্ষেত্ৰ None I-ORG
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+আবুল আবুল_কালাম_আজাদ আবুল_কালাম_আজাদ PER 0.999998617153 Abul_Kalam_Azad B-PER
+কালাম None I-PER
+আজাদ None I-PER
+
+সুন্দৰবন সুন্দৰবন_ৰাষ্ট্ৰীয়_উদ্যান সুন্দৰবন_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.866524327852 Sundarbans_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+সুন্দৰবন সুন্দৰবন_ৰাষ্ট্ৰীয়_উদ্যান সুন্দৰবন_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.866524327852 Sundarbans_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+কেওলাদেও কেওলাদেও_ৰাষ্ট্ৰীয়_উদ্যান কেওলাদেও_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.512986739619 Keoladeo_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+কেওলাদেও কেওলাদেও_ৰাষ্ট্ৰীয়_উদ্যান কেওলাদেও_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.512986739619 Keoladeo_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+খান খান_আব্দুল_গফ্ফৰ_খান খান_আব্দুল_গফ্ফৰ_খান PER 0.999959411778 Khan_Abdul_Ghaffar_Khan B-PER
+আব্দুল None I-PER
+গফ্ফৰ None I-PER
+খান খান_আব্দুল_গফ্ফৰ_খান খান_আব্দুল_গফ্ফৰ_খান PER 0.999959411778 Khan_Abdul_Ghaffar_Khan B-PER
+
+কেওলাদেও কেওলাদেও_ৰাষ্ট্ৰীয়_উদ্যান কেওলাদেও_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.512986739619 Keoladeo_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+তিনিচুকীয়া তিনিচুকীয়া_জিলা তিনিচুকীয়া_জিলা GPE 0.999999999886 Tinsukia_district B-LOC
+জিলা None I-LOC
+, None O
+ডিব্ৰুগড় ডিব্ৰুগড়_জিলা ডিব্ৰুগড়_জিলা GPE 0.977640974964 Dibrugarh_district B-LOC
+জিলা None I-LOC
+, None O
+গোলাঘাট গোলাঘাট_জিলা গোলাঘাট_জিলা GPE 0.99999999999 Golaghat_district B-LOC
+জিলা None I-LOC
+, None O
+শিৱসাগৰ শিৱসাগৰ_জিলা শিৱসাগৰ_জিলা GPE 0.99999570246 Sivasagar_district B-LOC
+জিলা None I-LOC
+, None O
+যোৰহাট যোৰহাট_জিলা যোৰহাট_জিলা GPE 0.999999997796 Jorhat_district B-LOC
+জিলা None I-LOC
+
+ডিব্ৰুগড় ডিব্ৰুগড়_জিলা ডিব্ৰুগড়_জিলা GPE 0.977640974964 Dibrugarh_district B-LOC
+জিলা None I-LOC
+, None O
+তিনিচুকীয়া তিনিচুকীয়া_জিলা তিনিচুকীয়া_জিলা GPE 0.999999999886 Tinsukia_district B-LOC
+জিলা None I-LOC
+
+যোৰহাট যোৰহাট_জিলা যোৰহাট_জিলা GPE 0.999999997796 Jorhat_district B-LOC
+জিলা None I-LOC
+, None O
+শিৱসাগৰ শিৱসাগৰ_জিলা শিৱসাগৰ_জিলা GPE 0.99999570246 Sivasagar_district B-LOC
+জিলা None I-LOC
+
+শিৱসাগৰ শিৱসাগৰ_জিলা শিৱসাগৰ_জিলা GPE 0.99999570246 Sivasagar_district B-LOC
+জিলা None I-LOC
+, None O
+ডিব্ৰুগড় ডিব্ৰুগড়_জিলা ডিব্ৰুগড়_জিলা GPE 0.977640974964 Dibrugarh_district B-LOC
+জিলা None I-LOC
+
+c. None O
+coturnix None O
+'' None O
+আফ্ৰিকা আফ্ৰিকা আফ্ৰিকা GPE 1.0 Africa B-LOC
+আৰু None O
+ভাৰতত ভাৰত ভাৰতত GPE 0.999991154923 India B-LOC
+পোৱা None O
+যায় None O
+
+মানস মানস_ৰাষ্ট্ৰীয়_উদ্যান মানস_ৰাষ্ট্ৰীয়_উদ্যান ORG 0.784313716815 Manas_National_Park B-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+উদ্যান None I-ORG
+
+জয়মতী জয়মতী_(১৯৩৫_চলচ্চিত্ৰ) জয়মতী_(১৯৩৫_চলচ্চিত্ৰ) ORG 0.588470915693 Joymoti_(1935_film) B-ORG
+( None I-ORG
+১৯৩৫ None I-ORG
+চলচ্চিত্ৰ None I-ORG
+) None I-ORG
+
+দেশ দেশ_অনুসৰি_বিশ্ব_ঐতিহ্যবাহী_ক্ষেত্ৰৰ_তালিকা দেশ_অনুসৰি_বিশ্ব_ঐতিহ্যবাহী_ক্ষেত্ৰৰ_তালিকা ORG 0.735896233861 Table_of_World_Heritage_Sites_by_country B-ORG
+অনুসৰি None I-ORG
+বিশ্ব None I-ORG
+ঐতিহ্যবাহী None I-ORG
+ক্ষেত্ৰৰ None I-ORG
+তালিকা None I-ORG
+
+দেশ দেশ_অনুসৰি_বিশ্ব_ঐতিহ্যবাহী_ক্ষেত্ৰৰ_তালিকা দেশ_অনুসৰি_বিশ্ব_ঐতিহ্যবাহী_ক্ষেত্ৰৰ_তালিকা ORG 0.735896233861 Table_of_World_Heritage_Sites_by_country B-ORG
+অনুসৰি None I-ORG
+বিশ্ব None I-ORG
+ঐতিহ্যবাহী None I-ORG
+ক্ষেত্ৰৰ None I-ORG
+তালিকা None I-ORG
+
+ভাৰতৰ ভাৰতৰ_ৰাজ্যিক_জন্তুসমূহৰ_তালিকা ভাৰতৰ_ৰাজ্যিক_জন্তুসমূহৰ_তালিকা GPE 0.517210589207 List_of_Indian_state_animals B-LOC
+ৰাজ্যিক None I-LOC
+জন্তুসমূহৰ None I-LOC
+তালিকা None I-LOC
+
+ভাৰতৰ ভাৰতৰ_ৰাজ্যিক_জন্তুসমূহৰ_তালিকা ভাৰতৰ_ৰাজ্যিক_জন্তুসমূহৰ_তালিকা GPE 0.517210589207 List_of_Indian_state_animals B-LOC
+ৰাজ্যিক None I-LOC
+জন্তুসমূহৰ None I-LOC
+তালিকা None I-LOC
+
+১২৭ ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_152_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১২৭ ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_152_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৪ ১৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_154_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৪ ১৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_154_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫৩ ৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_53_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+৫৩ ৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_53_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+১৫৪ ১৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১৫৪_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_154_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+আনন্দিতা আনন্দিতা_দত্ত_তামূলী আনন্দিতা_দত্ত_তামূলী PER 0.999998505389 Anandita_Dutta_Tamuly B-PER
+দত্ত None I-PER
+তামূলী None I-PER
+
+মনালিচা মনালিচা_বৰুৱা_মেহতা মনালিচা_বৰুৱা_মেহতা PER 0.999994080252 Monalisa_Baruah_Mehta B-PER
+বৰুৱা None I-PER
+মেহতা None I-PER
+
+১২৭ ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ১২৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.734924935788 National_Highway_152_(India) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+৫৩ ৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৫৩_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_53_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+মনালিচা মনালিচা_বৰুৱা_মেহতা মনালিচা_বৰুৱা_মেহতা PER 0.999994080252 Monalisa_Baruah_Mehta B-PER
+বৰুৱা None I-PER
+মেহতা None I-PER
+
+ফিয়েনছে None O
+কয় None O
+যে None O
+ডেনিয়েল ডেনিয়েল_ৰেডক্লিফ ডেনিয়েল_ৰেডক্লিফে PER 0.999999935929 Daniel_Radcliffe B-PER
+ৰেডক্লিফে None I-PER
+ৰুপায়ন None O
+কৰা None O
+হেৰীৰ None O
+
+*গীতৰ None O
+কণ্ঠ None O
+- None O
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+
+হয়গ্ৰীৱ হয়গ্ৰীৱ_মাধৱ_মন্দিৰ হয়গ্ৰীৱ_মাধৱ_মন্দিৰ ORG 0.998560648118 Hayagriva_Madhava_Temple B-ORG
+মাধৱ None I-ORG
+মন্দিৰ None I-ORG
+
+প্ৰমথেশ প্ৰমথেশ_চন্দ্ৰ_বৰুৱা প্ৰমথেশ_চন্দ্ৰ_বৰুৱা PER 0.999998906652 Pramathesh_Barua B-PER
+চন্দ্ৰ None I-PER
+বৰুৱা None I-PER
+
+ঢেকীয়াখোৱা ঢেকীয়াখোৱা_বৰ_নামঘৰ ঢেকীয়াখোৱা_বৰ_নামঘৰ GPE 0.86679725848 Dhekiakhowa_Bornamghar B-LOC
+বৰ None I-LOC
+নামঘৰ None I-LOC
+
+কিৰিপ কিৰিপ_চলিহা কিৰিপ_চলিহা PER 0.999999926606 Kirip_Chaliha B-PER
+চলিহা None I-PER
+( None O
+অতিথি None O
+শিল্পী None O
+) None O
+
+চেতনা চেতনা_দাস চেতনা_দাস PER 0.999994962196 Chetana_Das B-PER
+দাস None I-PER
+( None O
+অতিথি None O
+শিল্পী None O
+) None O
+
+প্ৰস্তুতি প্ৰস্তুতি_পৰাশৰ প্ৰস্তুতি_পৰাশৰ PER 0.994295226107 Prastuti_Parashar B-PER
+পৰাশৰ None I-PER
+( None O
+অতিথি None O
+শিল্পী None O
+) None O
+
+নিপন নিপন_গোস্বামী নিপন_গোস্বামী PER 0.999994962196 Nipon_Goswami B-PER
+গোস্বামী None I-PER
+( None O
+হৰিপ্ৰসন্ন None O
+, None O
+মধুকৃষ্ণৰ None O
+দেউতাক None O
+) None O
+
+চলচ্চিত্ৰখন None O
+ড০ None O
+ভূপেন ভূপেন_হাজৰিকা ভূপেন_হাজৰিকাৰ PER 0.999999976156 Bhupen_Hazarika B-PER
+হাজৰিকাৰ None I-PER
+নামত None O
+উৎসৰ্গা None O
+কৰা None O
+হয়। None O
+
+মলয়া মলয়া_গোস্বামী মলয়া_গোস্বামী PER 0.999994962196 Moloya_Goswami B-PER
+গোস্বামী None I-PER
+( None O
+চৰিত্ৰ- None O
+জয়মতী জয়মতী_কুঁৱৰী জয়মতী_কুঁৱৰী PER 0.972106432513 Joymoti_Konwari B-PER
+কুঁৱৰী None I-PER
+) None O
+
+*শ্ৰেষ্ঠ None O
+সহ-অভিনেত্ৰী None O
+- None O
+মলয়া মলয়া_গোস্বামী মলয়া_গোস্বামী PER 0.999994962196 Moloya_Goswami B-PER
+গোস্বামী None I-PER
+
+কাশ্মীৰি কাশ্মীৰি_শইকীয়া_বৰুৱা কাশ্মীৰি_শইকীয়া_বৰুৱা PER 0.972106432513 Kashmiri_Saikia_Baruah B-PER
+শইকীয়া None I-PER
+বৰুৱা None I-PER
+
+১৩১২ None O
+বঙ্গাব্দ None O
+, None O
+নিগমানন্দই None O
+অসমৰ অসম অসমৰ GPE 0.946214686529 Assam B-LOC
+( None O
+বৰ্তমান None O
+মেঘালয় মেঘালয় মেঘালয় GPE 0.999999999888 Meghalaya B-LOC
+) None O
+গাৰোহিলত None O
+এখন None O
+যোগ None O
+আশ্ৰম None O
+প্ৰতিষ্ঠা None O
+কৰে। None O
+
+বাৰেচহৰীয়া বাৰেচহৰীয়া_ভাওনা_মহোৎসৱ বাৰেচহৰীয়া_ভাওনা_মহোৎসৱ ORG 0.98939952047 Baresahariya_Bhaona B-ORG
+ভাওনা None I-ORG
+মহোৎসৱ None I-ORG
+
+ভূমি ভূমি_(অৰ্থনীতি) ভূমি_(অৰ্থনীতি) ORG 0.541423846247 Land_(economics) B-ORG
+( None I-ORG
+অৰ্থনীতি None I-ORG
+) None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভাৰ ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভাৰ None I-ORG
+দ্বাৰা None O
+পুৰস্কৃত None O
+
+ডি. ডি._ৱাই._৩৬৫ ডি._ৱাই._৩৬৫ ORG 0.99999999386 DY_365 B-ORG
+ৱাই. None I-ORG
+৩৬৫ None I-ORG
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+জনসংখ্যা জনসংখ্যা_অনুসৰি_ভাৰতৰ_জিলাসমূহৰ_তালিকা জনসংখ্যা_অনুসৰি_ভাৰতৰ_জিলাসমূহৰ_তালিকা ORG 0.734924935788 List_of_districts_in_India_by_population B-ORG
+অনুসৰি None I-ORG
+ভাৰতৰ None I-ORG
+জিলাসমূহৰ None I-ORG
+তালিকা None I-ORG
+
+বুঢ়ী বুঢ়ী_আইৰ_সাধু বুঢ়ী_আইৰ_সাধু ORG 0.734924935788 Burhi_Aai'r_Xadhu B-ORG
+আইৰ None I-ORG
+সাধু None I-ORG
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+অসম অসম_ৰাজ্যিক_পৰিবহণ_নিগম অসম_ৰাজ্যিক_পৰিবহণ_নিগম ORG 0.999999736839 Assam_State_Transport_Corporation B-ORG
+ৰাজ্যিক None I-ORG
+পৰিবহণ None I-ORG
+নিগম None I-ORG
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+অসমৰ অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Assam B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+জে. জে._কে._ৰাউলিং জে._কে._ৰাউলিং PER 1.0 J._K._Rowling B-PER
+কে. None I-PER
+ৰাউলিং None I-PER
+
+আই আই_চি_চি_বিশ্ব_টুৱেন্টি২০ আই_চি_চি_বিশ্ব_টুৱেন্টি২০ GPE 0.679699169051 ICC_World_Twenty20 B-LOC
+চি None I-LOC
+চি None I-LOC
+বিশ্ব None I-LOC
+টুৱেন্টি২০ None I-LOC
+
+১৯৯৫ None O
+, None O
+ফিল্মফেয়াৰ ফিল্মফেয়াৰ ফিল্মফেয়াৰ ORG 0.999963664382 Filmfare B-ORG
+লাক্স None O
+নতুন None O
+মুখ None O
+বঁটা- None O
+''আগ None O
+'' None O
+
+ঘিলামৰা ঘিলামৰা_নগৰ_উচ্চতৰ_মাধ্যমিক_বিদ্যালয় ঘিলামৰা_নগৰ_উচ্চতৰ_মাধ্যমিক_বিদ্যালয় ORG 0.994526670519 Ghilamara_Town_HS_School B-ORG
+নগৰ None I-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+বিদ্যালয় None I-ORG
+
+ঘিলামৰা ঘিলামৰা_নগৰ_উচ্চতৰ_মাধ্যমিক_বিদ্যালয় ঘিলামৰা_নগৰ_উচ্চতৰ_মাধ্যমিক_বিদ্যালয় ORG 0.994526670519 Ghilamara_Town_HS_School B-ORG
+নগৰ None I-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+বিদ্যালয় None I-ORG
+
+আদিল আদিল_হুছেইন আদিল_হুছেইন PER 0.972106432513 Adil_Hussain B-PER
+হুছেইন None I-PER
+, None O
+অংগৰাগ অংগৰাগ_মহন্ত অংগৰাগ_মহন্ত PER 0.999999392947 Angaraag_Mahanta B-PER
+মহন্ত None I-PER
+, None O
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+
+আদিল আদিল_হুছেইন আদিল_হুছেইন PER 0.972106432513 Adil_Hussain B-PER
+হুছেইন None I-PER
+, None O
+জেৰিফা জেৰিফা_ৱাহিদ জেৰিফা_ৱাহিদ PER 0.999994962196 Zerifa_Wahid B-PER
+ৱাহিদ None I-PER
+, None O
+কপিল কপিল_বৰা কপিল_বৰা PER 0.972106432513 Kopil_Bora B-PER
+বৰা None I-PER
+
+এ এ_টি_এম এ_টি_এম ORG 0.734924935788 Cash_machine B-ORG
+টি None I-ORG
+এম None I-ORG
+
+ছেইণ্ট ছেইণ্ট_পিটাৰ্ছ_বেছিলিকা ছেইণ্ট_পিটাৰ্ছ_বেছিলিকা ORG 0.999999301913 St._Peter's_Basilica B-ORG
+পিটাৰ্ছ None I-ORG
+বেছিলিকা None I-ORG
+
+হোমি হোমি_জেহাঙ্গীৰ_ভাভা হোমি_জেহাঙ্গীৰ_ভাভা PER 0.999889004816 Homi_J._Bhabha B-PER
+জেহাঙ্গীৰ None I-PER
+ভাভা None I-PER
+
+ইষ্ট ইষ্ট_ইণ্ডিয়া_কোম্পানী ইষ্ট_ইণ্ডিয়া_কোম্পানী ORG 0.999967980003 East_India_Company B-ORG
+ইণ্ডিয়া None I-ORG
+কোম্পানী None I-ORG
+
+হোমি হোমি_জেহাঙ্গীৰ_ভাভা হোমি_জেহাঙ্গীৰ_ভাভা PER 0.999889004816 Homi_J._Bhabha B-PER
+জেহাঙ্গীৰ None I-PER
+ভাভা None I-PER
+
+ছেইণ্ট ছেইণ্ট_পিটাৰ্ছ_বেছিলিকা ছেইণ্ট_পিটাৰ্ছ_বেছিলিকা ORG 0.999999301913 St._Peter's_Basilica B-ORG
+পিটাৰ্ছ None I-ORG
+বেছিলিকা None I-ORG
+
+দীপক দীপক_চন্দ্ৰ_জৈন দীপক_চন্দ্ৰ_জৈন PER 0.999999765555 Dipak_C._Jain B-PER
+চন্দ্ৰ None I-PER
+জৈন None I-PER
+
+হোমি হোমি_জেহাঙ্গীৰ_ভাভা হোমি_জেহাঙ্গীৰ_ভাভা PER 0.999889004816 Homi_J._Bhabha B-PER
+জেহাঙ্গীৰ None I-PER
+ভাভা None I-PER
+
+হয়গ্ৰীৱ হয়গ্ৰীৱ_মাধৱ_মন্দিৰ হয়গ্ৰীৱ_মাধৱ_মন্দিৰ ORG 0.998560648118 Hayagriva_Madhava_Temple B-ORG
+মাধৱ None I-ORG
+মন্দিৰ None I-ORG
+
+দীপক দীপক_চন্দ্ৰ_জৈন দীপক_চন্দ্ৰ_জৈন PER 0.999999765555 Dipak_C._Jain B-PER
+চন্দ্ৰ None I-PER
+জৈন None I-PER
+
+ইণ্ডিয়ান ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ORG 0.998540153445 Indian_Premier_League B-ORG
+প্ৰীমিয়াৰ None I-ORG
+লীগ None I-ORG
+
+নাথান নাথান_ব্ৰাউন নাথান_ব্ৰাউন PER 0.999998109617 Nathan_Brown_(missionary) B-PER
+ব্ৰাউন None I-PER
+( None O
+প্ৰতিষ্ঠাপক None O
+সম্পাদক None O
+) None O
+
+অনুৰাধা অনুৰাধা_শৰ্মা_পূজাৰী অনুৰাধা_শৰ্মা_পূজাৰী PER 0.999999251762 Anuradha_Sharma_Pujari B-PER
+শৰ্মা None I-PER
+পূজাৰী None I-PER
+, None O
+পূৰ্বৰ None O
+সম্পাদক None O
+হোমেন হোমেন_বৰগোহাঞি হোমেন_বৰগোহাঞি PER 0.999998920287 Homen_Borgohain B-PER
+বৰগোহাঞি None I-PER
+
+প্ৰস্তুতি প্ৰস্তুতি_পৰাশৰ প্ৰস্তুতি_পৰাশৰ PER 0.994295226107 Prastuti_Parashar B-PER
+পৰাশৰ None I-PER
+( None O
+অতিথি None O
+শিল্পী None O
+) None O
+
+ইণ্ডিয়ান ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ORG 0.998540153445 Indian_Premier_League B-ORG
+প্ৰীমিয়াৰ None I-ORG
+লীগ None I-ORG
+
+ইণ্ডিয়ান ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ORG 0.998540153445 Indian_Premier_League B-ORG
+প্ৰীমিয়াৰ None I-ORG
+লীগ None I-ORG
+
+ইণ্ডিয়ান ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ইণ্ডিয়ান_প্ৰীমিয়াৰ_লীগ ORG 0.998540153445 Indian_Premier_League B-ORG
+প্ৰীমিয়াৰ None I-ORG
+লীগ None I-ORG
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+নীলা নীলা_ভান্দা_(অৰ্কিড) নীলা_ভান্দা_(অৰ্কিড) GPE 0.679699169051 Vanda_coerulea B-LOC
+ভান্দা None I-LOC
+( None I-LOC
+অৰ্কিড None I-LOC
+) None I-LOC
+
+পানী পানী_দিহিং_অভয়াৰণ্য পানী_দিহিং_অভয়াৰণ্য GPE 0.605228959361 Pani_Dihing_Wildlife_Sanctuary B-LOC
+দিহিং None I-LOC
+অভয়াৰণ্য None I-LOC
+
+শিৱ শিৱ_প্ৰসাদ_বৰুৱা শিৱ_প্ৰসাদ_বৰুৱা PER 0.999999826638 Siva_Prasad_Barooah B-PER
+প্ৰসাদ None I-PER
+বৰুৱা None I-PER
+
+পাব্‌ল পাব্‌ল'_পিকাছ' পাব্‌ল'_পিকাছ' PER 0.999999645966 Pablo_Picasso B-PER
+' None I-PER
+পিকাছ None I-PER
+' None I-PER
+
+ৰিছাৰ্চ ৰিছাৰ্চ_এণ্ড_এনালাইছিছ_ৱিং ৰিছাৰ্চ_এণ্ড_এনালাইছিছ_ৱিং ORG 1.0 Research_and_Analysis_Wing B-ORG
+এণ্ড None I-ORG
+এনালাইছিছ None I-ORG
+ৱিং None I-ORG
+
+ৰিছাৰ্চ ৰিছাৰ্চ_এণ্ড_এনালাইছিছ_ৱিং ৰিছাৰ্চ_এণ্ড_এনালাইছিছ_ৱিং ORG 1.0 Research_and_Analysis_Wing B-ORG
+এণ্ড None I-ORG
+এনালাইছিছ None I-ORG
+ৱিং None I-ORG
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+নাগৰহ'লে নাগৰহ'লে_ৰাষ্ট্ৰীয়_উদ্যান নাগৰহ'লে_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.99999994847 Nagarhole_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+বড়োলেণ্ড বড়োলেণ্ড_পিপলছ_ফ্ৰন্ট বড়োলেণ্ড_পিপলছ_ফ্ৰন্ট ORG 0.999876141594 Bodoland_People's_Front B-ORG
+পিপলছ None I-ORG
+ফ্ৰন্ট None I-ORG
+
+ভাৰ্গিজ ভাৰ্গিজ_কুৰিয়েন ভাৰ্গিজ_কুৰিয়েন PER 0.999973157547 Verghese_Kurien B-PER
+কুৰিয়েন None I-PER
+GCMMF None O
+ৰ None O
+প্ৰতিষ্ঠাৰে None O
+পৰা None O
+প্ৰায় None O
+৩০ None O
+বছৰকাল None O
+( None O
+১৯৭৩-২০০৬ None O
+) None O
+চেয়াৰমেন None O
+হৈ None O
+আছিল। None O
+আমুলৰ None O
+সফলতাৰ None O
+আঁৰত None O
+কুৰিয়েনৰ None O
+অৱদান None O
+আছিল None O
+উল্লেখযোগ্য। None O
+
+ডিজেল ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ORG 0.999975885255 Diesel_Locomotive_Works B-ORG
+ৰেল None I-ORG
+ইঞ্জিন None I-ORG
+কাৰখানা None I-ORG
+
+ডিজেল ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ORG 0.999975885255 Diesel_Locomotive_Works B-ORG
+ৰেল None I-ORG
+ইঞ্জিন None I-ORG
+কাৰখানা None I-ORG
+
+ডিজেল ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ORG 0.999975885255 Diesel_Locomotive_Works B-ORG
+ৰেল None I-ORG
+ইঞ্জিন None I-ORG
+কাৰখানা None I-ORG
+
+ডিজেল ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ডিজেল_ৰেল_ইঞ্জিন_কাৰখানা ORG 0.999975885255 Diesel_Locomotive_Works B-ORG
+ৰেল None I-ORG
+ইঞ্জিন None I-ORG
+কাৰখানা None I-ORG
+
+ৰাষ্ট্ৰীয় ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ORG 0.999999992396 National_Institute_of_Technology,_Silchar B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+শিলচৰ None I-ORG
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+আল্‌ফ্ৰেড আল্‌ফ্ৰেড'_ডি_ষ্টিফান' আল্‌ফ্ৰেড'_ডি_ষ্টিফান' PER 0.999999991388 Alfredo_Di_Stéfano B-PER
+' None I-PER
+ডি None I-PER
+ষ্টিফান None I-PER
+' None I-PER
+
+আল্‌ফ্ৰেড আল্‌ফ্ৰেড'_ডি_ষ্টিফান' আল্‌ফ্ৰেড'_ডি_ষ্টিফান' PER 0.999999991388 Alfredo_Di_Stéfano B-PER
+' None I-PER
+ডি None I-PER
+ষ্টিফান None I-PER
+' None I-PER
+
+সন্দিকৈ সন্দিকৈ_ছোৱালী_মহাবিদ্যালয় সন্দিকৈ_ছোৱালী_মহাবিদ্যালয় ORG 0.999999999306 Handique_Girls_College B-ORG
+ছোৱালী None I-ORG
+মহাবিদ্যালয় None I-ORG
+
+চত্তীছগড়ৰ চত্তীছগড়ৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা চত্তীছগড়ৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Chhattisgarh B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+উত্তৰাখণ্ডৰ উত্তৰাখণ্ডৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা উত্তৰাখণ্ডৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Uttarakhand B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+ত্ৰিপুৰাৰ ত্ৰিপুৰাৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ত্ৰিপুৰাৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Tripura B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+সন্মানীয় None O
+অধ্যাপক None O
+, None O
+জৱাহৰলাল জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ জৱাহৰলাল_নেহৰু_উন্নত_বৈজ্ঞানিক_গৱেষণা_কেন্দ্ৰ ORG 0.999999930513 Jawaharlal_Nehru_Centre_for_Advanced_Scientific_Research B-ORG
+নেহৰু None I-ORG
+উন্নত None I-ORG
+বৈজ্ঞানিক None I-ORG
+গৱেষণা None I-ORG
+কেন্দ্ৰ None I-ORG
+, None O
+বাংগালোৰ বাংগালোৰ বাংগালোৰ GPE 1.0 Bangalore B-LOC
+( None O
+১৯৯৮-২০০১ None O
+) None O
+। None O
+
+' None O
+'' None O
+ধোঁৱাচাং None O
+' None O
+'' None O
+অসমৰ অসম অসমৰ GPE 0.946214686529 Assam B-LOC
+গাঁৱৰ None O
+মানুহৰ None O
+বাবে None O
+অপৰিহাৰ্য None O
+সামগ্ৰী None O
+বিশেষ। None O
+ঘৰৰ None O
+জুহাল None O
+বা None O
+ৰান্ধনিশালৰ None O
+ওপৰত None O
+চাৰিটাকৈ None O
+খুটি None O
+পুতি None O
+নাইবা None O
+বিশেষ None O
+পদ্ধতিৰে None O
+ধোঁৱাচাংখন None O
+ওলমাই None O
+ৰখাই None O
+হয়। None O
+ই None O
+প্ৰায় None O
+দুইৰ None O
+পৰা None O
+চাৰি None O
+খলপীয়া None O
+হয়। None O
+
+''কংগ্ৰেছ None O
+'' None O
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+''কংগ্ৰেছ None O
+'' None O
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+''কংগ্ৰেছ None O
+'' None O
+ভাৰতীয় ভাৰতীয়_জাতীয়_কংগ্ৰেছ ভাৰতীয়_জাতীয়_কংগ্ৰেছ ORG 0.892923283891 Indian_National_Congress B-ORG
+জাতীয় None I-ORG
+কংগ্ৰেছ None I-ORG
+
+অমৰ অমৰ_সিং_(ক্ৰিকেটাৰ) অমৰ_সিং_(ক্ৰিকেটাৰ) PER 0.999917535682 Amar_Singh_(cricketer) B-PER
+সিং None I-PER
+( None I-PER
+ক্ৰিকেটাৰ None I-PER
+) None I-PER
+
+ডাল None O
+হ্ৰদ None O
+, None O
+জম্মু জম্মু_আৰু_কাশ্মীৰ জম্মু_আৰু_কাশ্মীৰ GPE 0.999999999334 Jammu_and_Kashmir B-LOC
+আৰু None I-LOC
+কাশ্মীৰ None I-LOC
+
+আপাৰ None O
+হ্ৰদ None O
+( None O
+ভুপাল None O
+) None O
+, None O
+মধ্য মধ্য_প্ৰদেশ মধ্য_প্ৰদেশ GPE 0.946350775741 Madhya_Pradesh B-LOC
+প্ৰদেশ None I-LOC
+
+) None O
+, None O
+ই None O
+শিলচৰৰ শিলচৰ শিলচৰৰ GPE 1.0 Silchar B-LOC
+পৰা None O
+২০ None O
+কি.মি None O
+. None O
+
+নিলগৰ None O
+দৰ্গাকনাত None O
+অৱ্স্থিত None O
+, None O
+আনহাতেদি None O
+বিশ্ববিদ্যালয়খনৰ None O
+দ্বিতীয়টো None O
+চৌহদ None O
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলাৰ GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলাৰ None I-LOC
+ডিফুত ডিফু ডিফুত GPE 1.0 Diphu B-LOC
+অৱস্থিত। None O
+
+অসম অসম_কৃষি_বিশ্ববিদ্যালয় অসম_কৃষি_বিশ্ববিদ্যালয় ORG 0.999973013433 Assam_Agricultural_University B-ORG
+কৃষি None I-ORG
+বিশ্ববিদ্যালয় None I-ORG
+( None O
+১৯৬৯ None O
+চনত None O
+স্থাপিত None O
+) None O
+
+যোৰহাট যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান ORG 0.998567910284 Jorhat_Institute_of_Science_&_Technology B-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+যোৰহাট যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় ORG 0.994526670519 Jorhat_Govt._Boys'_H.S_and_M.P._School B-ORG
+চৰকাৰী None I-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+আৰু None I-ORG
+বহুমুখী None I-ORG
+বালক None I-ORG
+বিদ্যালয় None I-ORG
+
+নামেৰি নামেৰি_ৰাষ্ট্ৰীয়_উদ্যান নামেৰি_ৰাষ্ট্ৰীয়_উদ্যান ORG 0.726353433404 Nameri_National_Park B-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+উদ্যান None I-ORG
+
+যোৰহাট যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান যোৰহাট_বিজ্ঞান_আৰু_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান ORG 0.998567910284 Jorhat_Institute_of_Science_&_Technology B-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+; None O
+যোৰহাট যোৰহাট_চৰকাৰী_উচ্চতৰ_মাধ্যমিক_আৰু_বহুমুখী_বালক_বিদ্যালয় যোৰহাট_চৰকাৰী_বালক_বিদ্যালয় ORG 0.994526670519 Jorhat_Govt._Boys'_H.S_and_M.P._School B-ORG
+চৰকাৰী None I-ORG
+বালক None I-ORG
+বিদ্যালয় None I-ORG
+
+মলুৱা মলুৱা_বান্দৰ মলুৱা_বান্দৰ GPE 0.679699169051 Rhesus_macaque B-LOC
+বান্দৰ None I-LOC
+( None O
+Rhesus None O
+Macaque None O
+) None O
+
+সেন্দুৰী সেন্দুৰী_বান্দৰ সেন্দুৰী_বান্দৰ GPE 0.679699169051 Stump-tailed_macaque B-LOC
+বান্দৰ None I-LOC
+( None O
+Stump-tailed None O
+Macaque None O
+) None O
+
+বুঢ়া বুঢ়া_চাপৰি_অভয়াৰণ্য বুঢ়া_চাপৰি_অভয়াৰণ্য GPE 0.605228959361 Bura_Chapori_Wildlife_Sanctuary B-LOC
+চাপৰি None I-LOC
+অভয়াৰণ্য None I-LOC
+
+১৯৬২ None O
+গ্ৰন্থখন None O
+প্ৰথম None O
+প্ৰকাশ None O
+পাইছিল None O
+২০১৩ None O
+চনৰ None O
+ছেপ্তম্বৰ None O
+মাহত। None O
+ইয়াৰ None O
+পূৰ্বে None O
+অসমীয়া অসমীয়া_প্ৰতিদিন অসমীয়া_প্ৰতিদিন ORG 0.99999995861 Asomiya_Pratidin B-ORG
+প্ৰতিদিন None I-ORG
+কাকতৰ None O
+দেওবৰীয়া None O
+সংযোজন None O
+সম্ভাৰত None O
+গ্ৰন্থখন None O
+খণ্ড None O
+খণ্ডকৈ None O
+প্ৰকাশ None O
+পাইছিল। None O
+
+ভাৰতীয় ভাৰতীয়_মহাকাশ_গৱেষণা_সংস্থা ভাৰতীয়_মহাকাশ_গৱেষণা_সংস্থা ORG 0.999856024399 Indian_Space_Research_Organisation B-ORG
+মহাকাশ None I-ORG
+গৱেষণা None I-ORG
+সংস্থা None I-ORG
+
+আল্‌ফ্ৰেড আল্‌ফ্ৰেড'_ডি_ষ্টিফান' আল্‌ফ্ৰেড'_ডি_ষ্টিফান' PER 0.999999991388 Alfredo_Di_Stéfano B-PER
+' None I-PER
+ডি None I-PER
+ষ্টিফান None I-PER
+' None I-PER
+
+) None O
+-- None O
+> None O
+খাৰুপেটীয়া খাৰুপেটীয়া খাৰুপেটীয়া GPE 0.999999767423 Kharupetia B-LOC
+( None O
+১৬ None O
+কি.মি None O
+. None O
+
+' None O
+'' None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+( None O
+০ None O
+কি.মি None O
+. None O
+
+ৰঙাপৰা None O
+তেজপুৰ তেজপুৰ_(লোকসভা_সমষ্টি) তেজপুৰ_(লোকসভা_সমষ্টি)ৰ ORG 0.90993920207 Tezpur_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+ৰ None I-ORG
+অন্তৰ্ভুক্ত৷ None O
+
+ভাৰতীয় ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ভাৰতীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.999999999892 Indian_Institute_of_Technology_Guwahati B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+হেম হেম_বৰুৱা_(ত্যাগবীৰ) হেম_বৰুৱা_(ত্যাগবীৰ) PER 0.972106432513 Hem_Barua_(Tyagbir) B-PER
+বৰুৱা None I-PER
+( None I-PER
+ত্যাগবীৰ None I-PER
+) None I-PER
+
+টমাছ টমাছ_আলভা_এডিচন টমাছ_আলভা_এডিচন PER 0.999986756416 Thomas_Edison B-PER
+আলভা None I-PER
+এডিচন None I-PER
+
+''Ardea None O
+alba None O
+alba None O
+'' None O
+( None O
+ইউৰোপ ইউৰোপ ইউৰোপ GPE 1.0 Europe B-LOC
+) None O
+
+''Ardea None O
+alba None O
+melanorhynchos None O
+'' None O
+( None O
+আফ্ৰিকা আফ্ৰিকা আফ্ৰিকা GPE 1.0 Africa B-LOC
+) None O
+
+ই None O
+প্ৰধানকৈ None O
+এছিয়া এছিয়া এছিয়া GPE 0.999999991553 Asia B-LOC
+আৰু None O
+আফ্ৰিকাত আফ্ৰিকা আফ্ৰিকাত GPE 1.0 Africa B-LOC
+বিস্তৃত None O
+হৈ None O
+আছে৷ None O
+
+ই None O
+সমগ্ৰ None O
+ইউৰোপ ইউৰোপ ইউৰোপ GPE 1.0 Europe B-LOC
+তথা None O
+এছিয়াত এছিয়া এছিয়াত GPE 0.999999991553 Asia B-LOC
+বিস্তৃত None O
+হৈ None O
+আছে৷ None O
+
+c. None O
+maroccanus None O
+'' None O
+-উত্তৰ-পশ্চিম None O
+আফ্ৰিকা আফ্ৰিকা আফ্ৰিকা GPE 1.0 Africa B-LOC
+
+ক'লা ক'লা_আকুহী_বগ ক'লা_আকুহী_বগ GPE 0.679699169051 Red-naped_ibis B-LOC
+আকুহী None I-LOC
+বগ None I-LOC
+
+e. None O
+microscelis None O
+'' None O
+আফ্ৰিকাত আফ্ৰিকা আফ্ৰিকাত GPE 1.0 Africa B-LOC
+দেখা None O
+পোৱা None O
+যায়৷ None O
+
+e. None O
+episcopus None O
+'' None O
+এছিয়া এছিয়া এছিয়া GPE 0.999999991553 Asia B-LOC
+মহাদেশত None O
+বিস্তৃত৷ None O
+
+e. None O
+neglecta None O
+'' None O
+ইণ্ডোনেছিয়াত ইণ্ডোনেছিয়া ইণ্ডোনেছিয়াত GPE 0.999992948029 Indonesia B-LOC
+পোৱা None O
+যায়৷ None O
+
+কেনী কেনী_দেউৰী_বসুমতাৰী কেনী_দেউৰী_বসুমতাৰী PER 0.972106432513 Kenny_Basumatary B-PER
+দেউৰী None I-PER
+বসুমতাৰী None I-PER
+
+অটল অটল_বিহাৰী_বাজপায়ী অটল_বিহাৰী_বাজপায়ী PER 0.999998640084 Atal_Bihari_Vajpayee B-PER
+বিহাৰী None I-PER
+বাজপায়ী None I-PER
+
+যোৰহাট যোৰহাট_মহাবিদ্যালয়_(একত্ৰিত) যোৰহাট_মহাবিদ্যালয়_(একত্ৰিত) ORG 0.999999994295 Jorhat_College_(Amalgamated) B-ORG
+মহাবিদ্যালয় None I-ORG
+( None I-ORG
+একত্ৰিত None I-ORG
+) None I-ORG
+
+'' None O
+Dicrurus None O
+macrocercus None O
+albirictus None O
+'' None O
+-উত্তৰ None O
+ভাৰত ভাৰত ভাৰত GPE 0.999991154923 India B-LOC
+
+'' None O
+Dicrurus None O
+macrocercus None O
+minor None O
+'' None O
+শ্ৰীলংকা শ্ৰীলংকা শ্ৰীলংকা GPE 0.99999999845 Sri_Lanka B-LOC
+
+'' None O
+Dicrurus None O
+macrocercus None O
+cathoecus None O
+'' None O
+থাইলেণ্ড থাইলেণ্ড থাইলেণ্ড GPE 0.999988046216 Thailand B-LOC
+, None O
+হংকং হংকং হংকং GPE 0.999999999993 Hong_Kong B-LOC
+, None O
+চীন চীন চীন GPE 0.999999167165 China B-LOC
+
+ৰমেশ ৰমেশ_চন্দ্ৰ_ডেকা ৰমেশ_চন্দ্ৰ_ডেকা PER 0.999999998509 Ramesh_C._Deka B-PER
+চন্দ্ৰ None I-PER
+ডেকা None I-PER
+
+যোৰহাট যোৰহাট_মহাবিদ্যালয়_(একত্ৰিত) যোৰহাট_মহাবিদ্যালয়_(একত্ৰিত) ORG 0.999999994295 Jorhat_College_(Amalgamated) B-ORG
+মহাবিদ্যালয় None I-ORG
+( None I-ORG
+একত্ৰিত None I-ORG
+) None I-ORG
+
+কলিয়াবৰ কলিয়াবৰ_(লোকসভা_সমষ্টি) কলিয়াবৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Kaliabor_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+ইণ্ডিয়ান ইণ্ডিয়ান_চুপাৰ_লীগ ইণ্ডিয়ান_চুপাৰ_লীগ ORG 0.986690014483 Indian_Super_League B-ORG
+চুপাৰ None I-ORG
+লীগ None I-ORG
+
+ৰেহনেছ ৰেহনেছ_টি_পি ৰেহনেছ_টি_পি PER 0.981517342003 Rehenesh_TP B-PER
+টি None I-PER
+পি None I-PER
+
+আদিল আদিল_হুছেইন আদিল_হুছেইন PER 0.972106432513 Adil_Hussain B-PER
+হুছেইন None I-PER
+, None O
+অংগৰাগ অংগৰাগ_মহন্ত অংগৰাগ_মহন্ত PER 0.999999392947 Angaraag_Mahanta B-PER
+মহন্ত None I-PER
+, None O
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+
+আদিল আদিল_হুছেইন আদিল_হুছেইন PER 0.972106432513 Adil_Hussain B-PER
+হুছেইন None I-PER
+, None O
+জেৰিফা জেৰিফা_ৱাহিদ জেৰিফা_ৱাহিদ PER 0.999994962196 Zerifa_Wahid B-PER
+ৱাহিদ None I-PER
+, None O
+কপিল কপিল_বৰা কপিল_বৰা PER 0.972106432513 Kopil_Bora B-PER
+বৰা None I-PER
+
+১৯৬৪ None O
+চনৰ None O
+আজিৰ None O
+দিনটোত None O
+সৈনিক সৈনিক_স্কুল,_গোৱালপাৰা সৈনিক_স্কুল,_গোৱালপাৰাৰ ORG 0.996322921239 Sainik_School,_Goalpara B-ORG
+স্কুল None I-ORG
+, None I-ORG
+গোৱালপাৰাৰ None I-ORG
+আধাৰশিলা None O
+স্থাপন None O
+কৰা None O
+হৈছিল। None O
+
+শিল্পী None O
+ৰুদ্ৰ ৰুদ্ৰ_বৰুৱা ৰুদ্ৰ_বৰুৱাৰ PER 0.999206444276 Rudra_Baruah B-PER
+বৰুৱাৰ None I-PER
+জন্ম None O
+হৈছিল None O
+১৯২৬ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে। None O
+
+১৯৮৯ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+প্ৰধান None O
+মন্ত্ৰী None O
+পদৰ None O
+পৰা None O
+ৰাজীৱ ৰাজীৱ_গান্ধী ৰাজীৱ_গান্ধীয়ে PER 0.999782459036 Rajiv_Gandhi B-PER
+গান্ধীয়ে None I-PER
+পদত্যাগ None O
+কৰে। None O
+
+মুম্বাই মুম্বাই_চিটি_এফ_চি মুম্বাই_চিটি_এফ_চি ORG 0.989349884593 Mumbai_City_FC B-ORG
+চিটি None I-ORG
+এফ None I-ORG
+চি None I-ORG
+
+ইণ্ডিয়ান ইণ্ডিয়ান_চুপাৰ_লীগ ইণ্ডিয়ান_চুপাৰ_লীগ ORG 0.986690014483 Indian_Super_League B-ORG
+চুপাৰ None I-ORG
+লীগ None I-ORG
+
+আজি None O
+বিশ্ব বিশ্ব_মানসিক_স্বাস্থ্য_দিৱস বিশ্ব_মানসিক_স্বাস্থ্য_দিৱস ORG 0.958483504428 World_Mental_Health_Day B-ORG
+মানসিক None I-ORG
+স্বাস্থ্য None I-ORG
+দিৱস None I-ORG
+। None O
+
+৯ None O
+/ None O
+১৯৫৫ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+ইন্দ্ৰা ইন্দ্ৰা_নূয়ী ইন্দ্ৰা_নূয়ীয়ে PER 0.999999999792 Indra_Nooyi B-PER
+নূয়ীয়ে None I-PER
+জন্ম None O
+গ্ৰহণ None O
+কৰে None O
+। None O
+
+প্ৰতিমা প্ৰতিমা_বৰুৱা_পাণ্ডে প্ৰতিমা_বৰুৱা_পাণ্ডে PER 0.999944071008 Pratima_Barua_Pandey B-PER
+বৰুৱা None I-PER
+পাণ্ডে None I-PER
+
+১৯৫০ None O
+চনত None O
+এলান এলান_ট্যুৰিং এলান_ট্যুৰিঙে PER 0.999999999977 Alan_Turing B-PER
+ট্যুৰিঙে None I-PER
+এই None O
+পৰীক্ষাৰ None O
+কথা None O
+উপস্থাপন None O
+কৰে। None O
+
+ভূৱন ভূৱন_মোহন_বৰুৱা ভূৱন_মোহন_বৰুৱা PER 0.904055266507 Bhubanmohan_Baruah B-PER
+মোহন None I-PER
+বৰুৱা None I-PER
+
+ভূৱন ভূৱন_মোহন_বৰুৱা ভূৱন_মোহন_বৰুৱা PER 0.904055266507 Bhubanmohan_Baruah B-PER
+মোহন None I-PER
+বৰুৱা None I-PER
+
+১৯৯১ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+ৰাছিয়াৰ ৰাছিয়া ৰাছিয়াৰ GPE 0.999995518192 Russia B-LOC
+ঐতিহাসিক None O
+চহৰ None O
+লেলিনগ্ৰেডৰ None O
+নাম None O
+সলনি None O
+কৰি None O
+নতুন None O
+নাম None O
+ছেণ্ট None O
+পিটাৰ্ছৰ্বাগ None O
+দিয়া None O
+হয় None O
+। None O
+
+ভাৰতীয় ভাৰতীয়_ৰিজাৰ্ভ_বেংক ভাৰতীয়_ৰিজাৰ্ভ_বেংকৰ ORG 0.999917617351 Reserve_Bank_of_India B-ORG
+ৰিজাৰ্ভ None I-ORG
+বেংকৰ None I-ORG
+এজন None O
+সদস্য। None O
+
+১৯ ১৯_মে' ১৯_মে' GPE 0.99999570246 May_19 B-LOC
+মে None I-LOC
+' None I-LOC
+
+আন্তঃৰাষ্ট্ৰীয় আন্তঃৰাষ্ট্ৰীয়_তাত্বিক_বিজ্ঞান_কেন্দ্ৰ আন্তঃৰাষ্ট্ৰীয়_তাত্বিক_বিজ্ঞান_কেন্দ্ৰ ORG 0.999927254619 International_Centre_for_Theoretical_Sciences B-ORG
+তাত্বিক None I-ORG
+বিজ্ঞান None I-ORG
+কেন্দ্ৰ None I-ORG
+
+১৯৬৫ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+বাংলাদেশৰ বাংলাদেশ বাংলাদেশৰ GPE 0.999999999984 Bangladesh B-LOC
+প্ৰচণ্ড None O
+ঘূৰ্ণীবতাহে None O
+কোবাই None O
+যায় None O
+৷ None O
+ইয়াৰ None O
+ফলত None O
+চৰকৰী None O
+হিচাপমতে None O
+১৬ None O
+, None O
+০০০ None O
+লোকৰ None O
+মৃত্যু None O
+হয় None O
+৷ None O
+
+২০০৩ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+ঐতিহাসিক None O
+দিল্লী দিল্লী দিল্লী GPE 1.0 Delhi B-LOC
+বাছ None O
+সেৱা None O
+পুনৰ None O
+আৰম্ভ None O
+হয়। None O
+
+ফ্ৰিদা ফ্ৰিদা_কাল' ফ্ৰিদা_কাল' PER 0.99994305927 Frida_Kahlo B-PER
+কাল None I-PER
+' None I-PER
+
+অসম অসম_মাধ্যমিক_শিক্ষা_পৰিষদ অসম_মাধ্যমিক_শিক্ষা_পৰিষদ ORG 0.986690014483 Secondary_Education_Board_of_Assam B-ORG
+মাধ্যমিক None I-ORG
+শিক্ষা None I-ORG
+পৰিষদ None I-ORG
+
+গিৰিজানন্দ গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.99985626675 Girijananda_Chowdhury_Institute_of_Management_and_Technology B-ORG
+চৌধুৰী None I-ORG
+ব্যৱস্থাপনা None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তি None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+ভাৰতত ভাৰত ভাৰতত GPE 0.999991154923 India B-LOC
+সচৰাচৰ None O
+তিনিবিধ None O
+কপাহ None O
+পোৱা None O
+যায়৷ None O
+
+অখিল অখিল_ভাৰতীয়_হিন্দু_মহাসভা অখিল_ভাৰতীয়_হিন্দু_মহাসভা ORG 0.999876141594 Akhil_Bharatiya_Hindu_Mahasabha B-ORG
+ভাৰতীয় None I-ORG
+হিন্দু None I-ORG
+মহাসভা None I-ORG
+
+১৯৪৬ None O
+খৃঃ None O
+- None O
+ৰাষ্ট্ৰসংঘৰ ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘৰ ORG 0.995440632241 United_Nations B-ORG
+প্ৰথম None O
+সাধাৰন None O
+অধিৱেশনৰ None O
+আৰম্ভ None O
+হৈছিল None O
+। None O
+
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+( None O
+অতিথি None O
+শিল্পী None O
+) None O
+
+*২০১৫ None O
+- None O
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভাৰ ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভাৰ None I-ORG
+৭৩ None O
+সংখ্যক None O
+কলিয়াবৰ কলিয়াবৰ কলিয়াবৰ GPE 1.0 Kaliabor B-LOC
+অধিৱেশনৰ None O
+আৰম্ভণি। None O
+
+শ্ৰীমন্ত শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ শ্ৰীমন্ত_শংকৰদেৱ_কলাক্ষেত্ৰ ORG 0.698201668704 Srimanta_Sankardev_Kalakshetra B-ORG
+শংকৰদেৱ None I-ORG
+কলাক্ষেত্ৰ None I-ORG
+
+ৰাউটাৰ ৰাউটাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) ৰাউটাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) PER 0.673083957385 Router_(computing) B-PER
+( None I-PER
+কম্পিউটাৰ None I-PER
+সম্বন্ধীয় None I-PER
+) None I-PER
+
+ভাৰত ভাৰত_জাতীয়_ক্ৰিকেট_দল ভাৰত_জাতীয়_ক্ৰিকেট_দল ORG 0.970648765682 India_national_cricket_team B-ORG
+জাতীয় None I-ORG
+ক্ৰিকেট None I-ORG
+দল None I-ORG
+
+ইন্দিৰা ইন্দিৰা_গান্ধী_এথলেটিক_ষ্টেডিয়াম ইন্দিৰা_গান্ধী_এথলেটিক_ষ্টেডিয়াম ORG 0.998107535807 Indira_Gandhi_Athletic_Stadium B-ORG
+গান্ধী None I-ORG
+এথলেটিক None I-ORG
+ষ্টেডিয়াম None I-ORG
+
+অবিৰত অবিৰত_আৰু_বোধগম্য_মূল্যায়ন অবিৰত_আৰু_বোধগম্য_মূল্যায়ন GPE 0.679699169051 Continuous_and_Comprehensive_Evaluation B-LOC
+আৰু None I-LOC
+বোধগম্য None I-LOC
+মূল্যায়ন None I-LOC
+
+২০০৪ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+অসমৰ অসম অসমৰ GPE 0.946214686529 Assam B-LOC
+হোৱা None O
+প্ৰৱল None O
+বানপানীৰ None O
+ফলত None O
+২০০ None O
+তকৈও None O
+অধিক None O
+লোকৰ None O
+মৃত্যু None O
+হয় None O
+। None O
+
+২০০২ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+এখুদ None O
+ককাইদেউ None O
+অৰ্থাৎ None O
+নৱকান্ত নৱকান্ত_বৰুৱা নৱকান্ত_বৰুৱাৰ PER 0.999777007476 Nabakanta_Barua B-PER
+বৰুৱাৰ None I-PER
+মৃত্যু None O
+হয় None O
+। None O
+
+গ্ৰেগৰী গ্ৰেগৰী_ক'ৰ্ছ' গ্ৰেগৰী_ক'ৰ্ছ' PER 0.999049655287 Gregory_Corso B-PER
+ক'ৰ্ছ None I-PER
+' None I-PER
+
+১৮৯০ None O
+চনৰ None O
+এই None O
+দিনটোতেই None O
+ঈশ্বৰচন্দ্ৰ ঈশ্বৰচন্দ্ৰ_বিদ্যাসাগৰ ঈশ্বৰচন্দ্ৰ_বিদ্যাসাগৰৰ PER 0.999890315212 Ishwar_Chandra_Vidyasagar B-PER
+বিদ্যাসাগৰৰ None I-PER
+মৃত্যু None O
+হৈছিল। None O
+
+মামণি মামণি_ৰয়ছম_গোস্বামী মামণি_ৰয়ছম_গোস্বামী PER 0.973086020495 Mamoni_Raisom_Goswami B-PER
+ৰয়ছম None I-PER
+গোস্বামী None I-PER
+
+২০১১ None O
+চনৰ None O
+এই None O
+দিনটোতে None O
+ভাৰত ভাৰত ভাৰত GPE 0.999991154923 India B-LOC
+আৰু None O
+মংগোলিয়াৰ মংগোলিয়া মংগোলিয়াৰ GPE 0.999989145058 Mongolia B-LOC
+মাজত None O
+প্ৰতিৰক্ষা None O
+চুক্তিখন None O
+স্বাক্ষৰিত None O
+হয় None O
+। None O
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+১৯২৬ None O
+- None O
+আল্‌ফ্ৰেড আল্‌ফ্ৰেড'_ডি_ষ্টিফান' আল্‌ফ্ৰেড'_ডি_ষ্টিফান' PER 0.999999991388 Alfredo_Di_Stéfano B-PER
+' None I-PER
+ডি None I-PER
+ষ্টিফান None I-PER
+' None I-PER
+, None O
+আৰ্জেণ্টিনীয় None O
+ফুটবলাৰ None O
+আৰু None O
+প্ৰশিক্ষক। None O
+
+নৰ্থ নৰ্থ_ইষ্ট_ইউনাইটেড_এফ_চি নৰ্থ_ইষ্ট_ইউনাইটেড_এফ_চি ORG 0.989349884593 NorthEast_United_FC B-ORG
+ইষ্ট None I-ORG
+ইউনাইটেড None I-ORG
+এফ None I-ORG
+চি None I-ORG
+
+১৮৭০ None O
+চনৰ None O
+এই None O
+দিনটোতে None O
+কবি-সাহিত্যিক None O
+মফিজুদ্দিন মফিজুদ্দিন_আহমদ_হাজৰিকা মফিজুদ্দিন_আহমদ_হাজৰিকাৰ PER 0.904055266507 Mafizuddin_Ahmed_Hazarika B-PER
+আহমদ None I-PER
+হাজৰিকাৰ None I-PER
+জন্ম None O
+হয় None O
+৷ None O
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+*১৯৮৩ None O
+- None O
+দৰং দৰং_জিলা দৰং_জিলাৰ GPE 0.999999999886 Darrang_district B-LOC
+জিলাৰ None I-LOC
+গঠন None O
+
+বিশ্ববিশ্ৰুত None O
+শিল্পী None O
+ড০ None O
+ভূপেন ভূপেন_হাজৰিকা ভূপেন_হাজৰিকাৰ PER 0.999999976156 Bhupen_Hazarika B-PER
+হাজৰিকাৰ None I-PER
+জন্ম None O
+হৈছিল None O
+১৯২৬ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে। None O
+
+জেঠী জেঠী_সমূহৰ_নাম_তালিকা জেঠী_সমূহৰ_নাম_তালিকা GPE 0.679699169051 Hemidactylus_flaviviridis B-LOC
+সমূহৰ None I-LOC
+নাম None I-LOC
+তালিকা None I-LOC
+
+জেঠী জেঠী_সমূহৰ_নাম_তালিকা জেঠী_সমূহৰ_নাম_তালিকা GPE 0.679699169051 Hemidactylus_flaviviridis B-LOC
+সমূহৰ None I-LOC
+নাম None I-LOC
+তালিকা None I-LOC
+
+জেঠী জেঠী_সমূহৰ_নাম_তালিকা জেঠী_সমূহৰ_নাম_তালিকা GPE 0.679699169051 Hemidactylus_flaviviridis B-LOC
+সমূহৰ None I-LOC
+নাম None I-LOC
+তালিকা None I-LOC
+
+'' None O
+Dinopium None O
+benghalense None O
+psarodes None O
+'' None O
+- None O
+শ্ৰীলংকাত শ্ৰীলংকা শ্ৰীলংকাত GPE 0.99999999845 Sri_Lanka B-LOC
+এই None O
+উপ-প্ৰজাতিটো None O
+দেখা None O
+যায়৷ None O
+ইয়াৰ None O
+পৃষ্ঠ None O
+অংশ None O
+গাঢ় None O
+ক'লা None O
+৷ None O
+
+দ্য দ্য_আছাম_ট্ৰিবিউন দ্য_আছাম_ট্ৰিবিউন ORG 0.999999288658 The_Assam_Tribune B-ORG
+আছাম None I-ORG
+ট্ৰিবিউন None I-ORG
+
+দ্য দ্য_আছাম_ট্ৰিবিউন দ্য_আছাম_ট্ৰিবিউন ORG 0.999999288658 The_Assam_Tribune B-ORG
+আছাম None I-ORG
+ট্ৰিবিউন None I-ORG
+
+ঈগলনেষ্ট ঈগলনেষ্ট_বন্যপ্ৰাণী_অভয়াৰণ্য ঈগলনেষ্ট_বন্যপ্ৰাণী_অভয়াৰণ্য GPE 0.965871177777 Eaglenest_Wildlife_Sanctuary B-LOC
+বন্যপ্ৰাণী None I-LOC
+অভয়াৰণ্য None I-LOC
+
+c. None O
+garmani None O
+'' None O
+( None O
+Joel None O
+Asaph None O
+Allen None O
+, None O
+1876 None O
+) None O
+আৰ্জেন্টিনা আৰ্জেন্টিনা আৰ্জেন্টিনা GPE 0.999992179714 Argentina B-LOC
+
+সুভাষ সুভাষ_চন্দ্ৰ_বসু সুভাষ_চন্দ্ৰ_বসু PER 0.999999999998 Subhas_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+ৰবিন ৰবিন_ভেন_পাৰ্চি ৰবিন_ভেন_পাৰ্চি PER 0.999996465565 Robin_van_Persie B-PER
+ভেন None I-PER
+পাৰ্চি None I-PER
+
+মহেন্দ্ৰ মহেন্দ্ৰ_সিং_ধোনি মহেন্দ্ৰ_সিং_ধোনি PER 0.999999991893 Mahendra_Singh_Dhoni B-PER
+সিং None I-PER
+ধোনি None I-PER
+
+ভাৰতৰ ভাৰত ভাৰতৰ GPE 0.999991154923 India B-LOC
+( None O
+ঘৰুৱা None O
+স্থান None O
+) None O
+ত None O
+
+মহেন্দ্ৰ মহেন্দ্ৰ_সিং_ধোনি মহেন্দ্ৰ_সিং_ধোনি PER 0.999999991893 Mahendra_Singh_Dhoni B-PER
+সিং None I-PER
+ধোনি None I-PER
+
+মহেন্দ্ৰ মহেন্দ্ৰ_সিং_ধোনি মহেন্দ্ৰ_সিং_ধোনি PER 0.999999991893 Mahendra_Singh_Dhoni B-PER
+সিং None I-PER
+ধোনি None I-PER
+
+যতীন যতীন_বৰা যতীন_বৰা PER 0.999994962196 Jatin_Bora B-PER
+বৰা None I-PER
+( None O
+চৰিত্ৰ- None O
+চনি None O
+) None O
+
+এ এ_পি_জে_আব্দুল_কালাম এ_পি_জে_আব্দুল_কালাম PER 0.999999974909 A._P._J._Abdul_Kalam B-PER
+পি None I-PER
+জে None I-PER
+আব্দুল None I-PER
+কালাম None I-PER
+
+এম এম_জি_ৰামচন্দ্ৰন এম_জি_ৰামচন্দ্ৰন PER 0.999992931384 M._G._Ramachandran B-PER
+জি None I-PER
+ৰামচন্দ্ৰন None I-PER
+
+দেৱকান্ত দেৱকান্ত_বৰুৱা দেৱকান্ত_বৰুৱা PER 0.99459969071 Devakanta_Barua B-PER
+বৰুৱা None I-PER
+- None O
+বিহাৰ বিহাৰ বিহাৰ GPE 0.998484824136 Bihar B-LOC
+, None O
+( None O
+১৯৭১-১৯৭৩ None O
+) None O
+
+হিতেশ্বৰ হিতেশ্বৰ_শইকীয়া হিতেশ্বৰ_শইকীয়া PER 0.999974208373 Hiteswar_Saikia B-PER
+শইকীয়া None I-PER
+- None O
+মিজোৰাম মিজোৰাম মিজোৰাম GPE 0.999999999888 Mizoram B-LOC
+, None O
+( None O
+১৯৮৭-১৯৮৯ None O
+) None O
+
+ৰঞ্জিৎ ৰঞ্জিৎ_শেখৰ_মুছাহাৰী ৰঞ্জিৎ_শেখৰ_মুছাহাৰী PER 0.99999978498 Ranjit_Shekhar_Mooshahary B-PER
+শেখৰ None I-PER
+মুছাহাৰী None I-PER
+- None O
+মেঘালয় মেঘালয় মেঘালয় GPE 0.999999999888 Meghalaya B-LOC
+, None O
+( None O
+২০০৮-২০১৩ None O
+) None O
+
+মদন মদন_মোহন_মালৱীয় মদন_মোহন_মালৱীয় PER 0.999999999987 Madan_Mohan_Malaviya B-PER
+মোহন None I-PER
+মালৱীয় None I-PER
+
+'' None O
+অমিত অমিত_ত্ৰিবেদী অমিত_ত্ৰিবেদী PER 0.999999945344 Amit_Trivedi B-PER
+ত্ৰিবেদী None I-PER
+'' None O
+' None O
+
+নৰ্থ নৰ্থ_লখিমপুৰ_কলেজ নৰ্থ_লখিমপুৰ_কলেজ ORG 0.999997837605 North_Lakhimpur_College B-ORG
+লখিমপুৰ None I-ORG
+কলেজ None I-ORG
+
+অটল অটল_বিহাৰী_বাজপায়ী অটল_বিহাৰী_বাজপায়ী PER 0.999998640084 Atal_Bihari_Vajpayee B-PER
+বিহাৰী None I-PER
+বাজপায়ী None I-PER
+
+নামেৰি নামেৰি_ৰাষ্ট্ৰীয়_উদ্যান নামেৰি_ৰাষ্ট্ৰীয়_উদ্যান ORG 0.726353433404 Nameri_National_Park B-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+উদ্যান None I-ORG
+
+সংঘ সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) ORG 0.999990879076 Union_Public_Service_Commission B-ORG
+লোক None I-ORG
+সেৱা None I-ORG
+আয়োগ None I-ORG
+( None I-ORG
+ইউ. None I-ORG
+পি. None I-ORG
+এছ. None I-ORG
+চি None I-ORG
+. None I-ORG
+) None I-ORG
+
+ভূৱন ভূৱন_মোহন_বৰুৱা ভূৱন_মোহন_বৰুৱা PER 0.904055266507 Bhubanmohan_Baruah B-PER
+মোহন None I-PER
+বৰুৱা None I-PER
+
+বৰষা বৰষা_ৰাণী_বিষয়া বৰষা_ৰাণী_বিষয়া PER 0.972106432513 Barsha_Rani_Bishaya B-PER
+ৰাণী None I-PER
+বিষয়া None I-PER
+
+কুমাৰ কুমাৰ_ভাস্কৰ_বৰ্মা কুমাৰ_ভাস্কৰ_বৰ্মা PER 0.972106432513 Bhaskar_Varman B-PER
+ভাস্কৰ None I-PER
+বৰ্মা None I-PER
+
+জাপানী জাপান জাপানী GPE 0.999984323433 Japan B-LOC
+পৰম্পৰাত None O
+ৰাক্ষসক None O
+''ৰাচেৎচু None O
+'' None O
+( None O
+羅刹 None O
+) None O
+বোলা None O
+হয়। None O
+
+সংঘ সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) ORG 0.999990879076 Union_Public_Service_Commission B-ORG
+লোক None I-ORG
+সেৱা None I-ORG
+আয়োগ None I-ORG
+( None I-ORG
+ইউ. None I-ORG
+পি. None I-ORG
+এছ. None I-ORG
+চি None I-ORG
+. None I-ORG
+) None I-ORG
+
+সংঘ সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) ORG 0.999990879076 Union_Public_Service_Commission B-ORG
+লোক None I-ORG
+সেৱা None I-ORG
+আয়োগ None I-ORG
+( None I-ORG
+ইউ. None I-ORG
+পি. None I-ORG
+এছ. None I-ORG
+চি None I-ORG
+. None I-ORG
+) None I-ORG
+
+সত্য সত্য_সাই_বাবা সত্য_সাই_বাবা PER 0.999477876402 Sathya_Sai_Baba B-PER
+সাই None I-PER
+বাবা None I-PER
+
+সত্য সত্য_সাই_বাবা সত্য_সাই_বাবা PER 0.999477876402 Sathya_Sai_Baba B-PER
+সাই None I-PER
+বাবা None I-PER
+
+আবুল আবুল_কালাম_আজাদ আবুল_কালাম_আজাদ PER 0.999998617153 Abul_Kalam_Azad B-PER
+কালাম None I-PER
+আজাদ None I-PER
+
+সত্য সত্য_সাই_বাবা সত্য_সাই_বাবা PER 0.999477876402 Sathya_Sai_Baba B-PER
+সাই None I-PER
+বাবা None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+শ্বিলং শ্বিলং_লাজং_ফুটবল_ক্লাব শ্বিলং_লাজং_ফুটবল_ক্লাব ORG 0.999990533901 Shillong_Lajong_F.C. B-ORG
+লাজং None I-ORG
+ফুটবল None I-ORG
+ক্লাব None I-ORG
+
+ৰেহনেছ ৰেহনেছ_টি_পি ৰেহনেছ_টি_পি PER 0.981517342003 Rehenesh_TP B-PER
+টি None I-PER
+পি None I-PER
+
+শ্বিলং শ্বিলং_লাজং_ফুটবল_ক্লাব শ্বিলং_লাজং_ফুটবল_ক্লাব ORG 0.999990533901 Shillong_Lajong_F.C. B-ORG
+লাজং None I-ORG
+ফুটবল None I-ORG
+ক্লাব None I-ORG
+
+আন্দামান আন্দামান_আৰু_নিকোবৰ_দ্বীপপুঞ্জ আন্দামান_আৰু_নিকোবৰ_দ্বীপপুঞ্জ GPE 0.999999983398 Andaman_and_Nicobar_Islands B-LOC
+আৰু None I-LOC
+নিকোবৰ None I-LOC
+দ্বীপপুঞ্জ None I-LOC
+
+বাংগালোৰ বাংগালোৰ বাংগালোৰ GPE 1.0 Bangalore B-LOC
+আলট্ৰা None O
+২৫ None O
+কি.মি None O
+. None O
+
+তৰোৱাল তৰোৱাল_নেজীয়া_পখিলা তৰোৱাল_নেজীয়া_পখিলা GPE 0.679699169051 Graphium_nomius B-LOC
+নেজীয়া None I-LOC
+পখিলা None I-LOC
+
+এই None O
+ভেকুলীবিধ None O
+ঘাইকৈ None O
+বাংলাদেশ বাংলাদেশ বাংলাদেশ GPE 0.999999999984 Bangladesh B-LOC
+, None O
+ভাৰত ভাৰত ভাৰত GPE 0.999991154923 India B-LOC
+, None O
+ম্যানমাৰ ম্যানমাৰ ম্যানমাৰ ORG 0.734924935788 Myanmar B-ORG
+, None O
+নেপাল নেপাল নেপাল GPE 0.999992445487 Nepal B-LOC
+আৰু None O
+ভূটান ভূটান ভূটান GPE 0.999985907067 Bhutan B-LOC
+আদি None O
+দেশত None O
+দেখা None O
+পোৱা None O
+যায়৷ None O
+
+ইয়াক None O
+ঘাইকৈ None O
+ম্যানমাৰ ম্যানমাৰ ম্যানমাৰ ORG 0.734924935788 Myanmar B-ORG
+, None O
+ভাৰত ভাৰত ভাৰত GPE 0.999991154923 India B-LOC
+, None O
+বাংলাদেশ বাংলাদেশ বাংলাদেশ GPE 0.999999999984 Bangladesh B-LOC
+, None O
+পাকিস্তান পাকিস্তান পাকিস্তান GPE 0.999996416405 Pakistan B-LOC
+, None O
+আফগানিস্তান আফগানিস্তান আফগানিস্তান GPE 0.999992515338 Afghanistan B-LOC
+, None O
+নেপাল নেপাল নেপাল GPE 0.999992445487 Nepal B-LOC
+আদি None O
+দেশত None O
+পোৱা None O
+যায়৷ None O
+
+সেউজীয়া সেউজীয়া_পাত_বেং সেউজীয়া_পাত_বেং GPE 0.679699169051 Rhacophorus_bipunctatus B-LOC
+পাত None I-LOC
+বেং None I-LOC
+
+বগাপতীয়া বগাপতীয়া_খুকুৰী_সাপ বগাপতীয়া_খুকুৰী_সাপ GPE 0.679699169051 Oligodon_albocinctus B-LOC
+খুকুৰী None I-LOC
+সাপ None I-LOC
+
+সেউজীয়া সেউজীয়া_পাত_বেং সেউজীয়া_পাত_বেং GPE 0.679699169051 Rhacophorus_bipunctatus B-LOC
+পাত None I-LOC
+বেং None I-LOC
+
+বগাপতীয়া বগাপতীয়া_খুকুৰী_সাপ বগাপতীয়া_খুকুৰী_সাপ GPE 0.679699169051 Oligodon_albocinctus B-LOC
+খুকুৰী None I-LOC
+সাপ None I-LOC
+
+এই None O
+ভেকুলীবিধ None O
+বাংলাদেশ বাংলাদেশ বাংলাদেশ GPE 0.999999999984 Bangladesh B-LOC
+, None O
+ভাৰত ভাৰত ভাৰত GPE 0.999991154923 India B-LOC
+, None O
+ম্যানমাৰ ম্যানমাৰ ম্যানমাৰ ORG 0.734924935788 Myanmar B-ORG
+, None O
+থাইলেণ্ড থাইলেণ্ড থাইলেণ্ড GPE 0.999988046216 Thailand B-LOC
+আদি None O
+দেশত None O
+স্থানীয়ভাৱে None O
+দেখা None O
+পোৱা None O
+যায়৷ None O
+
+প্ৰিণ্টাৰ প্ৰিণ্টাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) প্ৰিণ্টাৰ_(কম্পিউটাৰ_সম্বন্ধীয়) PER 0.673083957385 Printer_(computing) B-PER
+( None I-PER
+কম্পিউটাৰ None I-PER
+সম্বন্ধীয় None I-PER
+) None I-PER
+
+দক্ষিণ দক্ষিণ_এচিয়_আঞ্চলিক_সহযোগিতা_সংস্থা দক্ষিণ_এচিয়_আঞ্চলিক_সহযোগিতা_সংস্থা ORG 0.999999178694 South_Asian_Association_for_Regional_Cooperation B-ORG
+এচিয় None I-ORG
+আঞ্চলিক None I-ORG
+সহযোগিতা None I-ORG
+সংস্থা None I-ORG
+
+ইণ্ডিয়ান ইণ্ডিয়ান_ৰিজিয়নেল_নেভিগেচন_চেটেলাইট_চিষ্টেম ইণ্ডিয়ান_ৰিজিয়নেল_নেভিগেচন_চেটেলাইট_চিষ্টেম GPE 0.679699169051 Indian_Regional_Navigation_Satellite_System B-LOC
+ৰিজিয়নেল None I-LOC
+নেভিগেচন None I-LOC
+চেটেলাইট None I-LOC
+চিষ্টেম None I-LOC
+
+ইণ্ডিয়ান ইণ্ডিয়ান_ৰিজিয়নেল_নেভিগেচন_চেটেলাইট_চিষ্টেম ইণ্ডিয়ান_ৰিজিয়নেল_নেভিগেচন_চেটেলাইট_চিষ্টেম GPE 0.679699169051 Indian_Regional_Navigation_Satellite_System B-LOC
+ৰিজিয়নেল None I-LOC
+নেভিগেচন None I-LOC
+চেটেলাইট None I-LOC
+চিষ্টেম None I-LOC
+
+কৰ্ণ কৰ্ণ_(অংগ) কৰ্ণ_(অংগ) ORG 0.939216694334 Ear B-ORG
+( None I-ORG
+অংগ None I-ORG
+) None I-ORG
+
+কৰ্ণ কৰ্ণ_(অংগ) কৰ্ণ_(অংগ) ORG 0.939216694334 Ear B-ORG
+( None I-ORG
+অংগ None I-ORG
+) None I-ORG
+
+সংঘ সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) সংঘ_লোক_সেৱা_আয়োগ_(ইউ._পি._এছ._চি.) ORG 0.999990879076 Union_Public_Service_Commission B-ORG
+লোক None I-ORG
+সেৱা None I-ORG
+আয়োগ None I-ORG
+( None I-ORG
+ইউ. None I-ORG
+পি. None I-ORG
+এছ. None I-ORG
+চি None I-ORG
+. None I-ORG
+) None I-ORG
+
+ভাৰতীয় ভাৰতীয়_মহাকাশ_গৱেষণা_সংস্থা ভাৰতীয়_মহাকাশ_গৱেষণা_সংস্থা ORG 0.999856024399 Indian_Space_Research_Organisation B-ORG
+মহাকাশ None I-ORG
+গৱেষণা None I-ORG
+সংস্থা None I-ORG
+
+১৮৮৬ None O
+খ্ৰীষ্টাব্দৰ None O
+আজিৰ None O
+দিনটোতে None O
+ৰামকৃষ্ণ ৰামকৃষ্ণ_পৰমহংস ৰামকৃষ্ণ_পৰমহংসৰ PER 0.999991842375 Ramakrishna B-PER
+পৰমহংসৰ None I-PER
+মৃত্যু None O
+হয় None O
+। None O
+
+১৯৫৫ None O
+চনৰ None O
+আজিৰ None O
+দিনটোতে None O
+বজালী বজালী_মহাবিদ্যালয় বজালী_মহাবিদ্যালয় ORG 0.999999999306 Bajali_College B-ORG
+মহাবিদ্যালয় None I-ORG
+স্থাপন None O
+হৈছিল। None O
+
+টি টি_ভি_ৰামকৃষ্ণন টি_ভি_ৰামকৃষ্ণন PER 0.999998400158 T._V._Ramakrishnan B-PER
+ভি None I-PER
+ৰামকৃষ্ণন None I-PER
+
+মৰাণ মৰাণ_(নগৰ) মৰাণ_(নগৰ) GPE 1.0 Moran_Town B-LOC
+( None I-LOC
+নগৰ None I-LOC
+) None I-LOC
+
+স্ক্ৰেচ্ছ্‌ স্ক্ৰেচ্ছ্‌_(প্ৰগ্ৰামিং_লেংগুৱেজ) স্ক্ৰেচ্ছ্‌_(প্ৰগ্ৰামিং_লেংগুৱেজ) ORG 0.741310617751 Scratch_(programming_language) B-ORG
+( None I-ORG
+প্ৰগ্ৰামিং None I-ORG
+লেংগুৱেজ None I-ORG
+) None I-ORG
+
+ভাৰতীয় ভাৰতীয়_পৰিসংখ্যা_প্ৰতিষ্ঠান ভাৰতীয়_পৰিসংখ্যা_প্ৰতিষ্ঠান ORG 0.999999992396 Indian_Statistical_Institute B-ORG
+পৰিসংখ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+জন জন_ফ'ৰ্বছ্‌_নাশ্ব,_কনিষ্ঠ জন_ফ'ৰ্বছ্‌_নাশ্ব,_কনিষ্ঠ PER 0.999996986862 John_Forbes_Nash,_Jr. B-PER
+ফ'ৰ্বছ্‌ None I-PER
+নাশ্ব None I-PER
+, None I-PER
+কনিষ্ঠ None I-PER
+
+জন জন_ফ'ৰ্বছ্‌_নাশ্ব,_কনিষ্ঠ জন_ফ'ৰ্বছ্‌_নাশ্ব,_কনিষ্ঠ PER 0.999996986862 John_Forbes_Nash,_Jr. B-PER
+ফ'ৰ্বছ্‌ None I-PER
+নাশ্ব None I-PER
+, None I-PER
+কনিষ্ঠ None I-PER
+
+কামৰূপ কামৰূপ_মহানগৰ_জিলা কামৰূপ_মহানগৰ_জিলা GPE 1.0 Kamrup_Metropolitan_district B-LOC
+মহানগৰ None I-LOC
+জিলা None I-LOC
+
+আই আই_ইউ_চি_এন_ৰঙা_তালিকা আই_ইউ_চি_এন_ৰঙা_তালিকা ORG 0.999800647605 IUCN_Red_List B-ORG
+ইউ None I-ORG
+চি None I-ORG
+এন None I-ORG
+ৰঙা None I-ORG
+তালিকা None I-ORG
+
+পঞ্জাব পঞ্জাব,_ভাৰত পঞ্জাব,_ভাৰত GPE 1.0 Punjab,_India B-LOC
+, None I-LOC
+ভাৰত None I-LOC
+
+তদুপৰি None O
+কলম্বাছে None O
+অক্ষাংশ None O
+আৰু None O
+দ্ৰাঘিমাংশৰ None O
+ক্ষেত্ৰত None O
+সেইদিনত None O
+থকা None O
+কিছু None O
+ভূল None O
+ধাৰণাৰ None O
+বাবে None O
+কেনাৰী None O
+দ্বীপৰ None O
+পৰা None O
+জাপানৰ জাপান জাপানৰ GPE 0.999984323433 Japan B-LOC
+দূৰত্ব None O
+৩৭০০ None O
+কিল’মিটাৰ None O
+বুলি None O
+ভাবিছিল None O
+৷কিন্তু None O
+আধুনিক None O
+বিশেষজ্ঞৰ None O
+মতে None O
+প্ৰকৃত None O
+দূৰত্ব None O
+১২ None O
+, None O
+৫০০ None O
+কিল’মিটাৰ None O
+৷ None O
+
+ভূমিৰ ভূমি_(অৰ্থনীতি) ভূমিৰ ORG 0.541423846247 Land_(economics) B-ORG
+বৰ্দ্ধিত None O
+নোহোৱা None O
+মূল্যৰ None O
+ওপৰতো None O
+সম্পত্তি None O
+কৰ None O
+আৰোপ None O
+কৰা None O
+হয়। None O
+
+এডল্ফ এডল্ফ_হিটলাৰ এডল্ফ_হিটলাৰ PER 1.0 Adolf_Hitler B-PER
+হিটলাৰ None I-PER
+Adolf None O
+Hitler None O
+( None O
+1945 None O
+) None O
+
+নীলছ নীলছ_হেনৰিক_এবেল নীলছ_হেনৰিক_এবেল PER 0.999617962161 Niels_Henrik_Abel B-PER
+হেনৰিক None I-PER
+এবেল None I-PER
+
+নীলছ নীলছ_হেনৰিক_এবেল নীলছ_হেনৰিক_এবেল PER 0.999617962161 Niels_Henrik_Abel B-PER
+হেনৰিক None I-PER
+এবেল None I-PER
+
+পিয়েৰী পিয়েৰী_দি_ফাৰ্মা পিয়েৰী_দি_ফাৰ্মা PER 0.999992833068 Pierre_de_Fermat B-PER
+দি None I-PER
+ফাৰ্মা None I-PER
+
+ফেডেৰিক’ ফেডেৰিক’_গাৰ্ছিয়া_ল’ৰ্কা ফেডেৰিক’_গাৰ্ছিয়া_ল’ৰ্কা PER 0.999999475294 Federico_García_Lorca B-PER
+গাৰ্ছিয়া None I-PER
+ল’ৰ্কা None I-PER
+
+মাউণ্ট মাউণ্ট_কিলিমাঞ্জাৰ' মাউণ্ট_কিলিমাঞ্জাৰ' GPE 0.999999538909 Mount_Kilimanjaro B-LOC
+কিলিমাঞ্জাৰ None I-LOC
+' None I-LOC
+
+কাৰ্ল কাৰ্ল_ফ্ৰিডৰিখ_গাউছ কাৰ্ল_ফ্ৰিডৰিখ_গাউছ PER 0.999988535438 Carl_Friedrich_Gauss B-PER
+ফ্ৰিডৰিখ None I-PER
+গাউছ None I-PER
+
+কাৰ্ল কাৰ্ল_ফ্ৰিডৰিখ_গাউছ কাৰ্ল_ফ্ৰিডৰিখ_গাউছ PER 0.999988535438 Carl_Friedrich_Gauss B-PER
+ফ্ৰিডৰিখ None I-PER
+গাউছ None I-PER
+
+কাৰ্ল কাৰ্ল_ফ্ৰিডৰিখ_গাউছ কাৰ্ল_ফ্ৰিডৰিখ_গাউছ PER 0.999988535438 Carl_Friedrich_Gauss B-PER
+ফ্ৰিডৰিখ None I-PER
+গাউছ None I-PER
+
+কাৰ্ল কাৰ্ল_ফ্ৰিডৰিখ_গাউছ কাৰ্ল_ফ্ৰিডৰিখ_গাউছ PER 0.999988535438 Carl_Friedrich_Gauss B-PER
+ফ্ৰিডৰিখ None I-PER
+গাউছ None I-PER
+
+হৰিশ হৰিশ_চন্দ্ৰ_বাৰ্মা হৰিশ_চন্দ্ৰ_বাৰ্মা PER 0.988698232337 H._C._Verma B-PER
+চন্দ্ৰ None I-PER
+বাৰ্মা None I-PER
+
+এই None O
+কনফাৰেঞ্চত None O
+বহুকেইখন None O
+দেশে None O
+যোগদান None O
+কৰিছিল None O
+যদিও None O
+আমেৰিকা আমেৰিকা_যুক্তৰাষ্ট্ৰ আমেৰিকা_যুক্তৰাষ্ট্ৰ GPE 0.99999348198 United_States B-LOC
+যুক্তৰাষ্ট্ৰ None I-LOC
+আৰু None O
+যুক্তৰাজ্যই None O
+প্ৰভাৱশালী None O
+পক্ষ None O
+হিচাপে None O
+আলোচনাত None O
+আধিপত্য None O
+বিস্তাৰ None O
+কৰে। None O
+
+অসম অসম_উচ্চতৰ_মাধ্যমিক_শিক্ষা_সংসদ অসম_উচ্চতৰ_মাধ্যমিক_শিক্ষা_সংসদ ORG 0.986690014483 Assam_Higher_Secondary_Education_Council B-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+শিক্ষা None I-ORG
+সংসদ None I-ORG
+
+অসম অসম_মাধ্যমিক_শিক্ষা_পৰিষদ অসম_মাধ্যমিক_শিক্ষা_পৰিষদ ORG 0.986690014483 Secondary_Education_Board_of_Assam B-ORG
+মাধ্যমিক None I-ORG
+শিক্ষা None I-ORG
+পৰিষদ None I-ORG
+
+কোকৰাঝাৰ কোকৰাঝাৰ_জিলা কোকৰাঝাৰ_জিলা GPE 0.999999999886 Kokrajhar_district B-LOC
+জিলা None I-LOC
+, None O
+চিৰাং চিৰাং_জিলা চিৰাং_জিলা GPE 0.999998686431 Chirang_district B-LOC
+জিলা None I-LOC
+, None O
+ওদালগুৰি ওদালগুৰি_জিলা ওদালগুৰি_জিলা GPE 0.999999999443 Udalguri_district B-LOC
+জিলা None I-LOC
+, None O
+বাক্সা বাক্সা_জিলা বাক্সা_জিলা GPE 0.999999999886 Baksa_district B-LOC
+জিলা None I-LOC
+
+তিনিচুকীয়া তিনিচুকীয়া_জিলা তিনিচুকীয়া_জিলা GPE 0.999999999886 Tinsukia_district B-LOC
+জিলা None I-LOC
+, None O
+ডিব্ৰুগড় ডিব্ৰুগড়_জিলা ডিব্ৰুগড়_জিলা GPE 0.977640974964 Dibrugarh_district B-LOC
+জিলা None I-LOC
+, None O
+যোৰহাট যোৰহাট_জিলা যোৰহাট_জিলা GPE 0.999999997796 Jorhat_district B-LOC
+জিলা None I-LOC
+, None O
+শিৱসাগৰ শিৱসাগৰ_জিলা শিৱসাগৰ_জিলা GPE 0.99999570246 Sivasagar_district B-LOC
+জিলা None I-LOC
+
+গোলাঘাট গোলাঘাট_জিলা গোলাঘাট_জিলা GPE 0.99999999999 Golaghat_district B-LOC
+জিলা None I-LOC
+, None O
+মৰিগাঁও মৰিগাঁও_জিলা মৰিগাঁও_জিলা ORG 0.734924935788 Morigaon_district B-ORG
+জিলা None I-ORG
+, None O
+নগাঁও নগাঁও_জিলা নগাঁও_জিলা GPE 0.999999999886 Nagaon_district B-LOC
+জিলা None I-LOC
+, None O
+ডিফু ডিফু ডিফু GPE 1.0 Diphu B-LOC
+
+অসম অসম_উচ্চতৰ_মাধ্যমিক_শিক্ষা_সংসদ অসম_উচ্চতৰ_মাধ্যমিক_শিক্ষা_সংসদ ORG 0.986690014483 Assam_Higher_Secondary_Education_Council B-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+শিক্ষা None I-ORG
+সংসদ None I-ORG
+
+দক্ষিণ-পূব দক্ষিণ-পূব_এচিয়_ৰাষ্ট্ৰসমূহৰ_সংগঠন দক্ষিণ-পূব_এচিয়_ৰাষ্ট্ৰসমূহৰ_সংগঠন ORG 0.992584661096 Association_of_Southeast_Asian_Nations B-ORG
+এচিয় None I-ORG
+ৰাষ্ট্ৰসমূহৰ None I-ORG
+সংগঠন None I-ORG
+
+দক্ষিণ-পূব দক্ষিণ-পূব_এচিয়_ৰাষ্ট্ৰসমূহৰ_সংগঠন দক্ষিণ-পূব_এচিয়_ৰাষ্ট্ৰসমূহৰ_সংগঠন ORG 0.992584661096 Association_of_Southeast_Asian_Nations B-ORG
+এচিয় None I-ORG
+ৰাষ্ট্ৰসমূহৰ None I-ORG
+সংগঠন None I-ORG
+
+শ্ৰীমন্ত শ্ৰীমন্ত_শঙ্কৰদেৱ_স্বাস্থ্য_বিজ্ঞান_বিশ্ববিদ্যালয় শ্ৰীমন্ত_শঙ্কৰদেৱ_স্বাস্থ্য_বিজ্ঞান_বিশ্ববিদ্যালয় ORG 0.999996293622 Srimanta_Sankaradeva_University_of_Health_Sciences B-ORG
+শঙ্কৰদেৱ None I-ORG
+স্বাস্থ্য None I-ORG
+বিজ্ঞান None I-ORG
+বিশ্ববিদ্যালয় None I-ORG
+
+ভাৰতীয় ভাৰতীয়_জনতা_পাৰ্টি ভাৰতীয়_জনতা_পাৰ্টি ORG 0.855788393779 Bharatiya_Janata_Party B-ORG
+জনতা None I-ORG
+পাৰ্টি None I-ORG
+
+Catharanthus None O
+roseus-1.jpg| None O
+নয়নতৰা None O
+, None O
+পাকিস্তান পাকিস্তান পাকিস্তান GPE 0.999996416405 Pakistan B-LOC
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+চন্দ্ৰধৰ চন্দ্ৰধৰ_বৰুৱা চন্দ্ৰধৰ_বৰুৱা PER 0.904055266507 Chandradhar_Barua B-PER
+বৰুৱা None I-PER
+ৰচনাৱলী- None O
+প্ৰথম None O
+খণ্ড None O
+( None O
+১৯৭৫ None O
+) None O
+
+লক্ষ্মীনাথ লক্ষ্মীনাথ_বেজবৰুৱা লক্ষ্মীনাথ_বেজবৰুৱাৰ PER 0.972106432513 Lakshminath_Bezbaroa B-PER
+বেজবৰুৱাৰ None I-PER
+ৰচনাৱলীক None O
+ছয়টা None O
+খণ্ডত None O
+প্ৰকাশ৷ None O
+( None O
+২০১১ None O
+) None O
+
+গুৱাহাটী গুৱাহাটী_বিশ্ববিদ্যালয় গুৱাহাটী_বিশ্ববিদ্যালয়ৰ ORG 0.999999783248 Gauhati_University B-ORG
+বিশ্ববিদ্যালয়ৰ None I-ORG
+অধিনত None O
+এই None O
+প্ৰতিষ্ঠানখনে None O
+স্নাতক None O
+আৰু None O
+স্নাতকোত্তৰ None O
+পৰ্যায়ত None O
+পাঠ্যক্ৰম None O
+আগবঢ়ায়। None O
+
+*আলেখ্য None O
+প্ৰতিযোগিতাত None O
+অংশগ্ৰহণৰ None O
+বাবে None O
+জাপান জাপান জাপান GPE 0.999984323433 Japan B-LOC
+ভ্ৰমণ None O
+( None O
+১৯৭৯ None O
+) None O
+
+ফণী ফণী_শৰ্মা ফণী_শৰ্মা PER 0.999974261189 Phani_Sarma B-PER
+শৰ্মা None I-PER
+( None O
+মণিৰাম মণিৰাম_দেৱান মণিৰাম_দেৱান PER 0.994295226107 Maniram_Dewan B-PER
+দেৱান None I-PER
+) None O
+
+উল্লেখযোগ্য None O
+যে None O
+এই None O
+ছবিখন None O
+আৰম্ভ None O
+হৈছে None O
+লাচিত লাচিত_বৰফুকন লাচিত_বৰফুকনৰ PER 0.994295226107 Lachit_Borphukan B-PER
+বৰফুকনৰ None I-PER
+মোমায়েকক None O
+কটাৰ None O
+দৃশ্যৰ None O
+পৰা। None O
+
+নীলমণি নীলমণি_ফুকন_(জ্যেষ্ঠ) নীলমণি_ফুকন_(জ্যেষ্ঠ) PER 0.904055266507 Nilmoni_Phukan_(Senior) B-PER
+ফুকন None I-PER
+( None I-PER
+জ্যেষ্ঠ None I-PER
+) None I-PER
+
+ৰিস্তা ৰিস্তা_ডট_কম ৰিস্তা_ডট_কম ORG 0.999865962856 Rishta.com B-ORG
+ডট None I-ORG
+কম None I-ORG
+
+জ্যোতি জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান জ্যোতি_চিত্ৰবন_চলচ্চিত্ৰ_আৰু_টেলিভিশ্যন_প্ৰশিক্ষণ_প্ৰতিষ্ঠান ORG 0.73743568408 Jyoti_Chitraban_Film_and_Television_Institute B-ORG
+চিত্ৰবন None I-ORG
+চলচ্চিত্ৰ None I-ORG
+আৰু None I-ORG
+টেলিভিশ্যন None I-ORG
+প্ৰশিক্ষণ None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+
+অসমৰ অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Assam B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+বৰডুবি None O
+গাঁৱত None O
+অৱস্থিত None O
+এটা None O
+শিৱ শিৱ শিৱ ORG 0.980970072478 Shiva B-ORG
+মন্দিৰ। None O
+ভক্তসকলে None O
+দান None O
+কৰি None O
+ওলমাই None O
+ৰখা None O
+হাজাৰ-হাজাৰ None O
+টিলিঙাৰ None O
+বাবে None O
+ই None O
+বিখ্যাত। None O
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+ডিগ্ৰী None O
+লাভ None O
+কৰাৰ None O
+উপৰিও None O
+১৯৮৬ None O
+চনত None O
+গুৱাহাটী গুৱাহাটী_বিশ্ববিদ্যালয় গুৱাহাটী_বিশ্ববিদ্যালয়ৰ ORG 0.999999783248 Gauhati_University B-ORG
+বিশ্ববিদ্যালয়ৰ None I-ORG
+পৰা None O
+এম.এছ.চি None O
+. None O
+
+' None O
+'' None O
+গুৱাহাটী গুৱাহাটী গুৱাহাটী GPE 1.0 Guwahati B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+শিলচৰ শিলচৰ শিলচৰ GPE 1.0 Silchar B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+বঙাইগাঁও বঙাইগাঁও বঙাইগাঁও GPE 1.0 Bongaigaon B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+ডিব্ৰুগড় ডিব্ৰুগড় ডিব্ৰুগড় GPE 0.999999999972 Dibrugarh B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+যোৰহাট যোৰহাট যোৰহাট GPE 1.0 Jorhat B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+নগাঁও নগাঁও নগাঁও GPE 1.0 Nagaon B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+তিনিচুকীয়া তিনিচুকীয়া তিনিচুকীয়া GPE 1.0 Tinsukia B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+'' None O
+' None O
+
+প্ৰতিকাত্মক None O
+কিছুমান None O
+কাপোৰ৷ None O
+যেনে None O
+গামোচা গামোচা গামোচা PER 0.713603892905 Gamosa B-PER
+, None O
+ইত্যাদি৷ None O
+
+নৱগ্ৰহ নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী ORG 0.906098028497 Navagraha_temples B-ORG
+মন্দিৰ None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+মহাভৈৰৱ মহাভৈৰৱ_মন্দিৰ মহাভৈৰৱ_মন্দিৰ ORG 0.906098028497 Mahabhairav_Temple B-ORG
+মন্দিৰ None I-ORG
+, None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+
+ভৈৰৱী ভৈৰৱী_মন্দিৰ ভৈৰৱী_মন্দিৰ ORG 0.906098028497 Bhairabi_Temple B-ORG
+মন্দিৰ None I-ORG
+, None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+মাধৱ মাধৱ_কন্দলী মাধৱ_কন্দলী PER 0.995746879489 Madhava_Kandali B-PER
+কন্দলী None I-PER
+( None O
+১৪ None O
+শতিকা None O
+) None O
+
+হেম হেম_সৰস্বতী হেম_সৰস্বতী PER 0.995632422289 Hema_Saraswati B-PER
+সৰস্বতী None I-PER
+( None O
+১৪ None O
+শতিকা None O
+) None O
+
+হৰিবৰ হৰিবৰ_বিপ্ৰ হৰিবৰ_বিপ্ৰ PER 0.904055266507 Harivara_Vipra B-PER
+বিপ্ৰ None I-PER
+( None O
+১৪ None O
+শতিকা None O
+) None O
+
+মাধৱদেৱ মাধৱদেৱ মাধৱদেৱ PER 0.972106432513 Madhavdev B-PER
+( None O
+১৪৮৯ None O
+– None O
+১৫৯৬ None O
+) None O
+
+অনন্ত অনন্ত_কন্দলী অনন্ত_কন্দলী PER 0.904055266507 Ananta_Kandali B-PER
+কন্দলী None I-PER
+( None O
+১৬ None O
+শতিকা None O
+) None O
+
+ৰুদ্ৰ ৰুদ্ৰ_সিংহ ৰুদ্ৰ_সিংহ PER 0.999897927154 Sukhrungphaa B-PER
+সিংহ None I-PER
+( None O
+মৃত্যু None O
+১৭১৪ None O
+) None O
+
+কমলাকান্ত কমলাকান্ত_ভট্টাচাৰ্য্য কমলাকান্ত_ভট্টাচাৰ্য্য PER 0.904055266507 Kamalakanta_Bhattacharya_(Assam) B-PER
+ভট্টাচাৰ্য্য None I-PER
+( None O
+১৮৫৩ None O
+- None O
+১৯৩৬ None O
+) None O
+
+চন্দ্ৰকুমাৰ চন্দ্ৰকুমাৰ_আগৰৱালা চন্দ্ৰকুমাৰ_আগৰৱালা PER 0.904055266507 Chandra_Kumar_Agarwala B-PER
+আগৰৱালা None I-PER
+( None O
+১৮৬৭ None O
+- None O
+১৯৩৮ None O
+) None O
+
+লক্ষ্মীনাথ লক্ষ্মীনাথ_বেজবৰুৱা লক্ষ্মীনাথ_বেজবৰুৱা PER 0.972106432513 Lakshminath_Bezbaroa B-PER
+বেজবৰুৱা None I-PER
+( None O
+১৮৬৪ None O
+- None O
+১৯৩৮ None O
+) None O
+
+পদ্মনাথ পদ্মনাথ_গোহাঞিবৰুৱা পদ্মনাথ_গোহাঞিবৰুৱা PER 0.997575111061 Padmanath_Gohain_Baruah B-PER
+গোহাঞিবৰুৱা None I-PER
+( None O
+১৮৭১ None O
+- None O
+১৯৪৫ None O
+) None O
+
+আনন্দ আনন্দ_চন্দ্ৰ_আগৰৱালা আনন্দ_চন্দ্ৰ_আগৰৱালা PER 0.904055266507 Ananda_Chandra_Agarwala B-PER
+চন্দ্ৰ None I-PER
+আগৰৱালা None I-PER
+( None O
+১৮৭৪ None O
+- None O
+১৯৩৯ None O
+) None O
+
+ৰঘুনাথ ৰঘুনাথ_চৌধাৰী ৰঘুনাথ_চৌধাৰী PER 0.904055266507 Raghunath_Choudhary B-PER
+চৌধাৰী None I-PER
+( None O
+১৮৭৯ None O
+- None O
+১৯৬৮ None O
+) None O
+
+সূৰ্যকুমাৰ সূৰ্যকুমাৰ_ভূঞা সূৰ্যকুমাৰ_ভূঞা PER 0.904055266507 Surya_Kumar_Bhuyan B-PER
+ভূঞা None I-PER
+( None O
+১৮৯৪ None O
+- None O
+১৯৬৪ None O
+) None O
+
+অম্বিকাগিৰি অম্বিকাগিৰি_ৰায়চৌধুৰী অম্বিকাগিৰি_ৰায়চৌধুৰী PER 0.999484079917 Ambikagiri_Raichoudhury B-PER
+ৰায়চৌধুৰী None I-PER
+( None O
+১৮৮৫ None O
+- None O
+১৯৬৭ None O
+) None O
+
+নলিনীবালা নলিনীবালা_দেৱী নলিনীবালা_দেৱী PER 0.904055266507 Nalini_Bala_Devi B-PER
+দেৱী None I-PER
+( None O
+১৮৯৮ None O
+- None O
+১৯৭৭ None O
+) None O
+
+ডিম্বেশ্বৰ ডিম্বেশ্বৰ_নেওগ ডিম্বেশ্বৰ_নেওগ PER 0.999855820983 Dimbeswar_Neog B-PER
+নেওগ None I-PER
+( None O
+১৯০০ None O
+- None O
+১৯৬৬ None O
+) None O
+
+জ্যোতিপ্ৰসাদ জ্যোতিপ্ৰসাদ_আগৰৱালা জ্যোতিপ্ৰসাদ_আগৰৱালা PER 0.999990143112 Jyoti_Prasad_Agarwala B-PER
+আগৰৱালা None I-PER
+( None O
+১৯০৩ None O
+- None O
+১৯৫1 None O
+) None O
+
+পাৰ্বতী পাৰ্বতী_প্ৰসাদ_বৰুৱা পাৰ্বতী_প্ৰসাদ_বৰুৱা PER 0.904055266507 Parvati_Prasad_Baruva B-PER
+প্ৰসাদ None I-PER
+বৰুৱা None I-PER
+( None O
+১৯০৪ None O
+- None O
+১৯৬৪ None O
+) None O
+
+আনন্দ আনন্দ_চন্দ্ৰ_বৰুৱা আনন্দ_চন্দ্ৰ_বৰুৱা PER 0.904055266507 Ananda_Chandra_Barua B-PER
+চন্দ্ৰ None I-PER
+বৰুৱা None I-PER
+( None O
+জন্ম None O
+১৯০৭ None O
+) None O
+
+দেৱকান্ত দেৱকান্ত_বৰুৱা দেৱকান্ত_বৰুৱা PER 0.99459969071 Devakanta_Barua B-PER
+বৰুৱা None I-PER
+( None O
+জন্ম None O
+১৯১৪ None O
+) None O
+
+ভৱানন্দ ভৱানন্দ_ডেকা ভৱানন্দ_ডেকা PER 0.999797358505 Bhabananda_Deka B-PER
+ডেকা None I-PER
+( None O
+১৯২৯ None O
+- None O
+২০০৬ None O
+) None O
+
+হেম হেম_বৰুৱা হেম_বৰুৱা PER 0.999871193562 Hem_Barua B-PER
+বৰুৱা None I-PER
+( None O
+১৯১৫ None O
+- None O
+১৯৭৭ None O
+) None O
+
+চৈয়দ চৈয়দ_আব্দুল_মালিক চৈয়দ_আব্দুল_মালিক PER 0.904055266507 Syed_Abdul_Malik B-PER
+আব্দুল None I-PER
+মালিক None I-PER
+( None O
+জন্ম None O
+১৯১৯ None O
+) None O
+
+অমূল্য অমূল্য_বৰুৱা অমূল্য_বৰুৱা PER 0.995632422289 Amulya_Barua B-PER
+বৰুৱা None I-PER
+( None O
+১৯২২ None O
+- None O
+১৯৪৬ None O
+) None O
+
+নৱকান্ত নৱকান্ত_বৰুৱা নৱকান্ত_বৰুৱা PER 0.999777007476 Nabakanta_Barua B-PER
+বৰুৱা None I-PER
+( None O
+১৯৪৬ None O
+- None O
+২০০২ None O
+) None O
+
+ভৱানন্দ ভৱানন্দ_ডেকা ভৱানন্দ_ডেকা PER 0.999797358505 Bhabananda_Deka B-PER
+ডেকা None I-PER
+( None O
+১৯২৯ None O
+- None O
+২০০৬ None O
+) None O
+
+হোমেন হোমেন_বৰগোহাঞি হোমেন_বৰগোহাঞি PER 0.999998920287 Homen_Borgohain B-PER
+বৰগোহাঞি None I-PER
+( None O
+জন্ম None O
+১৯৩১ None O
+) None O
+
+নিৰ্মলপ্ৰভা নিৰ্মলপ্ৰভা_বৰদলৈ নিৰ্মলপ্ৰভা_বৰদলৈ PER 0.904055266507 Nirmal_Prabha_Bordoloi B-PER
+বৰদলৈ None I-PER
+( None O
+১৯৩৩ None O
+- None O
+২০০৪ None O
+) None O
+
+নীলমণি নীলমণি_ফুকন_(কনিষ্ঠ) নীলমণি_ফুকন_(কনিষ্ঠ) PER 0.972106432513 Nilmani_Phookan_(Junior) B-PER
+ফুকন None I-PER
+( None I-PER
+কনিষ্ঠ None I-PER
+) None I-PER
+( None O
+জন্ম None O
+১৯৩৩ None O
+) None O
+
+হীৰেন হীৰেন_ভট্টাচাৰ্য হীৰেন_ভট্টাচাৰ্য PER 0.999995285289 Hiren_Bhattacharyya B-PER
+ভট্টাচাৰ্য None I-PER
+( None O
+জন্ম None O
+১৯৩২ None O
+) None O
+
+হৰেকৃষ্ণ হৰেকৃষ্ণ_ডেকা হৰেকৃষ্ণ_ডেকা PER 0.999995220386 Harekrishna_Deka B-PER
+ডেকা None I-PER
+( None O
+জন্ম None O
+১৯৪৮ None O
+) None O
+
+নলিনীধৰ নলিনীধৰ_ভট্টাচাৰ্য নলিনীধৰ_ভট্টাচাৰ্য PER 0.999995220386 Nalinidhar_Bhattacharya B-PER
+ভট্টাচাৰ্য None I-PER
+( None O
+জন্ম None O
+১৯২০ None O
+) None O
+
+পাৰ্বতী পাৰ্বতী_প্ৰসাদ_বৰুৱা পাৰ্বতী_প্ৰসাদ_বৰুৱা PER 0.904055266507 Parvati_Prasad_Baruva B-PER
+প্ৰসাদ None I-PER
+বৰুৱা None I-PER
+
+চৈয়দ চৈয়দ_আব্দুল_মালিক চৈয়দ_আব্দুল_মালিক PER 0.904055266507 Syed_Abdul_Malik B-PER
+আব্দুল None I-PER
+মালিক None I-PER
+
+১৯৩৯ None O
+চনত None O
+তেজপুৰত তেজপুৰ তেজপুৰত GPE 1.0 Tezpur B-LOC
+আগৰৱালাদেৱৰ None O
+মৃত্যু None O
+হয়। None O
+
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+( None O
+''অনিৰুদ্ধ None O
+'' None O
+) None O
+
+জুবিন জুবিন_গাৰ্গ জুবিন_গাৰ্গ PER 0.999999554628 Zubeen_Garg B-PER
+গাৰ্গ None I-PER
+( None O
+''মানব None O
+'' None O
+) None O
+
+আইদেউ আইদেউ_সন্দিকৈ আইদেউ_সন্দিকৈ PER 0.999493145209 Aideu_Handique B-PER
+সন্দিকৈ None I-PER
+( None O
+''নিজে None O
+'' None O
+) None O
+
+গোলাঘাটৰ গোলাঘাট গোলাঘাটৰ GPE 1.0 Golaghat B-LOC
+ৰাজহ None O
+বিভাগৰ None O
+পেচকাৰ None O
+পদত None O
+৬ None O
+মাহৰ None O
+বাবে None O
+যোগদান৷ None O
+
+তৰুণ তৰুণ_ৰাম_ফুকন তৰুণ_ৰাম_ফুকন PER 0.999961956996 Tarun_Ram_Phukan B-PER
+ৰাম None I-PER
+ফুকন None I-PER
+
+অসমীয়া অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা অসমীয়া_ভাষা_উন্নতি_সাধিনী_সভা ORG 0.998023430813 Oxomiya_Bhaxa_Unnati_Xadhini_Xobha B-ORG
+ভাষা None I-ORG
+উন্নতি None I-ORG
+সাধিনী None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা_পত্ৰিকা অসম_সাহিত্য_সভা_পত্ৰিকা ORG 0.999996454631 Asam_Sahitya_Sabha_Patrika B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+পত্ৰিকা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভাৰ ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভাৰ None I-ORG
+শিৱসাগৰ শিৱসাগৰ শিৱসাগৰ GPE 0.999999767423 Sivasagar B-LOC
+( None O
+১৯৪৪ None O
+) None O
+আৰু None O
+ডিব্ৰুগড় ডিব্ৰুগড় ডিব্ৰুগড় GPE 0.999999999972 Dibrugarh B-LOC
+( None O
+১৯৪৭ None O
+) None O
+অধিৱেশনৰ None O
+সভাপতি৷ None O
+
+তৰুণ তৰুণ_ৰাম_ফুকন তৰুণ_ৰাম_ফুকন PER 0.999961956996 Tarun_Ram_Phukan B-PER
+ৰাম None I-PER
+ফুকন None I-PER
+
+বজালী বজালী_মহাবিদ্যালয় বজালী_মহাবিদ্যালয় ORG 0.999999999306 Bajali_College B-ORG
+মহাবিদ্যালয় None I-ORG
+, None O
+পাঠশালা পাঠশালা পাঠশালা GPE 1.0 Pathsala B-LOC
+
+Birjhora None O
+Mahavidyalaya None O
+, None O
+বঙাইগাঁও বঙাইগাঁও বঙাইগাঁও GPE 1.0 Bongaigaon B-LOC
+
+জগন্নাথ জগন্নাথ_বৰুৱা_মহাবিদ্যালয় জগন্নাথ_বৰুৱা_মহাবিদ্যালয় ORG 0.999997837605 Jagannath_Barooah_College B-ORG
+বৰুৱা None I-ORG
+মহাবিদ্যালয় None I-ORG
+, None O
+যোৰহাট যোৰহাট যোৰহাট GPE 1.0 Jorhat B-LOC
+
+দৰং দৰং_মহাবিদ্যালয় দৰং_মহাবিদ্যালয় ORG 0.999792186683 Darrang_College B-ORG
+মহাবিদ্যালয় None I-ORG
+, None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+
+সন্দিকৈ সন্দিকৈ_ছোৱালী_মহাবিদ্যালয় সন্দিকৈ_ছোৱালী_মহাবিদ্যালয় ORG 0.999999999306 Handique_Girls_College B-ORG
+ছোৱালী None I-ORG
+মহাবিদ্যালয় None I-ORG
+, None O
+গুৱাহাটী গুৱাহাটী গুৱাহাটী GPE 1.0 Guwahati B-LOC
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+কৰিমগঞ্জ কৰিমগঞ্জ_(লোকসভা_সমষ্টি) কৰিমগঞ্জ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Karimganj_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+ডলফিন ডলফিন_ফিল্মছ_প্ৰাইভেট_লিমিটেড ডলফিন_ফিল্মছ_প্ৰাইভেট_লিমিটেড ORG 0.999721121394 Dolphin_Films_Pvt._Ltd B-ORG
+ফিল্মছ None I-ORG
+প্ৰাইভেট None I-ORG
+লিমিটেড None I-ORG
+
+কাজিৰঙা কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.730112362409 Kaziranga_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+টৰোণ্টো None O
+( None O
+কানাডা কানাডা কানাডা GPE 0.999996263783 Canada B-LOC
+) None O
+
+' None O
+'' None O
+এছিয়া এছিয়া এছিয়া GPE 0.999999991553 Asia B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+আফ্ৰিকা আফ্ৰিকা আফ্ৰিকা GPE 1.0 Africa B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+ইউৰোপ ইউৰোপ ইউৰোপ GPE 1.0 Europe B-LOC
+'' None O
+' None O
+
+' None O
+'' None O
+ওচেনিয়া ওচেনিয়া ওচেনিয়া GPE 1.0 Oceania B-LOC
+'' None O
+' None O
+
+ভবেন্দ্ৰ ভবেন্দ্ৰ_নাথ_শইকীয়া ভবেন্দ্ৰ_নাথ_শইকীয়া PER 0.999999062213 Bhabendra_Nath_Saikia B-PER
+নাথ None I-PER
+শইকীয়া None I-PER
+
+) None O
+আৰু None O
+যোৰহাট যোৰহাট যোৰহাট GPE 1.0 Jorhat B-LOC
+( None O
+দূৰত্ব None O
+৯৭ None O
+কি.মি None O
+. None O
+
+*ভুখী None O
+পীঢ়ী None O
+( None O
+নেপালী নেপালী_ভাষা নেপালী_ভাষা ORG 0.575854866823 Newar_language B-ORG
+ভাষা None I-ORG
+) None O
+
+মলয়া মলয়া_গোস্বামী মলয়া_গোস্বামী PER 0.999994962196 Moloya_Goswami B-PER
+গোস্বামী None I-PER
+( None O
+খেৰসূতী None O
+) None O
+
+ৰাষ্ট্ৰীয় ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ORG 0.999999992396 National_Institute_of_Technology,_Silchar B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+শিলচৰ None I-ORG
+
+বীৰেন্দ্ৰ বীৰেন্দ্ৰ_কুমাৰ_ভট্টাচাৰ্য বীৰেন্দ্ৰ_কুমাৰ_ভট্টাচাৰ্য PER 0.998388459089 Birendra_Kumar_Bhattacharya B-PER
+কুমাৰ None I-PER
+ভট্টাচাৰ্য None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+অসম অসম_গণ_পৰিষদ_(প্ৰগতিশীল) অসম_গণ_পৰিষদ_(প্ৰগতিশীল) ORG 0.821622218384 Asom_Gana_Parishad_(Pragatishel) B-ORG
+গণ None I-ORG
+পৰিষদ None I-ORG
+( None I-ORG
+প্ৰগতিশীল None I-ORG
+) None I-ORG
+
+আদালত আদালত_(ধাৰাবাহিক) আদালত_(ধাৰাবাহিক) ORG 0.999865962856 Adaalat B-ORG
+( None I-ORG
+ধাৰাবাহিক None I-ORG
+) None I-ORG
+
+চ’নী চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন ORG 0.999969270569 Sony_Entertainment_Television_(India) B-ORG
+এণ্টাৰটেইনমেণ্ট None I-ORG
+টেলিভিজন None I-ORG
+
+কুছ কুছ_তো_লোগ_কহেংগে কুছ_তো_লোগ_কহেংগে ORG 0.834907809604 Kuch_Toh_Log_Kahenge B-ORG
+তো None I-ORG
+লোগ None I-ORG
+কহেংগে None I-ORG
+
+ৰাজীৱ ৰাজীৱ_গান্ধী ৰাজীৱ_গান্ধী PER 0.999782459036 Rajiv_Gandhi B-PER
+গান্ধী None I-PER
+পুৰস্কাৰ- None O
+১৯৯৭ None O
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অনুৰাধা অনুৰাধা_শৰ্মা_পূজাৰী অনুৰাধা_শৰ্মা_পূজাৰী PER 0.999999251762 Anuradha_Sharma_Pujari B-PER
+শৰ্মা None I-PER
+পূজাৰী None I-PER
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অষ্ট্ৰেলিয়া অষ্ট্ৰেলিয়া_(মহাদেশ) অষ্ট্ৰেলিয়া_(মহাদেশ) GPE 0.999999918644 Australia_(continent) B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+অতুল অতুল_চন্দ্ৰ_হাজৰিকা অতুল_চন্দ্ৰ_হাজৰিকা PER 0.997833129292 Atul_Chandra_Hazarika B-PER
+চন্দ্ৰ None I-PER
+হাজৰিকা None I-PER
+
+অসম অসম_কৃষি_বিশ্ববিদ্যালয় অসম_কৃষি_বিশ্ববিদ্যালয় ORG 0.999973013433 Assam_Agricultural_University B-ORG
+কৃষি None I-ORG
+বিশ্ববিদ্যালয় None I-ORG
+
+অসম অসম_কৃষি_বিশ্ববিদ্যালয় অসম_কৃষি_বিশ্ববিদ্যালয় ORG 0.999973013433 Assam_Agricultural_University B-ORG
+কৃষি None I-ORG
+বিশ্ববিদ্যালয় None I-ORG
+
+অসম অসম_গণ_পৰিষদ অসম_গণ_পৰিষদ ORG 0.823433382645 Asom_Gana_Parishad B-ORG
+গণ None I-ORG
+পৰিষদ None I-ORG
+
+অসম অসম_গণ_পৰিষদ অসম_গণ_পৰিষদ ORG 0.823433382645 Asom_Gana_Parishad B-ORG
+গণ None I-ORG
+পৰিষদ None I-ORG
+
+অসম অসম_গণ_পৰিষদ অসম_গণ_পৰিষদ ORG 0.823433382645 Asom_Gana_Parishad B-ORG
+গণ None I-ORG
+পৰিষদ None I-ORG
+
+অসম অসম_গণ_পৰিষদ অসম_গণ_পৰিষদ ORG 0.823433382645 Asom_Gana_Parishad B-ORG
+গণ None I-ORG
+পৰিষদ None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_সাহিত্য_সভা অসম_সাহিত্য_সভা ORG 0.999800647605 Asam_Sahitya_Sabha B-ORG
+সাহিত্য None I-ORG
+সভা None I-ORG
+
+অসম অসম_চিকিৎসা_মহাবিদ্যালয় অসম_চিকিৎসা_মহাবিদ্যালয় ORG 0.90993920207 Assam_Medical_College B-ORG
+চিকিৎসা None I-ORG
+মহাবিদ্যালয় None I-ORG
+
+অসম অসম_গণ_পৰিষদ অসম_গণ_পৰিষদ ORG 0.823433382645 Asom_Gana_Parishad B-ORG
+গণ None I-ORG
+পৰিষদ None I-ORG
+
+অসম অসম_চিকিৎসা_মহাবিদ্যালয় অসম_চিকিৎসা_মহাবিদ্যালয় ORG 0.90993920207 Assam_Medical_College B-ORG
+চিকিৎসা None I-ORG
+মহাবিদ্যালয় None I-ORG
+
+অসমৰ অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Assam B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+অসমৰ অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Assam B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+অসমৰ অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Assam B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+অসমৰ অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা অসমৰ_মুখ্যমন্ত্ৰীসকলৰ_তালিকা ORG 0.947303172802 List_of_Chief_Ministers_of_Assam B-ORG
+মুখ্যমন্ত্ৰীসকলৰ None I-ORG
+তালিকা None I-ORG
+
+আদালত আদালত_(ধাৰাবাহিক) আদালত_(ধাৰাবাহিক) ORG 0.999865962856 Adaalat B-ORG
+( None I-ORG
+ধাৰাবাহিক None I-ORG
+) None I-ORG
+
+আনন্দৰাম আনন্দৰাম_ঢেকিয়াল_ফুকন আনন্দৰাম_ঢেকিয়াল_ফুকন PER 0.995113640036 Anandaram_Dhekial_Phukan B-PER
+ঢেকিয়াল None I-PER
+ফুকন None I-PER
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আন্তৰ্জাতিক আন্তৰ্জাতিক_মান_সংস্থা আন্তৰ্জাতিক_মান_সংস্থা ORG 0.999982322813 International_Organization_for_Standardization B-ORG
+মান None I-ORG
+সংস্থা None I-ORG
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+আমেৰিকা আমেৰিকা_(মহাদেশ) আমেৰিকা_(মহাদেশ) GPE 0.999999999956 Americas B-LOC
+( None I-LOC
+মহাদেশ None I-LOC
+) None I-LOC
+
+কলিয়াবৰ কলিয়াবৰ_(লোকসভা_সমষ্টি) কলিয়াবৰ_(লোকসভা_সমষ্টি) ORG 0.90993920207 Kaliabor_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+অনুৰাধা অনুৰাধা_শৰ্মা_পূজাৰী অনুৰাধা_শৰ্মা_পূজাৰী PER 0.999999251762 Anuradha_Sharma_Pujari B-PER
+শৰ্মা None I-PER
+পূজাৰী None I-PER
+
+অনুৰাধা অনুৰাধা_শৰ্মা_পূজাৰী অনুৰাধা_শৰ্মা_পূজাৰী PER 0.999999251762 Anuradha_Sharma_Pujari B-PER
+শৰ্মা None I-PER
+পূজাৰী None I-PER
+
+ইৰম ইৰম_চানু_শৰ্মীলা ইৰম_চানু_শৰ্মীলা PER 0.999999657572 Irom_Chanu_Sharmila B-PER
+চানু None I-PER
+শৰ্মীলা None I-PER
+
+ইৰম ইৰম_চানু_শৰ্মীলা ইৰম_চানু_শৰ্মীলা PER 0.999999657572 Irom_Chanu_Sharmila B-PER
+চানু None I-PER
+শৰ্মীলা None I-PER
+
+ইৰম ইৰম_চানু_শৰ্মীলা ইৰম_চানু_শৰ্মীলা PER 0.999999657572 Irom_Chanu_Sharmila B-PER
+চানু None I-PER
+শৰ্মীলা None I-PER
+
+ইৰম ইৰম_চানু_শৰ্মীলা ইৰম_চানু_শৰ্মীলা PER 0.999999657572 Irom_Chanu_Sharmila B-PER
+চানু None I-PER
+শৰ্মীলা None I-PER
+
+ইৰম ইৰম_চানু_শৰ্মীলা ইৰম_চানু_শৰ্মীলা PER 0.999999657572 Irom_Chanu_Sharmila B-PER
+চানু None I-PER
+শৰ্মীলা None I-PER
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+উত্তৰ-পূব উত্তৰ-পূব_সীমান্ত_ৰেলৱে উত্তৰ-পূব_সীমান্ত_ৰেলৱে ORG 0.987949940778 Northeast_Frontier_Railway_zone B-ORG
+সীমান্ত None I-ORG
+ৰেলৱে None I-ORG
+
+নৰ্থ নৰ্থ_লখিমপুৰ_কলেজ নৰ্থ_লখিমপুৰ_কলেজ ORG 0.999997837605 North_Lakhimpur_College B-ORG
+লখিমপুৰ None I-ORG
+কলেজ None I-ORG
+
+নৰ্থ নৰ্থ_লখিমপুৰ_কলেজ নৰ্থ_লখিমপুৰ_কলেজ ORG 0.999997837605 North_Lakhimpur_College B-ORG
+লখিমপুৰ None I-ORG
+কলেজ None I-ORG
+
+কাজিৰঙা কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.730112362409 Kaziranga_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+কাজিৰঙা কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.730112362409 Kaziranga_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+কাজিৰঙা কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান কাজিৰঙা_ৰাষ্ট্ৰীয়_উদ্যান GPE 0.730112362409 Kaziranga_National_Park B-LOC
+ৰাষ্ট্ৰীয় None I-LOC
+উদ্যান None I-LOC
+
+' None O
+'' None O
+''অজগৰ None O
+'' None O
+' None O
+'' None O
+চৈয়দ চৈয়দ_আব্দুল_মালিক চৈয়দ_আব্দুল_মালিক PER 0.904055266507 Syed_Abdul_Malik B-PER
+আব্দুল None I-PER
+মালিক None I-PER
+
+' None O
+'' None O
+''অস্তবক্ৰ None O
+'' None O
+' None O
+'' None O
+কমলাকান্ত কমলাকান্ত_ভট্টাচাৰ্য্য কমলাকান্ত_ভট্টাচাৰ্য্য PER 0.904055266507 Kamalakanta_Bhattacharya_(Assam) B-PER
+ভট্টাচাৰ্য্য None I-PER
+
+' None O
+'' None O
+''এ None O
+নেটিভ None O
+'' None O
+' None O
+'' None O
+আনন্দৰাম আনন্দৰাম_ঢেকিয়াল_ফুকন আনন্দৰাম_ঢেকিয়াল_ফুকন PER 0.995113640036 Anandaram_Dhekial_Phukan B-PER
+ঢেকিয়াল None I-PER
+ফুকন None I-PER
+
+' None O
+'' None O
+''এখুদ None O
+ককাইদেউ None O
+'' None O
+' None O
+'' None O
+নৱকান্ত নৱকান্ত_বৰুৱা নৱকান্ত_বৰুৱা PER 0.999777007476 Nabakanta_Barua B-PER
+বৰুৱা None I-PER
+
+' None O
+'' None O
+''হয়বৰ None O
+অভয়াপুৰীয়া None O
+'' None O
+' None O
+'' None O
+পাৰ্বতী পাৰ্বতী_প্ৰসাদ_বৰুৱা পাৰ্বতী_প্ৰসাদ_বৰুৱা PER 0.904055266507 Parvati_Prasad_Baruva B-PER
+প্ৰসাদ None I-PER
+বৰুৱা None I-PER
+
+' None O
+'' None O
+''নীলা None O
+বাইদেউ None O
+'' None O
+' None O
+'' None O
+নিৰ্মলপ্ৰভা নিৰ্মলপ্ৰভা_বৰদলৈ নিৰ্মলপ্ৰভা_বৰদলৈ PER 0.904055266507 Nirmal_Prabha_Bordoloi B-PER
+বৰদলৈ None I-PER
+
+' None O
+'' None O
+''সোণাৰাম None O
+চান্দ’ None O
+'' None O
+' None O
+'' None O
+হেমচন্দ্ৰ হেমচন্দ্ৰ_বৰুৱা হেমচন্দ্ৰ_বৰুৱা PER 0.904055266507 Hemchandra_Barua B-PER
+বৰুৱা None I-PER
+
+' None O
+'' None O
+''শ্ৰী None O
+হৰ্ষ None O
+'' None O
+' None O
+'' None O
+আনন্দ আনন্দ_চন্দ্ৰ_আগৰৱালা আনন্দ_চন্দ্ৰ_আগৰৱালা PER 0.904055266507 Ananda_Chandra_Agarwala B-PER
+চন্দ্ৰ None I-PER
+আগৰৱালা None I-PER
+
+' None O
+'' None O
+''অগ্নিকবি None O
+'' None O
+' None O
+'' None O
+কমলাকান্ত কমলাকান্ত_ভট্টাচাৰ্য্য কমলাকান্ত_ভট্টাচাৰ্য্য PER 0.904055266507 Kamalakanta_Bhattacharya_(Assam) B-PER
+ভট্টাচাৰ্য্য None I-PER
+
+' None O
+'' None O
+''অসম None O
+কেশৰী None O
+'' None O
+' None O
+'' None O
+অম্বিকাগিৰি অম্বিকাগিৰি_ৰায়চৌধুৰী অম্বিকাগিৰি_ৰায়চৌধুৰী PER 0.999484079917 Ambikagiri_Raichoudhury B-PER
+ৰায়চৌধুৰী None I-PER
+
+' None O
+'' None O
+''অভিনয়াচাৰ্য None O
+'' None O
+' None O
+'' None O
+ব্ৰজনাথ ব্ৰজনাথ_শৰ্মা ব্ৰজনাথ_শৰ্মা PER 0.995644665581 Brajanath_Sarma B-PER
+শৰ্মা None I-PER
+
+' None O
+'' None O
+''কলাগুৰু None O
+'' None O
+' None O
+'' None O
+বিষ্ণুপ্ৰসাদ বিষ্ণুপ্ৰসাদ_ৰাভা বিষ্ণুপ্ৰসাদ_ৰাভা PER 0.999595025269 Bishnu_Prasad_Rabha B-PER
+ৰাভা None I-PER
+
+' None O
+'' None O
+''ৰসৰাজ None O
+'' None O
+'' None O
+লক্ষ্মীনাথ লক্ষ্মীনাথ_বেজবৰুৱা লক্ষ্মীনাথ_বেজবৰুৱা PER 0.972106432513 Lakshminath_Bezbaroa B-PER
+বেজবৰুৱা None I-PER
+
+' None O
+'' None O
+''ৰূপকোঁৱৰ None O
+'' None O
+' None O
+'' None O
+জ্যোতিপ্ৰসাদ জ্যোতিপ্ৰসাদ_আগৰৱালা জ্যোতিপ্ৰসাদ_আগৰৱালা PER 0.999990143112 Jyoti_Prasad_Agarwala B-PER
+আগৰৱালা None I-PER
+
+' None O
+'' None O
+''সাহিত্যৰথী None O
+'' None O
+' None O
+'' None O
+লক্ষ্মীনাথ লক্ষ্মীনাথ_বেজবৰুৱা লক্ষ্মীনাথ_বেজবৰুৱা PER 0.972106432513 Lakshminath_Bezbaroa B-PER
+বেজবৰুৱা None I-PER
+
+' None O
+'' None O
+''সাহিত্য None O
+ৰন্ত None O
+'' None O
+' None O
+'' None O
+চন্দ্ৰধৰ চন্দ্ৰধৰ_বৰুৱা চন্দ্ৰধৰ_বৰুৱা PER 0.904055266507 Chandradhar_Barua B-PER
+বৰুৱা None I-PER
+
+' None O
+'' None O
+''উপন্যাস None O
+সম্ৰাট None O
+'' None O
+' None O
+'' None O
+ৰজনীকান্ত ৰজনীকান্ত_বৰদলৈ ৰজনীকান্ত_বৰদলৈ PER 0.904055266507 Rajanikanta_Bordoloi B-PER
+বৰদলৈ None I-PER
+
+নৱগ্ৰহ নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী ORG 0.906098028497 Navagraha_temples B-ORG
+মন্দিৰ None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+ভিমেশ্বৰ ভিমেশ্বৰ_শিৱ_ধাম ভিমেশ্বৰ_ধাম ORG 0.792919656639 Bhimeswar_Dham B-ORG
+ধাম None I-ORG
+, None O
+গুৱাহাটী গুৱাহাটী গুৱাহাটী GPE 1.0 Guwahati B-LOC
+
+দৌল দৌল_গোবিন্দ_মন্দিৰ দৌল_গোবিন্দ_মন্দিৰ ORG 0.906098028497 Doul_Govinda_Temple B-ORG
+গোবিন্দ None I-ORG
+মন্দিৰ None I-ORG
+, None O
+উত্তৰ উত্তৰ_গুৱাহাটী উত্তৰ_গুৱাহাটী GPE 1.0 North_Guwahati B-LOC
+গুৱাহাটী None I-LOC
+
+মহাভৈৰৱ মহাভৈৰৱ_মন্দিৰ মহাভৈৰৱ_মন্দিৰ ORG 0.906098028497 Mahabhairav_Temple B-ORG
+মন্দিৰ None I-ORG
+, None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+
+ভৈৰৱী ভৈৰৱী_মন্দিৰ ভৈৰৱী_মন্দিৰ ORG 0.906098028497 Bhairabi_Temple B-ORG
+মন্দিৰ None I-ORG
+, None O
+তেজপুৰ তেজপুৰ তেজপুৰ GPE 1.0 Tezpur B-LOC
+
+কামৰূপ কামৰূপ_মহানগৰ_জিলা কামৰূপ_মহানগৰ_জিলা GPE 1.0 Kamrup_Metropolitan_district B-LOC
+মহানগৰ None I-LOC
+জিলা None I-LOC
+
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+কুছ কুছ_তো_লোগ_কহেংগে কুছ_তো_লোগ_কহেংগে ORG 0.834907809604 Kuch_Toh_Log_Kahenge B-ORG
+তো None I-ORG
+লোগ None I-ORG
+কহেংগে None I-ORG
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ফ'কাছ ফ'কাছ_এন.ই. ফ'কাছ_এন.ই. ORG 0.999999999244 Focus_NE B-ORG
+এন.ই None I-ORG
+. None I-ORG
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গ্ৰেগৰী গ্ৰেগৰী_ক'ৰ্ছ' গ্ৰেগৰী_ক'ৰ্ছ' PER 0.999049655287 Gregory_Corso B-PER
+ক'ৰ্ছ None I-PER
+' None I-PER
+
+গ্ৰেগৰী গ্ৰেগৰী_ক'ৰ্ছ' গ্ৰেগৰী_ক'ৰ্ছ' PER 0.999049655287 Gregory_Corso B-PER
+ক'ৰ্ছ None I-PER
+' None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গাব্ৰিয়েল গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ গাব্ৰিয়েল_গাৰ্ছিয়া_মাৰ্কেছ PER 0.999999113727 Gabriel_García_Márquez B-PER
+গাৰ্ছিয়া None I-PER
+মাৰ্কেছ None I-PER
+
+গিৰিজানন্দ গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.99985626675 Girijananda_Chowdhury_Institute_of_Management_and_Technology B-ORG
+চৌধুৰী None I-ORG
+ব্যৱস্থাপনা None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তি None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+গিৰিজানন্দ গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.99985626675 Girijananda_Chowdhury_Institute_of_Management_and_Technology B-ORG
+চৌধুৰী None I-ORG
+ব্যৱস্থাপনা None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তি None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+গিৰিজানন্দ গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী গিৰিজানন্দ_চৌধুৰী_ব্যৱস্থাপনা_আৰু_প্ৰযুক্তি_প্ৰতিষ্ঠান,_গুৱাহাটী ORG 0.99985626675 Girijananda_Chowdhury_Institute_of_Management_and_Technology B-ORG
+চৌধুৰী None I-ORG
+ব্যৱস্থাপনা None I-ORG
+আৰু None I-ORG
+প্ৰযুক্তি None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চালভাড চালভাড'_ডালি চালভাড'_ডালি PER 0.999998651689 Salvador_Dalí B-PER
+' None I-PER
+ডালি None I-PER
+
+চি চি_এন_আৰ_ৰাও চি_এন_আৰ_ৰাও PER 0.999999998315 C._N._R._Rao B-PER
+এন None I-PER
+আৰ None I-PER
+ৰাও None I-PER
+
+চ’নী চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন ORG 0.999969270569 Sony_Entertainment_Television_(India) B-ORG
+এণ্টাৰটেইনমেণ্ট None I-ORG
+টেলিভিজন None I-ORG
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+চ’নী চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন ORG 0.999969270569 Sony_Entertainment_Television_(India) B-ORG
+এণ্টাৰটেইনমেণ্ট None I-ORG
+টেলিভিজন None I-ORG
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+চ’নী চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন ORG 0.999969270569 Sony_Entertainment_Television_(India) B-ORG
+এণ্টাৰটেইনমেণ্ট None I-ORG
+টেলিভিজন None I-ORG
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+চ’নী চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন চ’নী_এণ্টাৰটেইনমেণ্ট_টেলিভিজন ORG 0.999969270569 Sony_Entertainment_Television_(India) B-ORG
+এণ্টাৰটেইনমেণ্ট None I-ORG
+টেলিভিজন None I-ORG
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+জগদীশ জগদীশ_চন্দ্ৰ_বসু জগদীশ_চন্দ্ৰ_বসু PER 0.999999998089 Jagadish_Chandra_Bose B-PER
+চন্দ্ৰ None I-PER
+বসু None I-PER
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+ৰাষ্ট্ৰসংঘ ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ৰাষ্ট্ৰসংঘ_শিক্ষা,_বিজ্ঞান_আৰু_সংস্কৃতি_সংস্থা ORG 0.999798132496 UNESCO B-ORG
+শিক্ষা None I-ORG
+, None I-ORG
+বিজ্ঞান None I-ORG
+আৰু None I-ORG
+সংস্কৃতি None I-ORG
+সংস্থা None I-ORG
+
+জোনাকী জোনাকী_(দ্ব্যৰ্থতা_দূৰীকৰণ_পৃষ্ঠা) জোনাকী_(দ্ব্যৰ্থতা_দূৰীকৰণ_পৃষ্ঠা) ORG 0.999999996942 Jonaki_(magazine) B-ORG
+( None I-ORG
+দ্ব্যৰ্থতা None I-ORG
+দূৰীকৰণ None I-ORG
+পৃষ্ঠা None I-ORG
+) None I-ORG
+
+কুছ কুছ_তো_লোগ_কহেংগে কুছ_তো_লোগ_কহেংগে ORG 0.834907809604 Kuch_Toh_Log_Kahenge B-ORG
+তো None I-ORG
+লোগ None I-ORG
+কহেংগে None I-ORG
+
+কামৰূপ কামৰূপ_মহানগৰ_জিলা কামৰূপ_মহানগৰ_জিলা GPE 1.0 Kamrup_Metropolitan_district B-LOC
+মহানগৰ None I-LOC
+জিলা None I-LOC
+
+কাৰ্বি কাৰ্বি_আংলং_জিলা কাৰ্বি_আংলং_জিলা GPE 1.0 Karbi_Anglong_district B-LOC
+আংলং None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+*পূৱে None O
+দৰং দৰং_জিলা দৰং_জিলা GPE 0.999999999886 Darrang_district B-LOC
+জিলা None I-LOC
+আৰু None O
+কামৰূপ কামৰূপ_জিলা কামৰূপ_জিলা GPE 0.977640974964 Kamrup_district B-LOC
+জিলা None I-LOC
+
+মামণি মামণি_ৰয়ছম_গোস্বামী মামণি_ৰয়ছম_গোস্বামী PER 0.973086020495 Mamoni_Raisom_Goswami B-PER
+ৰয়ছম None I-PER
+গোস্বামী None I-PER
+
+মামণি মামণি_ৰয়ছম_গোস্বামী মামণি_ৰয়ছম_গোস্বামী PER 0.973086020495 Mamoni_Raisom_Goswami B-PER
+ৰয়ছম None I-PER
+গোস্বামী None I-PER
+
+মধ্য মধ্য_প্ৰদেশ মধ্য_প্ৰদেশত GPE 0.946350775741 Madhya_Pradesh B-LOC
+প্ৰদেশত None I-LOC
+১ None O
+কঠা=৬০০ None O
+বৰ্গ None O
+ফুট। None O
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ডিমা ডিমা_হাছাও_জিলা ডিমা_হাছাও_জিলা GPE 1.0 Dima_Hasao_district B-LOC
+হাছাও None I-LOC
+জিলা None I-LOC
+
+ঢেকীয়াখোৱা ঢেকীয়াখোৱা_বৰ_নামঘৰ ঢেকীয়াখোৱা_বৰ_নামঘৰ GPE 0.86679725848 Dhekiakhowa_Bornamghar B-LOC
+বৰ None I-LOC
+নামঘৰ None I-LOC
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+ঢেকীয়াখোৱা ঢেকীয়াখোৱা_বৰ_নামঘৰ ঢেকীয়াখোৱা_বৰ_নামঘৰ GPE 0.86679725848 Dhekiakhowa_Bornamghar B-LOC
+বৰ None I-LOC
+নামঘৰ None I-LOC
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+ক্যিন ক্যিন_ছি_হোৱং ক্যিন_ছি_হোৱং PER 0.999798552295 Qin_Shi_Huang B-PER
+ছি None I-PER
+হোৱং None I-PER
+
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+, None I-ORG
+২০০৫ None I-ORG
+
+তৰুণ তৰুণ_ৰাম_ফুকন তৰুণ_ৰাম_ফুকন PER 0.999961956996 Tarun_Ram_Phukan B-PER
+ৰাম None I-PER
+ফুকন None I-PER
+
+নীলমণি নীলমণি_ফুকন_(কনিষ্ঠ) নীলমণি_ফুকন_(কনিষ্ঠ) PER 0.972106432513 Nilmani_Phookan_(Junior) B-PER
+ফুকন None I-PER
+( None I-PER
+কনিষ্ঠ None I-PER
+) None I-PER
+
+নীলমণি নীলমণি_ফুকন_(কনিষ্ঠ) নীলমণি_ফুকন_(কনিষ্ঠ) PER 0.972106432513 Nilmani_Phookan_(Junior) B-PER
+ফুকন None I-PER
+( None I-PER
+কনিষ্ঠ None I-PER
+) None I-PER
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৰসিংহ নৰসিংহ_(উদ্ভিদ) নৰসিংহ_(উদ্ভিদ) GPE 0.679699169051 Curry_tree B-LOC
+( None I-LOC
+উদ্ভিদ None I-LOC
+) None I-LOC
+
+নৱগ্ৰহ নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী ORG 0.906098028497 Navagraha_temples B-ORG
+মন্দিৰ None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG
+
+নৱগ্ৰহ নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী নৱগ্ৰহ_মন্দিৰ,_গুৱাহাটী ORG 0.906098028497 Navagraha_temples B-ORG
+মন্দিৰ None I-ORG
+, None I-ORG
+গুৱাহাটী None I-ORG

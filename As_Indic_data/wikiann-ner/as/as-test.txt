@@ -1,0 +1,764 @@
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+মাৰ্টিন মাৰ্টিন_লুথাৰ_কিং,_অনুজ মাৰ্টিন_লুথাৰ_কিং,_অনুজ PER 0.999995432616 Martin_Luther_King,_Jr. B-PER
+লুথাৰ None I-PER
+কিং None I-PER
+, None I-PER
+অনুজ None I-PER
+
+'' None O
+' None O
+'' None O
+Hyelaphus None O
+porcinus None O
+annamiticus None O
+'' None O
+' None O
+'' None O
+-এই None O
+উপ-প্ৰজাতিটো None O
+থাইলেণ্ড থাইলেণ্ড থাইলেণ্ড GPE 0.999988046216 Thailand B-LOC
+আৰু None O
+ইণ্ডোনেছিয়া ইণ্ডোনেছিয়া ইণ্ডোনেছিয়া GPE 0.999992948029 Indonesia B-LOC
+ত None O
+পোৱা None O
+যায়। None O
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+যোৰহাট যোৰহাট_অভিযান্ত্ৰিক_মহাবিদ্যালয় যোৰহাট_অভিযান্ত্ৰিক_মহাবিদ্যালয় ORG 0.999999783248 Jorhat_Engineering_College B-ORG
+অভিযান্ত্ৰিক None I-ORG
+মহাবিদ্যালয় None I-ORG
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+মেৰিলিন মেৰিলিন_মন্‌ৰ' মেৰিলিন_মন্‌ৰ' PER 0.999999998886 Marilyn_Monroe B-PER
+মন্‌ৰ None I-PER
+' None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+লিঅ'নাৰ্ড লিঅ'নাৰ্ড'_দা_ভিন্সি লিঅ'নাৰ্ড'_দা_ভিন্সি PER 0.99999996749 Leonardo_da_Vinci B-PER
+' None I-PER
+দা None I-PER
+ভিন্সি None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+মোহনদাস মোহনদাস_কৰমচান্দ_গান্ধী মোহনদাস_কৰমচান্দ_গান্ধী PER 0.972106432513 Mahatma_Gandhi B-PER
+কৰমচান্দ None I-PER
+গান্ধী None I-PER
+
+ভাৰতীয় ভাৰতীয়_মান_সময় ভাৰতীয়_মান_সময় GPE 0.929833654748 Indian_Standard_Time B-LOC
+মান None I-LOC
+সময় None I-LOC
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+ভিনছেণ্ট ভিনছেণ্ট_ভেন_গ’গ ভিনছেণ্ট_ভেন_গ’গ PER 0.999999833762 Vincent_van_Gogh B-PER
+ভেন None I-PER
+গ’গ None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+মকবুল মকবুল_ফিদা_হুছেইন মকবুল_ফিদা_হুছেইন PER 0.99999515825 M._F._Husain B-PER
+ফিদা None I-PER
+হুছেইন None I-PER
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+ৰাষ্ট্ৰীয় ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ORG 0.999999992396 National_Institute_of_Technology,_Silchar B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+শিলচৰ None I-ORG
+
+ৰিস্তা ৰিস্তা_ডট_কম ৰিস্তা_ডট_কম ORG 0.999865962856 Rishta.com B-ORG
+ডট None I-ORG
+কম None I-ORG
+
+হাউ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ হাউ_আই_মে'ট_ইয়'ৰ_মাদাৰ ORG 0.980339726417 How_I_Met_Your_Mother B-ORG
+আই None I-ORG
+মে'ট None I-ORG
+ইয়'ৰ None I-ORG
+মাদাৰ None I-ORG
+
+ৰিস্তা ৰিস্তা_ডট_কম ৰিস্তা_ডট_কম ORG 0.999865962856 Rishta.com B-ORG
+ডট None I-ORG
+কম None I-ORG
+
+ৰাষ্ট্ৰীয় ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ৰাষ্ট্ৰীয়_প্ৰযুক্তিবিদ্যা_প্ৰতিষ্ঠান,_শিলচৰ ORG 0.999999992396 National_Institute_of_Technology,_Silchar B-ORG
+প্ৰযুক্তিবিদ্যা None I-ORG
+প্ৰতিষ্ঠান None I-ORG
+, None I-ORG
+শিলচৰ None I-ORG
+
+ৰঙিয়া ৰঙিয়া_উচ্চতৰ_মাধ্যমিক_বিদ্যালয় ৰঙিয়া_উচ্চতৰ_মাধ্যমিক_বিদ্যালয় ORG 0.999999660051 Rangia_Higher_Secondary_School B-ORG
+উচ্চতৰ None I-ORG
+মাধ্যমিক None I-ORG
+বিদ্যালয় None I-ORG
+
+নৱসূৰুয None O
+পুথিভঁৰালৰঙিয়া None O
+তিনিআলিৰ None O
+এই None O
+অনুষ্ঠানটো None O
+সাহিত্যক-সাংস্কৃতিক None O
+কাৰ্য-কলাপেৰে None O
+জড়িত। None O
+তথ্য তথ্য_জনাৰ_অধিকাৰ_আইন,_২০০৫ তথ্য_জনাৰ_অধিকাৰ_আইন ORG 0.734924935788 Right_to_Information_Act,_2005 B-ORG
+জনাৰ None I-ORG
+অধিকাৰ None I-ORG
+আইন None I-ORG
+জনপ্ৰিয় None O
+কৰাত None O
+এই None O
+অনুষ্ঠানটোৱে None O
+প্ৰশংসনীয় None O
+ভূমিকা None O
+গ্ৰহণ None O
+কৰিছে। None O
+
+ডিজিট ডিজিট_(আলোচনী) ডিজিট_(আলোচনী) ORG 0.99999999949 Digit_(magazine) B-ORG
+( None I-ORG
+আলোচনী None I-ORG
+) None I-ORG
+
+ভাৰতীয় ভাৰতীয়_নাগৰিকত্ব_আইন ভাৰতীয়_নাগৰিকত্ব_আইন GPE 0.978326487531 Indian_nationality_law B-LOC
+নাগৰিকত্ব None I-LOC
+আইন None I-LOC
+
+যোৰহাট যোৰহাট_(লোকসভা_সমষ্টি) যোৰহাট_(লোকসভা_সমষ্টি) ORG 0.90993920207 Jorhat_(Lok_Sabha_constituency) B-ORG
+( None I-ORG
+লোকসভা None I-ORG
+সমষ্টি None I-ORG
+) None I-ORG
+
+তাৰোপৰি None O
+ফেচবুক ফেচবুক ফেচবুক ORG 0.999970534341 Facebook B-ORG
+আৰু None O
+টুইটাৰটো টুইটাৰ টুইটাৰটো ORG 0.992965354134 Twitter B-ORG
+ডিজিটৰ None O
+দুখন None O
+অতি None O
+সক্ৰিয় None O
+আলোচনা None O
+সমাজ None O
+আছে। None O
+
+তেখেতসকল None O
+বৰ্তমান None O
+ভাৰতৰ ভাৰত ভাৰতৰ GPE 0.999991154923 India B-LOC
+মুম্বাই মুম্বাই মুম্বাই GPE 1.0 Mumbai B-LOC
+চহৰ None O
+বাসিন্দা। None O
+
+৩৭ ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+কৃষ্ণকান্ত কৃষ্ণকান্ত_সন্দিকৈ কৃষ্ণকান্ত_সন্দিকৈ PER 0.999750396936 Krishna_Kanta_Handique B-PER
+সন্দিকৈ None I-PER
+( None O
+মৰণোত্তৰভাৱে None O
+) None O
+
+নীলমণি নীলমণি_ফুকন_(জ্যেষ্ঠ) নীলমণি_ফুকন_(জ্যেষ্ঠ) PER 0.904055266507 Nilmoni_Phukan_(Senior) B-PER
+ফুকন None I-PER
+( None I-PER
+জ্যেষ্ঠ None I-PER
+) None I-PER
+
+লাভলি লাভলি_প্ৰফেচনেল_ইউনিভাৰচিটি লাভলি_প্ৰফেচনেল_ইউনিভাৰচিটি ORG 0.999999783248 Lovely_Professional_University B-ORG
+প্ৰফেচনেল None I-ORG
+ইউনিভাৰচিটি None I-ORG
+
+৩৭ ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ৩৭_নং_ৰাষ্ট্ৰীয়_ঘাইপথ_(ভাৰত) ORG 0.999984446201 National_Highway_37_(India)(old_numbering) B-ORG
+নং None I-ORG
+ৰাষ্ট্ৰীয় None I-ORG
+ঘাইপথ None I-ORG
+( None I-ORG
+ভাৰত None I-ORG
+) None I-ORG
+
+জগন্নাথ জগন্নাথ_বৰুৱা_মহাবিদ্যালয় জগন্নাথ_বৰুৱা_মহাবিদ্যালয় ORG 0.999997837605 Jagannath_Barooah_College B-ORG
+বৰুৱা None I-ORG
+মহাবিদ্যালয় None I-ORG
+
+জগন্নাথ জগন্নাথ_বৰুৱা_মহাবিদ্যালয় জগন্নাথ_বৰুৱা_মহাবিদ্যালয় ORG 0.999997837605 Jagannath_Barooah_College B-ORG
+বৰুৱা None I-ORG
+মহাবিদ্যালয় None I-ORG
+
