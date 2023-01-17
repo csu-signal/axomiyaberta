@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 print(torch.cuda.current_device())
 #parent_path = os.path.abspath(os.path.dirname(os.path.abspath(__file__)) + '/../')
 
-parent_path = '/s/chopin/d/proj/ramfis-aida//coref/coreference_and_annotations/'
+parent_path = "../../"
 
 sys.path.append(parent_path)
 
@@ -44,8 +44,10 @@ logger = logging.getLogger(__name__)
 from collections import defaultdict
 
 from examples import MultipleChoiceExample, TextExample, TokensExample
+
  
-wiki_cloze_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-cloze'
+ 
+wiki_cloze_dir = "../../As_Indic_data/wiki-cloze/"
 
 
 
@@ -274,7 +276,6 @@ def load_data(trivial_non_trivial_path):
 
     return all_examples
 
-#load lemma balanced TP and FP tsv pairs
 
 def load_data_tp_fp(trivial_non_trivial_path):
     all_examples = []
@@ -300,49 +301,7 @@ def load_data_tp_fp(trivial_non_trivial_path):
           
     return all_examples 
 
-def load_data_cross_full(trivial_non_trivial_path):
-    all_examples = []
-    with open(trivial_non_trivial_path) as tnf:
-        for line in tnf:
-            row = line.strip().split(',')
-            mention_pair = row[:2]
-            
-            triviality_label = 0 if row[3] =='NEG' else 1
 
-            all_examples.append((mention_pair, triviality_label))
-
-    return all_examples
-
-def load_data_pair_coref_dev(trivial_non_trivial_path):
-    all_examples = []
-    #condition to select only hard pos and hard neg examples 
-    with open(trivial_non_trivial_path) as tnf:
-        for line in tnf:
-            row = line.strip().split(',')
-            mention_pair = row[:2]
-            if row[2]=='HARD':
-                #triviality_label = int(row[3])
-                triviality_label = 0 if row[3] =='NEG' else 1
-
-                all_examples.append((mention_pair, triviality_label))
-
-    return all_examples
-def load_data_pair_coref(trivial_non_trivial_path):
-    all_examples = []
-    #condition to select only hard pos and hard neg examples 
-    with open(trivial_non_trivial_path) as tnf:
-        for line in tnf:
-            row = line.strip().split(',')
-            mention_pair = row[:2]
-            
-            if row[2]=='HARD':
-                
-            #triviality_label = int(row[3])
-                triviality_label = -1 if row[3] =='NEG' else 1
-
-                all_examples.append((mention_pair, triviality_label))
-
-    return all_examples
 
 
 def print_label_distri(labels):
@@ -773,19 +732,16 @@ if __name__ == '__main__':
     labels = []
     for i, j in enumerate(examples):
         labels.append(j.label)
-    
-   
-    
-    
+        
     device = torch.device('cuda:0')
-    #model_name = 'allenai/longformer-base-4096'
-    model_name = "/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+    #model_name = 'allenai/longformer-base-4096' # load the AxomiyaBERTa model from the google drive link here! 
+    
 
     scorer_module =AxBERTa_EmbeddingDisperser(is_training=True,  pan=True,pan_features=None,max_pad_len=360, model_name=model_name).to(device)
   
     
-    working_folder = '/s/chopin/d/proj/ramfis-aida/axbert/axomiyaberta/axomiyaberta/task_finetune/QA_multiplechoice/'  
-    
+ 
+    working_folder  = "../../task_finetune/QA_multiplechoice/'  
    
 
 #     #device_ids = list(range(2))
@@ -810,10 +766,10 @@ if __name__ == '__main__':
     
     
     #load the panphon features accordingly 
-    
+
     
     import pandas as pd
-    as_cloze_pan = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-cloze/qa panphon_features.csv'
+    as_cloze_pan = '../../As_Indic_data/wiki-cloze/qa panphon_features.csv'
 
     as_cloze_pan = pd.read_csv(as_cloze_pan)
 
