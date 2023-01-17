@@ -1,7 +1,3 @@
-
-
- 
-
 import os
 import sys
 import gc
@@ -15,12 +11,8 @@ import torch.nn as F
 from collections import defaultdict
 from collections import Counter
 #torch.cuda.empty_cache()
- 
 print(torch.cuda.current_device())
 parent_path = "../../"
-
- 
-
 sys.path.append(parent_path)
 
 import os.path
@@ -104,10 +96,6 @@ def load_data_tp_fp(trivial_non_trivial_path):
       
     return all_examples 
 
-
-
-
-
 def print_label_distri(labels):
     label_count = {}
     for label in labels:
@@ -131,8 +119,6 @@ def tokenize(tokenizer, mention_pairs, mention_map,m_start, m_end, max_sentence_
         
         max_sentence_len = tokenizer.model_max_length #try 512 here, 
         
-
-
     pairwise_bert_instances_ab = []
     pairwise_bert_instances_ba = []
     pan_1 = []
@@ -180,9 +166,7 @@ def tokenize(tokenizer, mention_pairs, mention_map,m_start, m_end, max_sentence_
 
                 in_truncated = in_truncated + [tokenizer.pad_token_id]*(max_sentence_len//2 - len(in_truncated))
                 input_ids_truncated.append(in_truncated)
-        else:
-            
-    
+        else:               
             for input_id in input_ids:
     
                 global_input_id = [1]
@@ -191,9 +175,6 @@ def tokenize(tokenizer, mention_pairs, mention_map,m_start, m_end, max_sentence_
 
                 doc_start_token = [32001]
                 doc_end_token =  [32002]
-            
-        
-
                 curr_start_index = max(0, m_end_index - (max_sentence_len // 4))
 
                 in_truncated = input_id[curr_start_index: m_end_index] + \
@@ -256,8 +237,7 @@ def tokenize_triplets(tokenizer, mention_triplets, mention_map,m_start, m_end, m
 
     for (m1, m2, m3) in mention_triplets:
         
- 
-        if context =="bert_doc":
+         if context =="bert_doc":
 
             sentence_a = mention_map[m1]['bert_doc_assamese'].replace("[", "").replace("]","")
             #print("Train set sentence A", sentence_a )
@@ -308,8 +288,7 @@ def tokenize_triplets(tokenizer, mention_triplets, mention_map,m_start, m_end, m
 
                 in_truncated = in_truncated + [tokenizer.pad_token_id]*(max_sentence_len//2 - len(in_truncated))
                 input_ids_truncated.append(in_truncated)
-        else:
-            
+        else:            
             #print(context)
             for input_id in input_ids:
                 #print(input_id)
@@ -317,14 +296,7 @@ def tokenize_triplets(tokenizer, mention_triplets, mention_map,m_start, m_end, m
                 global_input_id = [1]
                 m_start_index = input_id.index(m_start)
                 m_end_index = input_id.index(m_end)
-                
-                
-                
-                #global_input_id = torch.ones([12, 1])
  
-#                 doc_start_token = torch.full((1, 1), 50267)
-#                 doc_end_token = torch.full((1, 1), 50268)
-        
                 doc_start_token = [32001]
                 doc_end_token =  [32002]
             
@@ -334,37 +306,6 @@ def tokenize_triplets(tokenizer, mention_triplets, mention_map,m_start, m_end, m
                                input_id[m_end_index: m_end_index + (max_sentence_len // 4)]
                 in_truncated = in_truncated + [tokenizer.pad_token_id] * (max_sentence_len // 2 - len(in_truncated))
                 input_ids_truncated.append(in_truncated)
-
-
-               
-#                 #print(m_start_index, m_end_index)
-#                 #print(input_id[m_start_index-(max_sentence_len//4-2): m_start_index] )
-                
-#                 in_truncated = input_id[m_end_index-(max_sentence_len//4): m_end_index] +                                input_id[m_end_index: m_end_index + (max_sentence_len//4)]
-
-
-#                 in_truncated = in_truncated + [tokenizer.pad_token_id]*(max_sentence_len//2 - len(in_truncated))
-                
-                
-#                 #in_truncated = input_id[m_start_index-(max_sentence_len//4): m_start_index] +                 input_id[m_start_index:m_end_index+1] + input_id[ m_end_index+1: m_end_index + (max_sentence_len//4)]
-                
-# #                 in_truncated = input_id[0: m_start_index] + \
-# #                 input_id[m_start_index:m_end_index+1] + input_id[ m_end_index+1: m_end_index + (max_sentence_len//4-2)]
-
-#                 #in_truncated = global_input_id + doc_start_token + in_truncated + doc_end_token
-#                 in_truncated = doc_start_token + in_truncated + doc_end_token
-    
-# #                 new_ids = torch.cat((doc_start_token , in_truncated), dim=1)
-# #                 new_ids = torch.cat((global_input_id, new_ids), dim=1)
-# #                 new_ids = torch.cat((new_ids, doc_end_token), dim=1)
-#                 #in_truncated = new_ids 
-# # #                  
-# # #                               
-
-#                 in_truncated = in_truncated + [tokenizer.pad_token_id]*((max_sentence_len//2) - len(in_truncated))
-#                 #print(len(in_truncated[0:256]))
-#                 #input_ids_truncated.append(in_truncated[0:1024])  
-#                 input_ids_truncated.append(in_truncated[0:64])   
 
         return torch.LongTensor(input_ids_truncated)
 
@@ -459,9 +400,6 @@ def get_arg_attention_mask(input_ids, parallel_model):
     arg1 = msk_0_ar.int() * msk_1_ar.int()
     arg2 = msk_2_ar.int() * msk_3_ar.int()
     
-    
- 
-
     return attention_mask_g, arg1, arg2
 
 
@@ -520,11 +458,7 @@ def cos_align_predict(parallel_model, device, dev_ab, dev_ba, batch_size):
         for i in tqdm(range(0, n, batch_size), desc='Predicting'):
             batch_indices = indices[i: i + batch_size]
             #dev_pairs = dev_pairs [batch_indices ]
-            
-            
-            
-            
-
+                                          
             cos_ab = forward_ab(parallel_model, dev_ab, device, batch_indices) # these scores are actually embeddings 
             cos_ba = forward_ab(parallel_model, dev_ba, device, batch_indices)
             batch_predictions = cos_dev(cos_ab, cos_ba).detach().cpu()
@@ -594,8 +528,7 @@ def find_panpad_maxlength(train, valid, test):
     max_len_train = 24*(df_train.features_train_epi.map(lambda x: len(ft.word_to_vector_list(x))).max())
     
     #dev
-    
-    
+        
     for x, y in valid.items():
          
         list_words_valid.append(y['assamese_lemma'])
@@ -640,16 +573,11 @@ def BCELoss_class_weighted(input, target, weights):
     return torch.mean(bce)
 
     
-
-
 def create_panphon_features(examples, pan_max_len):
     
-
-
     df_train= pd.DataFrame()
     list_words_train = []
    
-
     for x, y in examples.items():
        
         list_words_train.append(y['assamese_lemma'])
@@ -729,8 +657,6 @@ def train_pairwise(train_pairs,
     train_indices = list(range(len(train_pairs)))
     random.Random(42).shuffle(train_indices)
 
-    
-
     train_pairs = list((train_pairs[i] for i in train_indices))
     train_labels = list((train_labels[i] for i in train_indices))
     train_labels = torch.FloatTensor(train_labels)
@@ -754,48 +680,33 @@ def train_pairwise(train_pairs,
 
             batch_indices = list(range(len(chunk_train_indices)))
      
-
             train_aa = tokenize(tokenizer, chunk_train_pairs, mention_map_train,parallel_model.module.start_id, parallel_model.module.end_id, context = "bert_doc")
-
-
-            
-
+           
             dev_pairs = dev_pairs[i: i + new_batch_size]
-
 
             mini_batch_indices = train_indices[i: i + new_batch_size]
 
-
-            sig_scores , scores= forward_ab(parallel_model, train_aa, device, batch_indices, pan=True)
-
-            
-            
+            sig_scores , scores= forward_ab(parallel_model, train_aa, device, batch_indices, pan=True)            
             batch_labels = train_labels[i: i + new_batch_size].reshape((-1, 1)).to(device)
             loss = bce_loss(sig_scores, batch_labels) 
             loss = BCELoss_class_weighted(sig_scores, batch_labels, bce_weights) 
 
             loss.backward()
 
-
             optimizer.step()
 
             iteration_loss += loss.item()
-
 
         print(f'Iteration {n} Loss:', iteration_loss / len(train_pairs))
 
         dev_predictions, scores = predict(parallel_model, device,dev_aa,batch_size)
         
-
         dev_predictions = torch.squeeze(dev_predictions)
-
 
         print("dev accuracy:", accuracy(dev_predictions, dev_labels))
         print("dev precision:", precision(dev_predictions, dev_labels))
         print("dev f1:", f1_score(dev_predictions, dev_labels))
-        
-        
-
+               
         scorer_folder = working_folder + f'/pairwise_scorer_axb/chk_{n}'
         if not os.path.exists(scorer_folder):
             os.makedirs(scorer_folder)
@@ -811,19 +722,12 @@ def train_pairwise(train_pairs,
     torch.save(parallel_model.module.linear.state_dict(), model_path)
     parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
     parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-    
-
-
-
-
-
+ 
 def batching(n, batch_size, min_batch):
     new_batch_size = batch_size
     while n % new_batch_size < min_batch:
         new_batch_size -= 1
     return new_batch_size
-
-
 
 def predict_trained_model_tp_fp(parallel_model,mention_map,  path_tp, path_tn, working_folder, batch_size=500):
     parallel_model.eval()
@@ -872,8 +776,6 @@ def predict_trained_model_tp_fp(parallel_model,mention_map,  path_tp, path_tn, w
  
     return scores,predictions, test_labels,all_test_pairs
 
-
-
 def get_singletons(mention_map):
        
     gold_cluster = []
@@ -921,8 +823,8 @@ def create_train_sample(singleton_pairs, singleton_label):
     test_pairs1, test_labels1= zip(*load_data_tp_fp(triv_test_path1))
 
 
-    test_pos = []
-    test_neg = []
+    trim_pos = []
+    trim_neg = []
     
     #down sample the true negative pairs from the train set during training for smoother convergence
 
@@ -931,20 +833,18 @@ def create_train_sample(singleton_pairs, singleton_label):
 
 
         if j==1:
-            test_pos.append(i)
+            trim_pos.append(i)
         else:
-            test_neg.append(i)
+            trim_neg.append(i)
 
-    test_pairs=test_pos[:7023] + test_neg[0:80000]
-    test_labels= [1]*7023 + [0]*len(test_neg[0:80000])
+    trim_pairs=trim_pos[:7023] + trim_neg[0:80000]
+    trim_labels= [1]*7023 + [0]*len(trim_neg[0:80000])
 
     #singleton_pairs, singleton_label = get_singletons(train_mention_map)
-    new_train_labels = list(train_labels1) + test_labels + singleton_label  
-    new_train_pairs= list(train_pairs1)+test_pairs + singleton_pairs 
+    new_train_labels = list(train_labels1) + trim_labels + singleton_label  
+    new_train_pairs= list(train_pairs1)+trim_pairs + singleton_pairs 
     
     return new_train_pairs, new_train_labels 
-
-
 
 
 def get_assamese_lemma(test_mention_map):
@@ -991,12 +891,9 @@ def get_assamese_lemma(test_mention_map):
 if __name__ == '__main__':
         
     parent_path = "../../"
- 
-    
+     
     working_folder = parent_path + "/As_Indic_data/ecb/"
-
-
-    
+   
     triv_train_path = working_folder + '/lemma_balanced_tn_fn_train.tsv'
     triv_dev_path = working_folder + '/lemma_balanced_tn_fn_dev.tsv'
     triv_test_path = working_folder + '/lemma_balanced_tn_fn_test.tsv'
@@ -1008,8 +905,6 @@ if __name__ == '__main__':
     dev_neg = []
 
     for i, j in zip(dev_pairs,dev_labels):
-
-
 
         if j==1:
             dev_pos.append(i)
@@ -1038,8 +933,6 @@ if __name__ == '__main__':
     with open(working_folder+ "/ass_trans_dict_next_test.pkl", "rb") as fp:   # Unpickling longformer scores
         score_map_test = pickle.load(fp)
     
-
-
     # create train assamese ECB mention map     
     train_mention_map = {m_id: val for m_id, val in ecb_mention_map.items() if val['men_type'] == "evt" and
                                                         val['split'] == "train"}
@@ -1070,29 +963,22 @@ if __name__ == '__main__':
             men_doc = str(score_map_test[i]).replace('</m>',' </m> ').replace('<m>',' <m> ')
             test_mention_map[i]['bert_doc_assamese'] = men_doc
              
-
     
     #get the assamese lemma for the trigger events from the documents
     train_mention_map = get_assamese_lemma(train_mention_map)
     dev_mention_map = get_assamese_lemma(dev_mention_map)
     test_mention_map = get_assamese_lemma(test_mention_map)
-    
-    
+       
     #find the max length of all the splits together:
-    
-    
+       
     maxlen = find_panpad_maxlength(train_mention_map, dev_mention_map, test_mention_map) 
-    print("maxlen", maxlen)
-    
-    
+    print("maxlen", maxlen)     
     working_folder = parent_path + "/As_Indic_data/ecb/"
     
     scorer_folder = working_folder +'/pairwise_scorer_axberta_pan_upsample_arg/chk_8/'
     model_name = scorer_folder + 'bert'
     linear_weights_path = scorer_folder + 'linear.chkpt'
-
-    
-    
+  
     device = torch.device('cuda:1')
 #     device = torch.device("cpu")
     
@@ -1108,9 +994,6 @@ if __name__ == '__main__':
 #     linear_weights = torch.load(linear_weights_path)
 
     scorer_module = AxBERTa_pairwise(is_training=True, model_name=model_name, linear_weights=None,  pan=True,pan_features=None,max_pad_len=maxlen).to(device)
-    
-    
-    
    
 
 #     #device_ids = list(range(2))
@@ -1160,9 +1043,7 @@ if __name__ == '__main__':
     
     singleton_pairs, singleton_label = get_singletons(train_mention_map)
     train_pairs, train_labels = create_train_sample(singleton_pairs, singleton_label)
-    
-    
-    
+      
     train_pairwise(train_pairs[0:40],
           train_labels[0:40],
           dev_pairs,
@@ -1179,10 +1060,6 @@ if __name__ == '__main__':
           n_iters=10,
           lr_lm=0.00001,
           lr_class=0.001)
-    
-    
-   
-
 
     path_tn = parent_path + '/parsing/ecb/lemma_balanced_tn_fn_dev.tsv'
     path_tp = parent_path + '/parsing/ecb/lemma_balanced_tp_fp_dev.tsv'
