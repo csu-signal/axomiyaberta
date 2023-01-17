@@ -767,7 +767,7 @@ if __name__ == '__main__':
     test_dataloader = make_loader(features_test, 2, False)
           
     optimizer = AdamW(albert_model.parameters(), lr=2e-5)
-    num_train_epochs = 50
+    num_train_epochs = 10
     num_update_steps_per_epoch = len(train_dataloader)
     num_training_steps = num_train_epochs * num_update_steps_per_epoch
 
@@ -850,7 +850,7 @@ if __name__ == '__main__':
         for set in eval_loaders:
             [loader, res_table] = eval_loaders[set]
             all_predictions, all_labels = [], []
-            curr_res = [epoch, 0, 0, 0, 0, 0]
+            curr_res = [epoch, 0, 0, 0, 0]
             progress_bar.set_description(f'Evaluating {set} set...')
             for batch in loader:
                 with torch.no_grad():
@@ -858,35 +858,38 @@ if __name__ == '__main__':
                     outputs = albert_model(**inputs)
 
                 predictions = outputs.logits.argmax(dim=-1)
+                labels = inputs['labels']
+                all_predictions.append(predictions)
+                all_labels.append(labels)
                 # validation_loss.append(outputs.loss)
     
-                labels = inputs['labels']
-        
-                batch_results, accuracy = compute_metrics(predictions, labels,id2label)
-                if set  =='test':
-                    true_labels, true_predictions = postprocess(predictions, labels, id2label)
-                    
-                    all_predictions.extend(true_predictions)
-                    all_labels.extend(true_labels)
+                
+            all_predictions = torch.vstack(all_predictions)
+            all_labels = torch.vstack(all_labels)
 
-                curr_res[1] += batch_results[0]
-                curr_res[2] += batch_results[1]
-                curr_res[3] += batch_results[2]
-                curr_res[4] += accuracy
-                curr_res[5] += outputs.loss.item()
+            batch_results, accuracy = compute_metrics(all_predictions, all_labels,id2label)
+            if set  =='test':
+                all_labels, all_predictions = postprocess(all_predictions, all_labels, id2label)
+                
 
-                running_accuracy += accuracy
-                running_f1 += batch_results[2]
+            curr_res[1] = batch_results[0]
+            curr_res[2] = batch_results[1]
+            curr_res[3] = batch_results[2]
+            curr_res[4] = accuracy
+            # curr_res[5] = outputs.loss.item()
+
+            running_accuracy = accuracy
+            running_f1 = batch_results[2]
 
 
-            for i in range(1, 6):
-                curr_res[i] = curr_res[i] / len(loader) 
+            # for i in range(1, 6):
+            #     curr_res[i] = curr_res[i] / len(loader) 
             
             res_table.append(curr_res)
             
             if set == 'val':
-                epoch_accuracy = running_accuracy / len(loader)
-                epoch_f1 = running_f1 / len(loader)
+                epoch_accuracy = running_accuracy
+                epoch_f1 = running_f1
 
 
             if set =='test':
@@ -906,10 +909,10 @@ if __name__ == '__main__':
         progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
 
 
-    val_df = pd.DataFrame(val_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy', 'loss'])
+    val_df = pd.DataFrame(val_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy'])
     val_df.to_csv(working_folder + '/val_results.csv', index=False)
 
-    test_df = pd.DataFrame(test_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy', 'loss'])
+    test_df = pd.DataFrame(test_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy'])
     test_df.to_csv(working_folder + '/test_results.csv', index=False)
 
  
