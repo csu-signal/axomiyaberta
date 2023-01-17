@@ -25,7 +25,10 @@ import pyhocon
 import os
 from inspect import getfullargspec
 from datasets import load_dataset, load_metric
-model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+
+#model_name= use AxomiyaBERTa model here
+
+
 from transformers import (AutoModelWithLMHead, 
                           AutoTokenizer, 
                           BertConfig)
