@@ -723,9 +723,8 @@ def batching(n, batch_size, min_batch):
 
 
 if __name__ == '__main__':
-    
-
-    
+         
+    wiki_cloze_dir = "../../As_Indic_data/wiki-cloze/"
     
     cloze = WikiCloze(wiki_cloze_dir)
     examples = cloze.get_test_examples('as')
@@ -739,12 +738,8 @@ if __name__ == '__main__':
 
     scorer_module =AxBERTa_EmbeddingDisperser(is_training=True,  pan=True,pan_features=None,max_pad_len=360, model_name=model_name).to(device)
   
-    
- 
     working_folder  = "../../task_finetune/QA_multiplechoice/'  
-   
 
-#     #device_ids = list(range(2))
     device_ids = [0]
 
     parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
@@ -838,11 +833,3 @@ if __name__ == '__main__':
           n_iters=20,
           lr_lm=0.00002,
           lr_class=0.0001)
-    
-
-
-
-
-
-
- 
