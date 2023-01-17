@@ -32,6 +32,7 @@ import epitran
 
 parent_path = "../../"
 working_folder = parent_path + "/As_Indic_data/ecb/"
+scores_path =  parent_path + "/task_finetune/ECB_CDCR/"
 
  
 tn_triv_test_path = working_folder + '/lemma_balanced_tn_fn_test.tsv'
@@ -381,11 +382,15 @@ def run_coreference(ann_dir, working_folder, men_type='evt', split='test'):
     
 #         #test set
 
+    working_folder=  parent_path + "/task_finetune/ECB_CDCR/"
 
-
-    scores_folder = working_folder + f'/test_scores/'  #axbert
-    #scores_folder = working_folder + f'/muril_test_scores/'  # muril 
-    scores_folder = working_folder + f'/axbert_test_scores_pan_upsample/'  # Indic bert
+    scores_folder = working_folder + f'/test_scores/'  #AxomiyaBERTA (native)
+    
+    
+    #scores_folder = working_folder + f'/muril_test_scores/'  # MuRIL
+    #scores_folder = working_folder + f'/indic_test_scores/'  # IndicBERT-base
+    #scores_folder = working_folder + f'/xlm_test_scores/'  # XLM-100
+    scores_folder = working_folder + f'/axbert_test_scores_pan_upsample/'  # AxomiyaBERTA (Phono)
     
     
     scores = pickle.load(open(scores_folder + '/test_prediction_scores', 'rb'))
