@@ -12,7 +12,7 @@ AxomiyaBERTa achieves competitive or state of the art results on multiple tasks,
 ## Structure 
 The repository contains:
 
-- Implementation of the AxomiyaBERTa pretraining, based on the Huggingface code in `run_languag_modelling.py` under the `modelling` dir .
+- Implementation of the AxomiyaBERTa pretraining, based on the Huggingface code in `run_language_modelling.py` under the `modelling` dir .
 - Code for finetuning AxomiyaBERTa and its phonological version for cross-document coreference resolution on the Translated ECB+ Corpus to Assamese in `task_finetune/ECB_CDCR`.
 - Code for finetuning AxomiyaBERTa and its phonological version for NER tasks over the AsNER and the WikiNER tasks in  `ASNER` and the `Wiki_NER` dirs
 - Code for finetuning AxomiyaBERTa and its phonological version for the Wiki-section Title Prediction task in the `Wiki_section` dir
