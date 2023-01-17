@@ -328,9 +328,14 @@ def convert_multiple_choice_examples_to_features(
     Loads a data file into a list of `InputFeatures`
     """
     import pandas as pd
-    as_sectitle_pan_train = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-section-titles/as/wiki as-train_panphon_features.csv'
-    as_sectitle_pan_dev = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-section-titles/as/wiki as-valid_panphon_features.csv'
-    as_sectitle_pan_test = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-section-titles/as/wiki as-test_panphon_features.csv'
+    
+    parent_path = "../../"
+    as_sectitle_dir = parent_path + "/As_Indic_data/wiki-section-titles/"
+    
+    
+    as_sectitle_pan_train = as_sectitle_dir  + 'as/wiki as-train_panphon_features.csv'
+    as_sectitle_pan_dev =  as_sectitle_dir + 'as/wiki as-valid_panphon_features.csv'
+    as_sectitle_pan_test =  as_sectitle_dir + 'as/wiki as-test_panphon_features.csv'
     as_sectitle_pan_train = pd.read_csv(as_sectitle_pan_train)
     as_sectitle_pan_dev = pd.read_csv(as_sectitle_pan_dev)
     as_sectitle_pan_test = pd.read_csv(as_sectitle_pan_test)
@@ -450,17 +455,21 @@ def convert_multiple_choice_examples_to_features(
 
 
 if __name__ == '__main__':
+    parent_path = "../../"
+   
     
     #load the model and the tokenizer into device CUDA
     panphon_features = None
     
-
+    model_name="ai4bharat/indic-bert". # dummy model name, use AxomiyaBERTa model here instead for reproducing the AxomiyabERTa benchmarks. 
 
     albert_model = AlbertForMultipleChoice.from_pretrained(model_name, panphon_features =None).to(device)
 
-    tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
+    tokenizer = AlbertTokenizer.from_pretrained(model_name)
     tokenizer.model_max_length = 514
-    as_sectitle_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-section-titles/'
+    
+    parent_path = "../../"
+    as_sectitle_dir = parent_path + "/As_Indic_data/wiki-section-titles/"
 
     as_wiki = WikiSectionTitles(as_sectitle_dir)
     as_wiki_train =  as_wiki.get_train_examples('as')
@@ -544,7 +553,7 @@ if __name__ == '__main__':
 
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
-    working_folder = '/s/chopin/d/proj/ramfis-aida/axbert/'   
+    working_folder = parent_path + "/task_finetune/Wiki_section/"  
 
     import random 
 
