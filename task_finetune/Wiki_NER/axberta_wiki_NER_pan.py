@@ -68,7 +68,7 @@ from tqdm import tqdm
 #from ..data import load_dataset
 #from ..data.examples import *
 logger = logging.getLogger(__name__)
-model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+
 import csv
 import json
 import os
@@ -83,13 +83,164 @@ from collections import defaultdict
 
 # from examples import MultipleChoiceExample, TextExample, TokensExample
 
-parent_path = '/s/chopin/d/proj/ramfis-aida//coref/coreference_and_annotations/'
-parent_path_data = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data'
-wiki_cloze_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-cloze'
-wiki_ner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wikiann-ner'
+
+def init_weights(m):
+
+    if isinstance(m, nn.Linear):
+        nn.init.xavier_uniform_(m.weight)
+        nn.init.uniform_(m.bias)
+
+class AlbertPreTrainedModel(PreTrainedModel):
+    """
+    An abstract class to handle weights initialization and a simple interface for downloading and loading pretrained
+    models.
+    """
+
+    config_class = AlbertConfig
+    load_tf_weights = load_tf_weights_in_albert
+    base_model_prefix = "albert"
+    _keys_to_ignore_on_load_missing = [r"position_ids"]
+
+    def _init_weights(self, module):
+        """Initialize the weights."""
+        if isinstance(module, nn.Linear):
+            # Slightly different from the TF version which uses truncated_normal for initialization
+            # cf https://github.com/pytorch/pytorch/pull/5617
+            module.weight.data.normal_(mean=0.0, std=self.config.initializer_range)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.Embedding):
+            module.weight.data.normal_(mean=0.0, std=self.config.initializer_range)
+            if module.padding_idx is not None:
+                module.weight.data[module.padding_idx].zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+class AlbertForTokenClassificationPan(AlbertPreTrainedModel):
+
+    _keys_to_ignore_on_load_unexpected = [r"pooler"]
+
+    def __init__(self, config, pan_maxlength, linear_weights=None ):
+        super().__init__(config)
+        self.num_labels = config.num_labels
+
+        self.albert = AlbertModel(config, add_pooling_layer=False)
+        classifier_dropout_prob = (
+            config.classifier_dropout_prob
+            if config.classifier_dropout_prob is not None
+            else config.hidden_dropout_prob
+        )
+        self.dropout = nn.Dropout(classifier_dropout_prob)
+        self.classifier = nn.Linear(config.hidden_size+pan_maxlength, self.config.num_labels)
+        self.panclassifier =nn.Sequential(
+                nn.Linear(config.hidden_size + pan_maxlength, config.hidden_size),
+                nn.Tanh(),
+                nn.Dropout(p=0.2),
+                
+                nn.Linear(config.hidden_size,  self.config.num_labels),
+
+     
+            )
+
+        # Initialize weights and apply final processing
+        self.post_init()
+
+        if linear_weights is None:
+
+            self.post_init()
+            self.panclassifier.apply(init_weights)
+        else:
+            self.classifier.load_state_dict(linear_weights)
+            print("loaded linear weights")
 
 
+#     @add_start_docstrings_to_model_forward(ALBERT_INPUTS_DOCSTRING.format("batch_size, sequence_length"))
+#     @add_code_sample_docstrings(
+#         processor_class=_TOKENIZER_FOR_DOC,
+#         checkpoint=_CHECKPOINT_FOR_DOC,
+#         output_type=TokenClassifierOutput,
+#         config_class=_CONFIG_FOR_DOC,
+#     )
+    def forward(
+        self,
+        input_ids=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        labels=None,
+        output_attentions=None,
+        output_hidden_states=None,
+        return_dict=None,
+        panphon_features = None,
+        pan_maxlength =None,
+    ):
+        r"""
+        labels (`torch.LongTensor` of shape `(batch_size, sequence_length)`, *optional*):
+            Labels for computing the token classification loss. Indices should be in `[0, ..., config.num_labels - 1]`.
+        """
+        return_dict = return_dict if return_dict is not None else self.config.use_return_dict
 
+        outputs = self.albert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+            output_attentions=output_attentions,
+            output_hidden_states=output_hidden_states,
+            return_dict=return_dict,
+        )
+
+        sequence_output = outputs[0]
+
+        # input_ids = input_ids.view(-1, input_ids.size(-1)) if input_ids is not None else None
+        # attention_mask = attention_mask.view(-1, attention_mask.size(-1)) if attention_mask is not None else None
+        # token_type_ids = token_type_ids.view(-1, token_type_ids.size(-1)) if token_type_ids is not None else None
+        # position_ids = position_ids.view(-1, position_ids.size(-1)) if position_ids is not None else None
+        # panphon_features  = panphon_features.view(-1, panphon_features .size(-1)) if panphon_features  is not None else None
+        
+        tensor_tuple = []
+
+        idx = (labels != -100) 
+        nz_idx = (labels != -100).nonzero()
+        count_pad = [len(list(group)) for key, group in groupby(nz_idx[:,0])]
+
+        for i, j in enumerate(count_pad):
+            t_c = panphon_features[i,:pan_maxlength*count_pad[i]].view(count_pad[i], -1) 
+            tensor_tuple.append(t_c)
+        full_tensor = torch.cat(tensor_tuple, dim=0).to(input_ids.device )
+        pan_tensor = torch.zeros(input_ids.size()[0],input_ids.size(-1), pan_maxlength).long().to(input_ids.device)
+        pan_tensor[idx] = full_tensor
+        
+
+        #pooled_out = sequence_output.view(-1, outputs[1].size(-1))
+        pooled_out = sequence_output.view(-1, sequence_output.size(-1))
+        pan_tensor = pan_tensor.view(-1,pan_maxlength)
+        pan_tensorfull = torch.hstack((pooled_out,pan_tensor ))    
+
+       
+        logits = self.classifier(pan_tensorfull)
+        #reshape_logits = logits.view(input_ids.size()[0], input_ids.size(-1))
+
+        loss = None
+        if labels is not None:
+            loss_fct = CrossEntropyLoss()
+            
+            loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+
+        if not return_dict:
+            output = (logits,) + outputs[2:]
+            return ((loss,) + output) if loss is not None else output
+
+        return TokenClassifierOutput(
+            loss=loss,
+            logits=logits,
+            hidden_states=outputs.hidden_states,
+            attentions=outputs.attentions,
+        )
 class DataProcessor:
     """Base class for data converters for sequence classification data sets."""
 
@@ -304,9 +455,6 @@ class ASNER(DataProcessor):
                         c+=1
                         token.append((z,y))
 
-
-
-
         return examples 
         
       
@@ -407,13 +555,7 @@ def find_panpad_maxlength(train, valid, test):
     df_valid['features_train'] = df_valid['features_train'].apply(lambda x:sum(x, []))
     max_len_dev = 24*(df_valid.features_train_epi.map(lambda x: len(ft.word_to_vector_list(x))).max())
     
-    
-    
-    
-    
-    
-    
-    
+                        
     #test
     
     for x, y in enumerate(test):
@@ -433,17 +575,11 @@ def find_panpad_maxlength(train, valid, test):
     max_list = [max_len_train, max_len_dev,  max_len_test]
     print("split wise max", max_list)
     max_overall = max(max_list)
-    
-    
+       
     return max_overall
     
-
-
-
 def create_panphon_features(examples, pan_max_len):
     
-
-
     df_train= pd.DataFrame()
     list_words_train = []
    
@@ -543,8 +679,6 @@ def convert_tokens_examples_to_features(
             #print("count end ", count)
     
         
-
-
             # bert-base-multilingual-cased sometimes output "nothing ([]) when calling tokenize with just a space.
             if len(word_tokens) > 0:
                 #print("yes")
@@ -755,10 +889,12 @@ def postprocess(predictions, labels, label_names):
 if __name__ == '__main__':
     
     
+    parent_path = "../../"
+ 
     #load datasets
     #asner_dir = '../../data/'
-    asner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/AsNER'
-    wiki_ner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wikiann-ner'
+    asner_dir = parent_path + "/As_Indic_data/AsNER/"
+    wiki_ner_dir = parent_path + "/As_Indic_data/wikiann-ner/"
     
     
     ner = WikiNER(wiki_ner_dir)
@@ -770,53 +906,34 @@ if __name__ == '__main__':
     
     print("Loaded Wiki NER Train, Test and Dev datasets successfully")
     
-#     asner = ASNER(asner_dir)
-    
-    
-    
-    
-#     asner_examples_dev= asner.get_examples('as','valid')
-#     asner_examples_train = asner.get_examples('as','train')
-#     asner_examples_train = asner.cleanify_tokens(asner_examples_train)
-#     asner_examples_test = asner.get_examples('as','test')
-#     asner_examples_test = asner.cleanify_tokens(asner_examples_test)
-    #print(len(asner_examples_train)), print(len(asner_examples_test)), print(len(asner_examples_dev))
-    
-    #print("Loaded Assamese NER Train, Test and Dev datasets successfully")
+
     
     label_list = []
     for i, j in enumerate(wikiexamples_train):
         label_list.append(j.labels)
     flat_list = flatten(label_list)
     label_list = {*flat_list}
-#     #flat_list = [item for sublist in label_list for item in sublist]
-#     print(flat_list)
 
-#     label_list = set(flat_list)
-#     print(label_list)
-     
-          
           
     # Wiki NER datasets, just in case!       
     
     device = torch.device('cuda:0')
+        
+    ####### Use the AxomiyaBERTa model instead for running the experiments of the paper   #########
     
-    
-    
-    
-    model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+    model_name="ai4bharat/indic-bert"
     
     
     device_ids = [0]
 
  
-    tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
+    tokenizer = AlbertTokenizer.from_pretrained("ai4bharat/indic-bert")
     tokenizer.model_max_length = 514
        #load models and tokenizers
     #model_name="indicbert"
-    device_ids = [0]
+ 
     #tokenizer = AlbertTokenizer.from_pretrained("ai4bharat/indic-bert")
-    tokenizer.model_max_length = 514
+
     #convert dataset into tokenized features and trim 
     
     max_panpad = find_panpad_maxlength(wikiexamples_train, wikiexamples_dev, wikiexamples_test)
@@ -899,7 +1016,7 @@ if __name__ == '__main__':
 #         model_name, num_labels=6, id2label=id2label, label2id=label2id
 #     ).to(device)
     
-    albert_model = AlbertForTokenClassification.from_pretrained(
+    albert_model = AlbertForTokenClassificationPan.from_pretrained(
         model_name, num_labels=6, id2label=id2label, label2id=label2id,  pan_maxlength = max_panpad
     ).to(device)
 
@@ -933,13 +1050,10 @@ if __name__ == '__main__':
           
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
-    #working_folder = '/s/carnap/b/nobackup/signal/m3x/axberta/task_finetune/indic'   
-    working_folder = '/s/chopin/d/proj/ramfis-aida/axbert/axomiyaberta/axomiyaberta/task_finetune/Wiki_NER/'   
+
+    working_folder =parent_path + '/task_finetune/Wiki_NER/'  
     
-
-
- 
-#     device = torch.device('cuda:1')
+    #     device = torch.device('cuda:1')
     total_predictions = []
     total_true  = []
     results = []
@@ -1010,21 +1124,10 @@ if __name__ == '__main__':
 
                 predictions = outputs.logits.argmax(dim=-1)
                 predictions = predictions.view(inputs['input_ids'].size()[0], inputs['input_ids'].size(-1))
-                #print("len predictions", predictions.size())
-                # validation_loss.append(outputs.loss)
-    
-                labels = inputs['labels']
-        
-                
-        
-        
-        
+             
+                labels = inputs['labels']       
                 batch_results, accuracy = compute_metrics(predictions, labels,id2label, mode="WikiNER")
 
-                # res = list(flatten(batch_results)).append(accuracy)
-                # eval_results.append((batch_results, accuracy))
-            
-#                 # print("TEST RESULTS", batch_results, accuracy )
                 curr_res[1] += batch_results[0]
                 curr_res[2] += batch_results[1]
                 curr_res[3] += batch_results[2]
@@ -1034,7 +1137,6 @@ if __name__ == '__main__':
                 running_accuracy += accuracy
                 running_f1 += batch_results[2]
 
-
             for i in range(1, 6):
                 curr_res[i] = curr_res[i] / len(loader) 
             
@@ -1043,27 +1145,24 @@ if __name__ == '__main__':
             if set == 'val':
                 epoch_accuracy = running_accuracy / len(loader)
                 epoch_f1 = running_f1 / len(loader)
-
         
-
-
-#         scorer_folder = working_folder + f'/wikiner_indic_tagger/chk_{epoch}'
-#         if not os.path.exists(scorer_folder):
-#             os.makedirs(scorer_folder)
-#         model_path = scorer_folder + '/linear.chkpt'
-#         torch.save(albert_model.classifier.state_dict(), model_path)
-#         albert_model.save_pretrained(scorer_folder + '/indic_ner')
-#         tokenizer.save_pretrained(scorer_folder + '/indic_ner')
+        scorer_folder = working_folder + f'/wikiner_indic_tagger/chk_{epoch}'
+        if not os.path.exists(scorer_folder):
+            os.makedirs(scorer_folder)
+        model_path = scorer_folder + '/linear.chkpt'
+        torch.save(albert_model.classifier.state_dict(), model_path)
+        albert_model.save_pretrained(scorer_folder + '/indic_ner')
+        tokenizer.save_pretrained(scorer_folder + '/indic_ner')
 
         progress_bar.set_description(f'Epoch {epoch}, Loss: {epoch_loss:.3f}, Val Accuracy: {epoch_accuracy:.3f}, Val F1: {epoch_f1:.3f}')
 
-#     scorer_folder = working_folder + f'/wikiner_indic_tagger/chk_{epoch}'
-#     if not os.path.exists(scorer_folder):
-#         os.makedirs(scorer_folder)
-#     model_path = scorer_folder + '/linear.chkpt'
-#     torch.save(albert_model.classifier.state_dict(), model_path)
-#     albert_model.save_pretrained(scorer_folder + '/indic_ner')
-#     tokenizer.save_pretrained(scorer_folder + '/indic_ner')
+    scorer_folder = working_folder + f'/wikiner_indic_tagger/chk_{epoch}'
+    if not os.path.exists(scorer_folder):
+        os.makedirs(scorer_folder)
+    model_path = scorer_folder + '/linear.chkpt'
+    torch.save(albert_model.classifier.state_dict(), model_path)
+    albert_model.save_pretrained(scorer_folder + '/indic_ner')
+    tokenizer.save_pretrained(scorer_folder + '/indic_ner')
 
     val_df = pd.DataFrame(val_results, columns=['epoch', 'precision', 'recall', 'f1', 'accuracy', 'loss'])
     val_df.to_csv(working_folder + '/val_results_wiki_pan_lr_2e_5_partial.csv', index=False)
