@@ -10,13 +10,6 @@ from inspect import getfullargspec
 from transformers import (AutoModelWithLMHead, 
                           AutoTokenizer, 
                           BertConfig)
-# relative path of config file
-
-config_file_path = os.path.dirname(__file__) + '/../cdlm/config_pairwise_long_reg_span.json'
-config = pyhocon.ConfigFactory.parse_file(config_file_path)
-
-
-# print(config.cdlm_path)
 
 
 def init_weights(m):
@@ -26,14 +19,15 @@ def init_weights(m):
 
 
 
-    
+        
+####### Use the AxomiyaBERTa model instead for running the experiments of the paper   #########
 
     
 class AxBERTa_Triplet(nn.Module):
-    def __init__(self, is_training=True, long=True, model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500",
+    def __init__(self, is_training=True, long=True,  model_name="ai4bharat/indic-bert",
                  linear_weights=None):
         super(AxBERTa_Triplet, self).__init__()
-        self.tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
+        self.tokenizer = AlbertTokenizer.from_pretrained("ai4bharat/indic-bert")
         self.long = long
 
         if is_training:
@@ -162,11 +156,13 @@ class AxBERTa_Triplet(nn.Module):
         return self.linear(lm_output) 
         #return lm_output
     
+####### Use the AxomiyaBERTa model instead for running the experiments of the paper   #########
+    
 class AxBERTa_EmbeddingDisperser(nn.Module):
-    def __init__(self, is_training=True, pan=False,pan_features=None,max_pad_len=None,   model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500",
+    def __init__(self, is_training=True, pan=False,pan_features=None,max_pad_len=None,  model_name="ai4bharat/indic-bert",
                  linear_weights=None):
         super(AxBERTa_EmbeddingDisperser, self).__init__()
-        self.tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
+        self.tokenizer =  AlbertTokenizer.from_pretrained("ai4bharat/indic-bert")
         self.pan = pan
 
         if is_training:
