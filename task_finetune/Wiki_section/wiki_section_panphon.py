@@ -50,6 +50,152 @@ from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
+class AlbertPreTrainedModel(PreTrainedModel):
+    """
+    An abstract class to handle weights initialization and a simple interface for downloading and loading pretrained
+    models.
+    """
+
+    config_class = AlbertConfig
+    load_tf_weights = load_tf_weights_in_albert
+    base_model_prefix = "albert"
+    _keys_to_ignore_on_load_missing = [r"position_ids"]
+
+    def _init_weights(self, module):
+        """Initialize the weights."""
+        if isinstance(module, nn.Linear):
+            # Slightly different from the TF version which uses truncated_normal for initialization
+            # cf https://github.com/pytorch/pytorch/pull/5617
+            module.weight.data.normal_(mean=0.0, std=self.config.initializer_range)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.Embedding):
+            module.weight.data.normal_(mean=0.0, std=self.config.initializer_range)
+            if module.padding_idx is not None:
+                module.weight.data[module.padding_idx].zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+            
+def init_weights(m):
+
+    if isinstance(m, nn.Linear):
+        nn.init.xavier_uniform_(m.weight)
+        nn.init.uniform_(m.bias)
+
+class AlbertForWikiSectionPan(AlbertPreTrainedModel):
+    def __init__(self, config,panphon_features, linear_weights=None):
+        super().__init__(config)
+
+        self.albert = AlbertModel(config)
+        self.dropout = nn.Dropout(config.classifier_dropout_prob)
+        self.panphon_features = panphon_features
+        #self.classifier = nn.Linear(config.hidden_size + 1848 , 1)  #1848 is max length of panphon features after  padding to the right!
+        self.panclassifier =nn.Sequential(
+                nn.Linear(config.hidden_size + 1848 , 1),
+                nn.Tanh(),
+                # nn.Dropout(p=0.2),
+                
+                # nn.Linear(config.hidden_size, 1),
+
+     
+            )
+
+        # Initialize weights and apply final processing
+        if linear_weights is None:
+
+            self.post_init()
+            self.panclassifier.apply(init_weights)
+        else:
+            self.panclassifier.load_state_dict(linear_weights)
+            print("loaded linear weights")
+
+    
+
+#     @add_start_docstrings_to_model_forward(ALBERT_INPUTS_DOCSTRING.format("batch_size, num_choices, sequence_length"))
+#     @add_code_sample_docstrings(
+#         processor_class=_TOKENIZER_FOR_DOC,
+#         checkpoint=_CHECKPOINT_FOR_DOC,
+#         output_type=MultipleChoiceModelOutput,
+#         config_class=_CONFIG_FOR_DOC,
+#     )
+    def forward(
+        self,
+        input_ids=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        labels=None,
+        output_attentions=None,
+        output_hidden_states=None,
+        return_dict=None,
+        panphon_features = None,
+    ):
+        r"""
+        labels (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+            Labels for computing the multiple choice classification loss. Indices should be in `[0, ...,
+            num_choices-1]` where *num_choices* is the size of the second dimension of the input tensors. (see
+            *input_ids* above)
+        """
+        return_dict = return_dict if return_dict is not None else self.config.use_return_dict
+        num_choices = input_ids.shape[1] if input_ids is not None else inputs_embeds.shape[1]
+
+        input_ids = input_ids.view(-1, input_ids.size(-1)) if input_ids is not None else None
+        attention_mask = attention_mask.view(-1, attention_mask.size(-1)) if attention_mask is not None else None
+        token_type_ids = token_type_ids.view(-1, token_type_ids.size(-1)) if token_type_ids is not None else None
+        position_ids = position_ids.view(-1, position_ids.size(-1)) if position_ids is not None else None
+        panphon_features  = panphon_features.view(-1, panphon_features .size(-1)) if panphon_features  is not None else None
+
+        
+
+        inputs_embeds = (
+            inputs_embeds.view(-1, inputs_embeds.size(-2), inputs_embeds.size(-1))
+            if inputs_embeds is not None
+            else None
+        )
+        outputs = self.albert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+            output_attentions=output_attentions,
+            output_hidden_states=output_hidden_states,
+            return_dict=return_dict,
+        )
+
+        pooled_output = outputs[1]
+
+        #pooled_output = self.dropout(pooled_output)
+
+        #concat the panphon features with the pooled output and then feed into the linear classifier 
+        # or try a sequential two layrered classifier! 
+        pooled_output = torch.hstack((pooled_output, panphon_features ))
+        #logits = self.classifier(pooled_output)
+        logits = self.panclassifier(pooled_output)
+    
+        reshaped_logits = logits.view(-1, num_choices)
+
+        loss = None
+        if labels is not None:
+            loss_fct = CrossEntropyLoss()
+            #wiki_criterion = nn.CrossEntropyLoss(weight= torch.tensor([ 20.2, 14.1,4.2,5.5])).to(input_ids.device )
+            loss = loss_fct(reshaped_logits, labels)
+            
+
+        if not return_dict:
+            output = (reshaped_logits,) + outputs[2:]
+            return ((loss,) + output) if loss is not None else output
+
+        return MultipleChoiceModelOutput(
+            loss=loss,
+            logits=reshaped_logits,
+            hidden_states=outputs.hidden_states,
+            attentions=outputs.attentions,
+        )
 
 
 @dataclass(frozen=True)
@@ -466,7 +612,7 @@ if __name__ == '__main__':
     
     model_name="ai4bharat/indic-bert". # dummy model name, use AxomiyaBERTa model here instead for reproducing the AxomiyabERTa benchmarks. 
 
-    albert_model = AlbertForMultipleChoice.from_pretrained(model_name, panphon_features =None).to(device)
+    albert_model = AlbertForWikiSectionPan.from_pretrained(model_name, panphon_features =None).to(device)
 
     tokenizer = AlbertTokenizer.from_pretrained(model_name)
     tokenizer.model_max_length = 514
