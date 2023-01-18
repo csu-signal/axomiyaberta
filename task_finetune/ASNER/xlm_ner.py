@@ -1,5 +1,3 @@
-#Author: Abhijnan Nath. Extended from https://github.com/AI4Bharat/indic-bert and  huggingface: https://github.com/huggingface/transformers/blob/main/examples/pytorch/token-classification/run_ner.py
-
 import os
 import sys
 import gc
@@ -68,7 +66,7 @@ import csv
 #from ..data import load_dataset
 #from ..data.examples import *
 logger = logging.getLogger(__name__)
-model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+
 import csv
 import json
 import os
@@ -83,10 +81,6 @@ from collections import defaultdict
 
 # from examples import MultipleChoiceExample, TextExample, TokensExample
 
-parent_path = '/s/chopin/d/proj/ramfis-aida//coref/coreference_and_annotations/'
-parent_path_data = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data'
-wiki_cloze_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-cloze'
-wiki_ner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wikiann-ner'
 
 
 
@@ -570,9 +564,11 @@ def postprocess(predictions, labels, label_names):
 
 if __name__ == '__main__':
     
-    
+    parent_path = "../../"
+ 
+    asner_dir = parent_path + "/As_Indic_data/AsNER/"
     #load datasets
-    asner_dir = '../../data/'
+    #asner_dir = '../../data/'
     
     asner = ASNER(asner_dir)
     
@@ -701,7 +697,7 @@ if __name__ == '__main__':
           
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
-    working_folder = '/s/carnap/b/nobackup/signal/m3x/axberta/task_finetune/xlm'   
+    working_folder =parent_path + '/task_finetune/ASNER/' 
 
 
  
