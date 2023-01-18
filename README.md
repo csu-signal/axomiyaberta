@@ -11,13 +11,13 @@ AxomiyaBERTa achieves competitive or state of the art results on multiple tasks,
 
 ## Structure 
 The repository contains:
-
+- `As_Indic_data` contains all the dataset files for each task along with auxillary files like meta-data for cross-document coreference resolution for Assamese ECB+ corpus along with the phonological-features for the two multiple choice tasks: `wiki-section title prediction` and `CLoze-QA`.
 - Implementation of the AxomiyaBERTa pretraining, based on the Huggingface code in `run_language_modelling.py` under the `modelling` dir .
 - Code for finetuning AxomiyaBERTa and its phonological version for cross-document coreference resolution on the Translated ECB+ Corpus to Assamese in `task_finetune/ECB_CDCR` dir.
 - Code for finetuning AxomiyaBERTa and its phonological version for NER tasks over the AsNER and the WikiNER tasks in  `task_finetune/ASNER` and the `task_finetune/Wiki_NER` dir.
 - Code for finetuning AxomiyaBERTa and its phonological version for the Wiki-section Title Prediction task in the `task_finetune/Wiki_section` dir
 - Code for finetuning AxomiyaBERTa and its phonological version on the CLoze-QA dataset in the `task_finetune/QA_multiplechoice` dir
-
+- For ECB+, the `scorer` directory inside `task_finetune/ECB_CDCR` dir contain the perl script coreference scorer from `https://github.com/conll/reference-coreference-scorers`.
 
 ## Pretraining/ Pretrained Model Usage
 
