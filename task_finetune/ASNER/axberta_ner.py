@@ -1,5 +1,3 @@
-#Author: Abhijnan Nath. Extended from https://github.com/AI4Bharat/indic-bert and  huggingface: https://github.com/huggingface/transformers/blob/main/examples/pytorch/token-classification/run_ner.py
-
 import os
 import sys
 import gc
@@ -65,7 +63,7 @@ from tqdm import tqdm
 #from ..data import load_dataset
 #from ..data.examples import *
 logger = logging.getLogger(__name__)
-model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+
 import csv
 import json
 import os
@@ -80,10 +78,6 @@ from collections import defaultdict
 
 from examples import MultipleChoiceExample, TextExample, TokensExample
 
-parent_path = '/s/chopin/d/proj/ramfis-aida//coref/coreference_and_annotations/'
-parent_path_data = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data'
-wiki_cloze_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-cloze'
-wiki_ner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wikiann-ner'
 
 
 
@@ -668,7 +662,9 @@ if __name__ == '__main__':
     
     
     #load datasets
-    asner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/AsNER'
+    parent_path = "../../"
+ 
+    asner_dir = parent_path + "/As_Indic_data/AsNER/"
     
     asner = ASNER(asner_dir)
     
@@ -695,9 +691,12 @@ if __name__ == '__main__':
     #wikiexamples_train = ner.get_examples('as', 'as-train')     
     device = torch.device('cuda:0')   
        #load models and tokenizers
-    model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+    
+    ####### Use the AxomiyaBERTa model here instead for running the experiments of the paper   #########
+	
+    model_name="ai4bharat/indic-bert"
     device_ids = [0]
-    tokenizer = AlbertTokenizer.from_pretrained("/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/")
+    tokenizer = AlbertTokenizer.from_pretrained("ai4bharat/indic-bert")
     tokenizer.model_max_length = 514
     #convert dataset into tokenized features and trim 
     
@@ -799,7 +798,7 @@ if __name__ == '__main__':
           
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
-    working_folder = '/s/chopin/d/proj/ramfis-aida/axbert/'   
+    working_folder =parent_path + '/task_finetune/ASNER/'    
 
 
  
