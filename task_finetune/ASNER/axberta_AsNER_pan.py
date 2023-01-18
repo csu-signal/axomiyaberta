@@ -68,7 +68,7 @@ from tqdm import tqdm
 #from ..data import load_dataset
 #from ..data.examples import *
 logger = logging.getLogger(__name__)
-model_name="/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/checkpoint-485500"
+
 import csv
 import json
 import os
@@ -83,10 +83,7 @@ from collections import defaultdict
 
 # from examples import MultipleChoiceExample, TextExample, TokensExample
 
-parent_path = '/s/chopin/d/proj/ramfis-aida//coref/coreference_and_annotations/'
-parent_path_data = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data'
-wiki_cloze_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wiki-cloze'
-wiki_ner_dir = '/s/chopin/d/proj/ramfis-aida/axbert/As_Indic_data/wikiann-ner'
+
 
 
 def init_weights(m):
@@ -970,15 +967,7 @@ if __name__ == '__main__':
     flat_list = flatten(label_list)
     label_list = {*flat_list}
 
-    
-    #     #flat_list = [item for sublist in label_list for item in sublist]
-#     print(flat_list)
 
-#     label_list = set(flat_list)
-#     print(label_list)
-     
-          
-          
     # Wiki NER datasets, just in case!       
     
     device = torch.device('cuda:1')
@@ -1084,12 +1073,7 @@ if __name__ == '__main__':
     albert_model = AlbertForTokenClassificationPan.from_pretrained(
         model_name, num_labels=6, id2label=id2label, label2id=label2id,  pan_maxlength = max_panpad
     ).to(device)
-
-
     
-    
-    
- 
     #initiate dataloader and trainer 
     
     max_overall= find_max_pad(features_train, features_dev, features_test)
@@ -1115,14 +1099,10 @@ if __name__ == '__main__':
           
     # train model for NER 
     progress_bar = tqdm.tqdm(range(num_training_steps))
-    #working_folder = '/s/carnap/b/nobackup/signal/m3x/axberta/task_finetune/indic'   
+  
     working_folder =parent_path + '/task_finetune/ASNER/'   # Set the working folder acc to the NER task (WikiNER or ASNER)
     
     
-
-
-
- 
 #     device = torch.device('cuda:1')
     total_predictions = []
     total_true  = []
