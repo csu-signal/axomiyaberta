@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "/s/chopin/d/proj/ramfis-aida/loan_exp_results/loan-word-detection/Datasets/Assamese_Bert_dataset/data_dir_final/",
+  "_name_or_path": "../Datasets/Assamese_Bert_dataset/data_dir_final/",
   "architectures": [
     "AlbertForMaskedLM"
   ],
