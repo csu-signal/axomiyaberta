@@ -1,4 +1,8 @@
 # AxomiyaBERTa: A Phonologically-aware Transformer Model for Assamese
+Abhijnan Nath, Sheikh Mannan, and Nikhil Krishnaswamy
+Situated Grounding Natural Language (SIGNAL) Lab, Colorado State University, Fort Collins, CO, USA
+Findings of the Association of Computational Linguistics: ACL 2023, Toronto, ON, Canada
+July 2023
  
 This repo contains code for training, fine-tuning and evaluating a smaller-sized monolingual language model for Assamese along with its phonological versions. AxomiyaBERTa is a novel, mono-lingual Transformer language model for the Assamese language which has been trained in a low-resource and limited-compute setting, using only the masked language modeling (MLM) objective. Beyond a model for a new language, our novel contributions are as follows:
 
@@ -7,7 +11,6 @@ This repo contains code for training, fine-tuning and evaluating a smaller-sized
 - Evaluation on event coreference, which is novel for Assamese.
 
 AxomiyaBERTa achieves competitive or state of the art results on multiple tasks, and demonstrates their utility for building new language models in resource-constrained settings.
-
 
 ## Structure 
 The repository contains:
@@ -19,9 +22,9 @@ The repository contains:
 - Code for finetuning AxomiyaBERTa and its phonological version on the CLoze-QA dataset in the `task_finetune/QA_multiplechoice` dir
 - For ECB+, the `scorer` directory inside `task_finetune/ECB_CDCR` dir contain the perl script coreference scorer from `https://github.com/conll/reference-coreference-scorers`.
 
-## Pretraining/ Pretrained Model Usage
+## Pretraining/Pretrained Model Usage
 
-Upon publication, AxomiyaBERTa will be released publicly on HuggingFace platform from where it can be directly used using the from_pretrained method of the Transformers library.
+AxomiyaBERTa is available on HuggingFace at https://huggingface.co/Abhijnan/AxomiyaBERTa. It can be directly used using the from_pretrained method of the Transformers library.
 
 
 
