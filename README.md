@@ -8,7 +8,7 @@ This repo contains code for training, fine-tuning and evaluating a smaller-sized
 
 - Use of a novel combined loss technique to disperse AxomiyaBERTa’s embeddings;
 - Addition of phonological articulatory features as an alternate performance improvement in the face of omitting the NSP training objective for longer-context tasks;
-- Evaluation on event coreference, which is novel for Assamese.
+- Evaluation on event coreference resolution, which is novel for Assamese.
 
 AxomiyaBERTa achieves competitive or state of the art results on multiple tasks, and demonstrates their utility for building new language models in resource-constrained settings.
 
