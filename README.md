@@ -10,7 +10,7 @@ This repo contains code for training, fine-tuning and evaluating a smaller-sized
 - Addition of phonological articulatory features as an alternate performance improvement in the face of omitting the NSP training objective for longer-context tasks;
 - Evaluation on event coreference resolution, which is novel for Assamese.
 
-AxomiyaBERTa achieves competitive or state of the art results on multiple tasks, and demonstrates their utility for building new language models in resource-constrained settings.
+AxomiyaBERTa achieves competitive or state of the art results on multiple tasks, and demonstrates the utility of our approach for building new language models in resource-constrained settings.
 
 ## Structure 
 The repository contains:
