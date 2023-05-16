@@ -14,6 +14,7 @@ AxomiyaBERTa achieves competitive or state of the art results on multiple tasks,
 
 ## Structure 
 The repository contains:
+- `requirements.txt` contains all the Python libraries with their versions needed to run the scripts.
 - `As_Indic_data` contains all the dataset files for each task along with auxillary files like meta-data for cross-document coreference resolution for Assamese ECB+ corpus along with the phonological-features for the two multiple choice tasks: `wiki-section title prediction` and `CLoze-QA`.
 - Implementation of the AxomiyaBERTa pretraining, based on the Huggingface code in `run_language_modeling.py` under the `modelling` dir .
 - Code for finetuning AxomiyaBERTa and its phonological version for cross-document coreference resolution on the Translated ECB+ Corpus (Assamese) in `task_finetune/ECB_CDCR` dir.
