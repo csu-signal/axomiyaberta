@@ -1,10 +1,7 @@
 # AxomiyaBERTa: A Phonologically-aware Transformer Model for Assamese
-Abhijnan Nath, Sheikh Mannan, and Nikhil Krishnaswamy
-
-Situated Grounding Natural Language (SIGNAL) Lab, Colorado State University, Fort Collins, CO, USA
-
-Findings of the Association of Computational Linguistics: ACL 2023, Toronto, ON, Canada
-
+Abhijnan Nath, Sheikh Mannan, and Nikhil Krishnaswamy\
+Situated Grounding Natural Language (SIGNAL) Lab, Colorado State University, Fort Collins, CO, USA\
+Findings of the Association of Computational Linguistics: ACL 2023, Toronto, ON, Canada\
 July 2023
  
 This repo contains code for training, fine-tuning and evaluating a smaller-sized monolingual language model for Assamese along with its phonological versions. AxomiyaBERTa is a novel, mono-lingual Transformer language model for the Assamese language which has been trained in a low-resource and limited-compute setting, using only the masked language modeling (MLM) objective. Beyond a model for a new language, our novel contributions are as follows:
